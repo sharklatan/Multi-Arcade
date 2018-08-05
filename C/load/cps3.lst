@@ -1,0 +1,24 @@
+game(
+	name jojoba
+	description " JoJo's Bizarre Adventure"
+)
+game(
+	name jojo
+	description " JoJo's Venture"
+)
+game(
+	name sfiii
+	description " Street Fighter III: New Generation"
+)
+game(
+	name sfiii2
+	description " Street Fighter III 2nd. Impact: Giant Attack"
+)
+game(
+	name sfiii3
+	description " Street Fighter III 3rd. Strike: Fight for the Future"
+)
+game(
+	name warzard
+	description " Warzard/Red Earth"
+)

@@ -1,0 +1,60 @@
+game(
+	name kf2k2evo
+	description "KOF 2002 Evolution"
+)
+game(
+	name kf2k2mp2
+	description "KOF 2002 Magic Plus 2"
+)
+game(
+	name kf2k2mp3
+	description "KOF 2002 Magic Plus 3"
+)
+game(
+	name kof2k2c2
+	description "KOF 2002 Tag Battle"
+)
+game(
+	name kf2k2smp
+	description "KOF 2002 SUPER Magic Plus"
+)
+game(
+	name kof2k4mp
+	description "KOF 2004 Magic Plus"
+)
+game(
+	name kof2k4se
+	description "KOF 2004 Special Edition"
+)
+game(
+	name kof10mp
+	description "KOF 2005 UNIQUE Magic"
+)
+game(
+	name kof10uni
+	description "KOF 2005 UNIQUE"
+)
+game(
+	name mslug6
+	description "Metal Slug 6"
+)
+game(
+	name kof2k2ht
+	description "KOF 2002 HT"
+)
+game(
+	name kof2k2mu
+	description "KOF 2002 Magic Unique"
+)
+game(
+	name kof2007
+	description "KOF 2007"
+)
+game(
+	name kof2008
+	description "KOF 2008"
+)
+game(
+	name batcirj
+	description "Battle Circuit"
+)

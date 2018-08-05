@@ -1,0 +1,48 @@
+
+-------------------------------------------------------
+PC Guard for Win32 V4.06 - Protection report
+-------------------------------------------------------
+Created on Wed Sep 14 05:14:49 2011 
+
+Filename:                     C:\load\advmenu.exe
+Application name:             MASTERCONSOLA
+Application signature:        SUPRADROP
+
+Protection method:            Remote
+Program ID:                   09132011
+First string for init code:   0210
+Last string for init code:    1647
+License transfer enabled:     No
+License removal enabled:      No
+Limited license enabled:      No
+Invalid Init code warning:    Yes
+Auto enter application:       No
+Scroll lock popup enabled:    No
+Protection interface enabled: No
+
+Password protection:          No
+
+DEMO mode:                    No
+
+Locking mode:
+            Hard drive S/N:   Yes
+            Bios date:        Yes
+            Operating system: Yes
+Check license file position:  No
+
+Program already protected:    No
+Total number of sections:     6
+Number of encrypted sections: 4
+Code sections encrypted:      Yes
+Data sections encrypted:      Yes
+Relocation data encrypted:    No
+Resources encrypted:          No
+Object names hidden:          Yes
+Show warning messages:        Yes
+Check API hooking:            No
+CRC Self checking:            Yes
+Check program filename:       No
+Hide PC Guard bitmap logo:    No
+Erase Import directory data:  Yes
+Anti-dumping protection:      No
+NT restricted users access:   No

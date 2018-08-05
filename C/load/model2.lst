@@ -1,0 +1,16 @@
+game(
+	name vstriker
+	description " Virtua Striker"
+)
+game(
+	name dynamcop
+	description " Dynamite Cop"
+)
+game(
+	name schamp
+	description " Sonic Championship"
+)
+game(
+	name zerogun
+	description " Zero Gunner"
+)

@@ -1,0 +1,72 @@
+game(
+	name 1
+	description " Star Gladiator"
+)
+game(
+	name 2
+	description " Street Fighter EX"
+)
+game(
+	name 8
+	description " Street Fighter EX 2"
+)
+game(
+	name 11
+	description " Street Fighter EX 2 Plus"
+)
+game(
+	name 13
+	description " Star Gladiator 2/Plasma Sword"
+)
+game(
+	name 17
+	description " Rival Schools"
+)
+game(
+	name 19
+	description " Strider 2"
+)
+game(
+	name 21
+	description " Tech Romancer"
+)
+game(
+	name 24
+	description " Tetris the Grand Master"
+)
+game(
+	name 25
+	description " Sonic Wings Limited"
+)
+game(
+	name 27
+	description " Bloody Roar/Beastorizer"
+)
+game(
+	name 28
+	description " Bloody Roar 2:Bringer of the New Age"
+)
+game(
+	name 31
+	description " Psychic Force"
+)
+game(
+	name 38
+	description " G-Darius"
+)
+game(
+	name 67
+	description " Cool Boarders Arcade Jam"
+)
+game(
+	name 68
+	description " Dead or Alive ++"
+)
+game(
+	name 61
+	description " Tekken 3"
+)
+game(
+	name 45
+	description " Tekken"
+)

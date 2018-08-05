@@ -1,0 +1,16 @@
+game(
+	name evosocc
+	description "Evolution Soccer"
+)
+game(
+	name snowbro3
+	description "Snow Brothers 3: Magical Adventure"
+)
+game(
+	name joemacr
+	description " Joe & Mac Returns"
+)
+game(
+	name tektagt
+	description " Tekken Tag Tournament"
+)

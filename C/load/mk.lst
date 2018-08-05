@@ -1,0 +1,36 @@
+game(
+	name cvs2gd
+	description " Capcom VS SNK 2: Mark of The millenium 2001"
+)
+game(
+	name cvs
+	description " Capcom VS SNK: Millenium Fight 2000"
+)
+game(
+	name ggxx
+	description " Guilty Gear XX #Reload"
+)
+game(
+	name mbac
+	description " Melty Blood Act Cadenza"
+)
+game(
+	name sportsjam
+	description " Sports Jam"
+)
+game(
+	name vt2
+	description " Virtua Tennis 2"
+)
+game(
+	name vt
+	description " Virtua Tennis"
+)
+game(
+	name game
+	description " Marvel VS CAPCOM 2: New Age of Heroes"
+)
+game(
+	name tetris
+	description " Tetris Kiwawemichi"
+)
