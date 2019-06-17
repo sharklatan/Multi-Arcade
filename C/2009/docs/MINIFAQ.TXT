@@ -1,0 +1,45 @@
+MINI-FAQ
+
+This is a MINI-FAQ that answers the most questions I've received by mail
+
+Q1. Can't load Neogeo games, Nebula says that neo-geo.rom is missing
+but I have it inside the game zip.
+
+A: Neo-geo.rom, ng-sfix.rom and ng-sm1.rom (and now ng-lo.rom) MUST be 
+   in a file called neogeo.zip in any of the rom directories you have 
+   configured.
+   NG-LO.ROM file must be 64k (65536 bytes) and it's the same than the first
+   64K of the old 128k NG-LO.ROM
+
+Q2. How do I configure multiple directories?
+
+A: Next to the "Alternate Roms Directory" title there is a number with
+   2 arrows, use the arrows to change the number of the alternate dir slot 
+   and then click in the gap under the title and type the directory there,
+   without the trailing backslash.
+   There are 10 available and nebula searches the rom files in the order
+   the directories are written (first 1, then 2,...)
+
+Q3. I am not using the -noraster option but there are no rasters in neogeo
+   games
+
+A: Raster effect for neogeo games must be enabled using the EnableNGRasters
+    option in the nebula.ini file
+
+Q5. How can I configure default keys for all (neogeo, cps...) games?
+A.  Nebula allows you to configure a default key layout for each game
+    button layout (cps 2 players, cps 4 players, neogeo,...), to do
+    this, map the desired keys to a game using that layout and press
+    "Save as default". These keys will be used for all games with the 
+    same button layout that HAVE NOT BEEN CONFIGURED YET. Games that
+    have had it's buttons remapped will keep it's mapping. To apply the
+    new default values for these games, just press the "Reset to Default"
+    button.
+
+Q6: Nebula runs very very slow in my system.
+A:   Try switching to System Memory  and using the "No stretch" option (some
+Video cards don't support hardware image scaling
+
+Q7: Sengoku3, Zupapa and Kof2k1 have severe graphics problems
+A:   No, those games are just disabled, you are not supposed to be
+playing them, so don't complaint about it.

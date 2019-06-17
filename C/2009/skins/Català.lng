@@ -1,0 +1,183 @@
+[Language]
+
+;Translated by [GuErRa]
+
+;1.94 and before
+
+;GUI Strings
+0=Si
+1=No
+2=VIDEO
+3=SO
+4=CONTROLS
+5=ALTRES
+
+;Video config
+6=Configuració per:
+7=Resolució de pantalla
+8=Millores de video
+9=Estirar
+10=Utilitzar Memoria
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Tota la pantalla
+14=Mantindre aspecte
+;Surface modes
+15=Vídeo
+16=Sistema
+
+;Audio config
+17=Configuració per:
+18=Activar so
+19=Freqüencia d'audio
+20=Interpol.lació
+21=Mode de so
+;Interpolation modes
+22=Sense interpol.lació
+23=2 punts (lineal)
+24=4 punts
+
+;Controls config
+25=Premi una tecla o botó
+26=Jugador %d
+27=Valor per defecte
+28=Guardar per defecte
+29=Menus
+30=Amunt
+31=Abaix
+32=Esquerra
+33=Dreta
+34=Botó %d
+35=Macro %d
+36=Hotkey %d
+37=Tres Punys
+38=Tres Patades
+39=Acció
+40=Enrera
+41=Mostrar Menu
+42=Començar
+43=Moneda
+
+;Other Menu
+44=Directoris alternatius
+45=Chequejar Roms
+46=Cercar Neogeo
+47=Selecció d'Skin
+48=Mostrar Jocs
+49=Auto Carrega/Guarda
+50=Macros/Pistes
+51=Animacions interfície
+;Game list filters
+52=Tots
+53=Disponibles
+54=Disp. + NoXOR
+55=Tots els Sistemes
+56=Només CPS-2
+57=Només CPS-1
+58=Només NeoGeo
+;Macros/Hints
+59=Macros i Pistes
+60=Només Macros
+61=Només Pistes
+62=Res
+;Hint text
+63=Personatje del jugador %d: %s
+
+;Misc messages
+64=Volum: %d
+65=Frameskip %d
+66=Frameskip Automatic
+
+;Rom Loading messages
+67=Asignant memoria
+68=Carregant arxiu %s.%s -> %s...
+69=%s, Arxiu no trobat
+70=Correcte
+71=Bad CRC. Cercat %X , Trobat %X
+72=Tamany incorrecte. Cercat %d , Trobat %d
+73=Carregant roms de programa...
+74=Carregant taules de desencriptació...
+75=Carregant roms del códig del Z80...
+76=Carregant mostres de so...
+77=Carregant roms de gràfics...
+78=ATENCIÓ!! Algunes roms falten o son incorrectes
+79=Premi INTRO per continuar o ESCAPE per tornar al menu
+80=Decodificant gràfics i iniciant l'emulació...
+81=Chequejant %s...
+82=Cercant roms de neogeo a %s...
+83=Esperi si us plau. Analizant Romsets...
+
+;In-Game menus (Use % at the end to adjust menu size)
+;Generic
+84=Grabar estat
+85=Carregar estat
+86=Menu de trucs
+87=Shots factory
+88=Sortir del joc
+89=Trucs
+90=Conectat
+91=Desconectat
+;Neogeo Specific
+92=Opcions de la maquina
+93=Opcions de la tarja de memoria
+94=Opcions del CD
+95=Regio del sistema              %
+96=Japo
+97=Estats Units
+98=Europa
+99=Desconeguda
+100=Sistema
+101=Recreatiu
+102=Consola
+103=Desconegut
+104=Joc gratis
+105=Overclocking de la CPU
+106=Debug Dip Switches
+107=Debug Dips a
+108=Mode programador
+109=Tarja Activa
+110=Inserir Tarja
+111=Expulsar Tarja
+112=Obrir gestor de tarjas
+113=Estat
+114=Inserida
+115=No Inserida
+116=Mode de CD                %
+117=Unitat de CD
+118=Etiqueta:
+119=Pistes:
+120=Joc:
+121=Escollir imatge ISO
+122=CDROM Real
+123=Imatge ISO
+124=No hi ha CD
+125=Cap
+126=Escollir CueSheet o imatge ISO
+127=Aquest joc no
+128=Suporta SaveStates
+
+;Shot factory texts
+129=Tiles Capa 1 (8x8)
+130=Tiles Capa 2 (16x16)
+131=Tiles Capa 3 (32x32)
+132=Capa de tiles BGHi
+133=Fer un Screenshot
+134=Color del fons          %
+135=Original
+136=Rosa
+137=Capa d'sprites
+138=Sprites capa 0
+139=Sprites capa 1
+140=Sprites capa 2
+141=Sprites capa 3
+142=Sprites capa 4
+143=Sprites capa 5
+144=Sprites capa 6
+145=Sprites capa 7
+146=Capa de tiles
+147=Linea d'sprites
+148=Visible
+
+//1.95
+149=Idioma

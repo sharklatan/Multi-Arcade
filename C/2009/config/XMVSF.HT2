@@ -1,0 +1,59 @@
+HIT2    Force Table V2 (Don't change, otherwise Nebula will not recognize it)
+
+;Add your Name/Mail/whatever somewhere
+
+;XMVSF Force table
+
+[Effect Map]
+1=HIT.FFE
+2=GUARD.FFE
+
+[Codes]
+;syntax:
+;TYPE/DATA PLAYER EFFECT
+;TYPE/DATA:
+;   S=Sound Code                 (S84)
+;   +=Value at Address increased (+FF8120)
+;   -=Value at Address decreased (-FF8120)
+;   ==Value at address matches   (=FF8120,1)
+;Anything after EFFECT will be ignored
+
+S84 1 1  player select
+S85 2 1  player select
+;Player 1 hit codes
+S400 1 1 
+S401 1 1 
+S402 1 1 
+S403 1 1 
+S404 1 1 
+S405 1 1 
+S406 1 1 
+S407 1 1 
+S408 1 1 
+S409 1 1 
+S40a 1 1 
+S40b 1 1 
+S40c 1 1 
+S40d 1 1 
+;Player 2 hit codes
+S100 2 1
+S101 2 1 
+S102 2 1 
+S103 2 1 
+S104 2 1 
+S105 2 1 
+S106 2 1 
+S107 2 1 
+S108 2 1 
+S109 2 1 
+S10a 2 1 
+S10b 2 1 
+S10c 2 1
+S10d 2 1
+;Player 1 Guard codes
+S10e 1 2 
+;Player 2 Guard codes
+S40e 2 2 
+
+
+

@@ -1,0 +1,52 @@
+[Player1]
+Character=ff4901,0,1,2,3,4,5,6,7,8,9,a,b,c
+Direction=ff444c,0,1
+
+[Player2]
+Character=ff4903,0,1,2,3,4,5,6,7,8,9,a,b,c
+Direction=ff444c,1,0
+
+[0]
+Name=Storm
+
+[1]
+Name=Cyclops
+
+[2]
+Name=Wolverine
+
+[3]
+Name=Omega Red
+
+[4]
+Name=Sentinel
+
+[5]
+Name=Iceman
+Macro1Name=Ice Beam (down)
+Macro1Move=D,DF,F+1
+Macro2Name=Ice Beam (straight)
+Macro2Move=D,DF,F+2
+Macro3Name=Ice Beam (up)
+Macro3Move=D,DF,F+3
+
+[6]
+Name=Colossus
+
+[7]
+Name=Psylocke
+
+[8]
+Name=Silver Samurai
+
+[9]
+Name=Spiral
+
+[a]
+Name=Juggernaut
+
+[b]
+Name=Magneto
+
+[c]
+Name=Akuma

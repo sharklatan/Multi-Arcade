@@ -1,0 +1,46 @@
+[Region]
+0=USA,FF4BF6,2
+1=Japan,FF4BF6,0
+2=Euro,FF4BF6,4
+3=Asia,FF4BF6,6
+4=Hispanic,FF4BF6,8
+5=Brazil,FF4BF6,A
+
+[0]
+Name=Player 1
+0=None,0,0
+1=Storm,0xff4901,0
+2=Cyclops,0xff4901,1
+3=Wolverine,0xff4901,2
+4=Omega Red,0xff4901,3
+5=Sentinel,0xff4901,4
+6=Iceman,0xff4901,5
+7=Colossus,0xff4901,6
+8=Psylocke,0xff4901,7
+9=Silver Samurai,0xff4901,8
+10=Spiral,0xff4901,9
+11=Juggernaut,0xff4901,a
+12=Magneto,0xff4901,b
+13=Akuma,0xff4901,c
+
+[1]
+Name=Player 2
+0=None,0,0
+1=Storm,0xff4903,0
+2=Cyclops,0xff4903,1
+3=Wolverine,0xff4903,2
+4=Omega Red,0xff4903,3
+5=Sentinel,0xff4903,4
+6=Iceman,0xff4903,5
+7=Colossus,0xff4903,6
+8=Psylocke,0xff4903,7
+9=Silver Samurai,0xff4903,8
+10=Spiral,0xff4903,9
+11=Juggernaut,0xff4903,a
+12=Magneto,0xff4903,b
+13=Akuma,0xff4903,c
+
+[2]
+Name=Infinite time
+0=Off,0,0
+1=On,ff4809,99

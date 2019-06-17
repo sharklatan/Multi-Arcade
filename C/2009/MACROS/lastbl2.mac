@@ -1,0 +1,4 @@
+[player1]           
+Character=1067C2
+;this address is for 2Players game
+Direction=105e40,1,0

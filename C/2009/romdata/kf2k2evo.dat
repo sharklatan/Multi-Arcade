@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%Create by RomData Maker%%%%%%%%%%%%%%
+% Author:                     %
+% EMail:                      %
+% URL:                        %
+% Create Date:27/10/2007      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: Neo
+RomName: kf2k2evo
+Game: kof 2002 evo
+
+[Program]
+kof2k2p_p1.rom,0,100000,6E886994,0
+kof2k2_p2.rom,100000,400000,3389CC23,0
+
+[Text]
+kof2k2_s1.rom,0,20000,CA56E755,0
+
+[Z80]
+kof2k2_m1.rom,0,20000,1C661A4B,0
+
+[Samples]
+kof2k2_v1.rom,0,800000,FC9A58D,0
+kof2k2_v2.rom,800000,800000,B8C475A4,0
+kof2k2_v3.rom,1000000,400000,8E9448B5,0
+kof2k2_v4.rom,1400000,400000,67271B5,0
+
+[Graphics]
+kof2k2_c1.rom,0,800000,745B343E,0
+kof2k2_c2.rom,1,800000,2AAB7F98,0
+kof2k2_c3.rom,1000000,800000,959FAD0B,0
+kof2k2_c4.rom,1000001,800000,EFE6A468,0
+kof2k2_c5.rom,2000000,800000,74BBA7C6,0
+kof2k2_c6.rom,2000001,800000,E20D2216,0
+kof2k2_c7.rom,3000000,800000,B4C87865,0
+kof2k2_c8.rom,3000001,800000,74C10CB6,0
+
+[System]
+CartridgeID: 265
+GfxCrypt: 0
+GfxKey: 0
+ButLayout: 9
+Fix: 0

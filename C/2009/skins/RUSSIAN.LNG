@@ -1,0 +1,186 @@
+[Language]
+
+;Translated by KuKzz [kukzz@rambler.ru]
+
+;1.94 and before
+
+;GUI Strings
+0=Да
+1=Нет
+2=Видео
+3=Аудио
+4=Управление
+5=Разное
+
+;Video config
+6=Видео настройки для:
+7=Разрешение экрана
+8=Настройки изображения
+9=Растягивание
+10=Память
+11=Тройной буффер
+12=VSync
+;Stretch modes
+13=На весь экран
+14=Сохр. соотн. сторон
+;Surface modes
+15=Видео-карты
+16=Системная
+
+;Audio config
+17=Настройки аудио для:
+18=Включить звук
+19=Частота
+20=Интерполяция
+21=Выбор режима
+;Interpolation modes
+22=отсутствует
+23=2 точки
+24=4 точки
+
+;Controls config
+25=Нажмите кнопку
+26=Игрок %d
+27=Загр по умолчанию
+28=Сохр по умолчанию
+29=Меню
+30=Вверх
+31=Вниз
+32=Влево
+33=Вправо
+34=Кнопка %d
+35=Макрос %d
+36=Hotkey %d
+37=3 удара рукой
+38=3 удара ногой
+39=Действие
+40=Назад
+41=Назад в меню
+42=Старт
+43=Монетки
+
+;Other Menu
+44=Директории ромов
+45=Проверить ромы
+46=Найти NeoGeo
+47=Выбор скина
+48=Показ. игры
+49=Авто сохр/загр
+50=Макросы/хинты
+51=GUI анимация
+;Game list filters
+52=Все
+53=Доступные
+54=Доступные+NoXOR
+55=Все системы
+56=Только CPS-2
+57=Только CPS-1
+58=Только NeoGeo
+;Macros/Hints
+59=Макросы и хинты
+60=Только макросы
+61=Только хинты
+62=Нет
+;Hint text
+63=Игрок %d Персонаж: %s
+
+;Misc messages
+64=Громкость: %d
+65=Пропуск кадров %d
+66=Авто пропуск кадров
+
+;Rom Loading messages
+67=Распределение памяти...
+68=Загрузка файла %s.%s -> %s...
+69=%s, Файл не найден
+70=OK
+71=Неправильное CRC. Ожидается %X , Найдено %X
+72=Неправильный размер. Ожидается %d , Найдено %d
+73=Загрузка программных ромов...
+74=Загрузка Decryption Tables...
+75=Загрузка программных ромов Z80...
+76=Загрузка звука...
+77=Загрузка графических ромов...
+78=ВНИМАНИЕ!! Некоторые ромы отсутствуют или отличаются
+79=Нажмите ENTER для продолжения или ESCAPE для возвращения в меню
+80=Раскодирование графика и начало эмуляции...
+81=Проверка %s...
+82=Поиск Neogeo ромов в %s...
+83=Пожалуйста подождите, анализ ромсетов
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Save State
+85=Load State
+86=Cheats
+87=Shots factory
+88=Quit Game
+89=Cheats
+90=On
+91=Off
+;Neogeo Specific
+92=Machine Settings
+93=Memory Card Settings
+94=CD Settings
+95=Machine Region          %
+96=Japan
+97=USA
+98=Europe
+99=Unknown
+100=System
+101=Arcade
+102=Console
+103=Unknown
+104=Free Play
+105=CPU Overclocking (MHz)
+106=Debug Dip Switches
+107=Debug Dips at
+108=Developer Mode
+109=Active Memory Card
+110=Insert Memory Card
+111=Eject Memory Card
+112=Call Memory Card Manager
+113=Status
+114=Inserted
+115=Not Inserted
+116=CD Mode                %
+117=CD Drive
+118=Label:
+119=Tracks:
+120=Game:
+121=Select ISO Image
+122=Real CDROM
+123=ISO Image
+124=Not Inserted
+125=None
+126=Select Cuesheet or ISO Image
+127=This game doesn't
+128=support Savestates
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Take a Screenshot
+134=Background Color       %
+135=Original
+136=Pink
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146=Front tile Layer
+147=Sprite strip number
+148=Enabled
+
+//1.95
+149=Русский

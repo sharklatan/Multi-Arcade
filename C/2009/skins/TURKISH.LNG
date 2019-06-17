@@ -1,0 +1,185 @@
+[Language]
+
+;Suat Evin suat@idb.com.tr
+;1.94 ve sonrasý
+
+;GUI Strings
+0=Evet
+1=Hayýr
+2=VÝDEO
+3=AUDÝO
+4=CONTROLLER
+5=DÝÐER
+
+;Video config
+6=Video ayarlarý:
+7=Ekran Çözünürlüðü
+8=Görüntü Kalitesi
+9=Uzatmak
+10=Yüzey Ayýrma
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Ekraný Doldurma
+14=Orjinal Görünüþ
+;Surface modes
+15=Video hafýzasý
+16=Sistem hafýzasý
+
+;Audio config
+17=Ses Konfigürasyonu:
+18=Ses Açýk
+19=Frekans Kalitesi
+20=Ses Süzme
+21=Ýþleme Biçimi
+;Interpolation modes
+22=Ses Süzme Yok
+23=2 puan
+24=4 puan
+
+;Controls config
+25=Bir Tuþa Veya Butona Bas
+26=Oyuncu %d
+27=Orjinal Deðerler
+28=Orjinal Olarak Kaydet
+29=Menü Tuþlarý
+30=Yukarý
+31=Aþaðý
+32=Sol
+33=Sað
+34=Buton %d
+35=Kýsayol %d
+36=Özel Tuþ %d
+37=Üç Yumruk
+38=Üç Tekme
+39=Hareket
+40=Geri
+41=Menü Göster
+42=Baþla
+43=Jeton
+
+;Other Menu
+44=Alternatif rom dizini
+45=Rom Kontrolü
+46=Neogeo Bul
+47=Kýlýf Seçimi 
+48=Oyunlarý Göster
+49=Otomatik Yükle/Kaydet
+50=Kýsayol/Ýpuçlarý
+51=Animasyonlar
+;Game list filters
+52=Hepsi
+53=Varolanlar
+54=Varolanlar+NoXOR
+55=Bütün Sistemler
+56=CPS-2 Ýçin
+57=CPS-1 Ýçin
+58=NeoGeo Ýçin
+;Macros/Hints
+59=Kýsayol & Ýpuçlarý
+60=Kýsayol Ýçin
+61=Ýpuçlarý Ýçin
+62=Yok
+;Hint text
+63=Oyuncu %d Karakter: %s
+
+;Misc messages
+64=Ses: %d
+65=Kare Atlama %d
+66=Kare Atlama Otomatik
+
+;Rom Loading messages
+67=Gereken Hafýza...
+68=Dosya Yükleniyor %s.%s -> %s...
+69=%s, Dosya Bulunamadý
+70=OK
+71=Yalnýþ Sýkýþtýrma. Gereken %X , Bulunan %X
+72=Yalnýþ Uzunluk. Gereken %d , Bulunan %d
+73=Program Romlarý Yükleniyor...
+74=Decryption Tables Yükleniyor...
+75=Z80 Program Romlarý Yükleniyor...
+76=Ses Dosyalarý Yükleniyor...
+77=Grafik Romlarý Yükleniyor...
+78=DÝKKAT!! Bazý Romlar Eksik Veya Doðru Deðil
+79=ENTER'a Bas ve Devam et yada ESCAPE ile Menüye Dön
+80=Grafik Data Çözülüyor ve Emulasyon Hazýrlanýyor...
+81=Kontrol Ediliyor %s...
+82=Neogeo Romlarý Kontrol Ediliyor %s...
+83=Lütfen Bekle, Romsetler Analiz Ediliyor...
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Oyun Kaydet
+85=Oyun Yukle
+86=Cheatler
+87=Resim Galerisi
+88=Oyundan Cýkýs
+89=Cheatler
+90=Acýk
+91=Kapali
+;Neogeo Specific
+92=Makine Ayarlari
+93=Hafiza Karti Ayarlari
+94=CD Ayarlari
+95=Makine Dil Kodu          %
+96=Japan
+97=USA
+98=Europe
+99=Bilinmiyor
+100=Sistem
+101=Arcade
+102=Console
+103=Bilinmiyor
+104=Sürekli Oyun
+105=CPU Overclock (MHz)
+106=Debug Dip Switches
+107=Debug Dips at
+108=Developer Mode
+109=Aktif Hafiza Karti
+110=Hafiza Karti Ekle
+111=Hafiza Karti Cikar
+112=Hafiza Karti Duzenleyiciyi Cagir
+113=Durum
+114=Eklendi
+115=Eklenmedi
+116=CD Modu                %
+117=CD Drive
+118=Etiket:
+119=Tracklar:
+120=Oyun:
+121=ISO Image Secimi
+122=Gercek CDROM
+123=ISO Image
+124=Eklenmedi
+125=Yok
+126=Cuesheet veya ISO Image Secimi
+127=Bu Oyun Kayit Sece 
+128=neðini Desteklemiyor
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Bir Resim Al
+134=Background Rengi       %
+135=Orjinal
+136=Pembe
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146=Front tile Layer
+147=Sprite strip number
+148=Açýk
+
+//1.95
+149=Dil

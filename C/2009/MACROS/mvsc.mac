@@ -1,0 +1,44 @@
+[Player1]
+Character=0
+Direction=ff384a,1,0
+;Direction=@ff0a3c+4a,1,0
+
+[Player2]
+Character=0
+Direction=ff3c4a,1,0
+
+;This is a template file
+;Fill in there the character names
+;and moves.
+;Select the character macro set
+;in nebula Game->Macros menu.
+
+
+[0]
+Name=Ryu
+Macro1Name=Hadoken
+Macro1Move=D,D+F,F+3
+Macro2Name=Shoryuken
+Macro2Move=F,D,D+F,F+3
+Macro3Name=Hurricane Kick
+Macro3Move=D,DB,B+6
+Macro10Name=Shinku-Hadoken
+Macro10Move=D,DF,F+123
+
+
+
+[Global]
+Macro1Name=Character switch
+Macro1Move=3+6
+Macro2Name=Call helper
+Macro2Move=2+5
+Macro3Name=Character switch
+Macro3Move=3+6
+Macro4Name=Call helper
+Macro4Move=2+5
+Macro5Name=Character switch
+Macro5Move=3+6
+Macro6Name=Call helper
+Macro6Move=2+5
+
+

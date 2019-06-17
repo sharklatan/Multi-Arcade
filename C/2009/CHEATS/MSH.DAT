@@ -1,0 +1,45 @@
+[Region]
+0=USA,FF4C22,2
+1=Japan,FF4C22,0
+2=Hispanic,FF4C22,4
+3=Asia,FF4C22,6
+4=Euro,FF4C22,8
+5=Brazil,FF4C22,A
+
+[0]
+Name=Player 1
+0=None,0,0
+1=Hulk,ff4050,4
+2=Wolverine,ff4050,8
+3=Spiderman,ff4050,0
+4=Magneto,ff4050,12
+5=Juggernaut,ff4050,10
+6=IronMan,ff4050,6
+7=Psylocke,ff4050,a
+8=Capt. America,ff4050,2
+9=Shuma Gorath,ff4050,e
+10=BlackHeart,ff4050,c
+11=Dr Doom,ff4050,14
+12=Thanos,ff4050,16
+
+[1]
+Name=Player 2
+0=None,0,0
+1=Hulk,ff4450,4
+2=Wolverine,ff4450,8
+3=Spiderman,ff4450,0
+4=Magneto,ff4450,12
+5=Juggernaut,ff4450,10
+6=IronMan,ff4450,6
+7=Psylocke,ff4450,a
+8=Capt. America,ff4450,2
+9=Shuma Gorath,ff4450,e
+10=BlackHeart,ff4450,c
+11=Dr Doom,ff4450,14
+12=Thanos,ff4450,16
+
+[2]
+Name=Infinite time
+0=Off,0,0
+1=On,ff4809,99
+

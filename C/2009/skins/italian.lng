@@ -1,0 +1,276 @@
+[Language]
+
+;Traduzione del file english.lng in italiano per nebula 2.17 by NiX (www.nix.3000.it) , nix@ngi.it
+
+;1.94 e precedenti
+
+;GUI Stringhe
+0=Sì
+1=No
+2=VIDEO
+3=AUDIO
+4=CONTROLLI
+5=ALTRO
+
+;Configurazione video 
+6=Config. video per: 
+7=Risoluzione 
+8=Miglioramento immagine 
+9=Allarga
+10=Alloc. Superfice 
+11=Buffer Triplo 
+12=VSync 
+;Adattamento video 
+13=Adatta schermo 
+14=Conserva proporz. 
+;Surface modes 
+15=Memoria Video 
+16=Memoria di sistema 
+
+;Configurazione Audio
+17=Config. Audio per:
+18=Abilita sonoro
+19=Sampling rate
+20=Interpolazione
+21=Processing mode
+;Interpolation modes
+22=Senza interpolazione
+23=2 punti
+24=4 punti
+
+;Configurazione controlli
+25=Premi un tasto o bottone
+26=Giocat.%d
+27=Ripristina predef.
+28=Salva come predef.
+29=Tasti menu
+30=Su
+31=Giù
+32=Sinistra
+33=Destra
+34=Bottone %d
+35=Macro %d
+36=Hotkey %d
+37=Tre Pugni
+38=Tre Calci
+39=Azione
+40=Indietro
+41=Mostra Menu
+42=Start
+43=Gettone
+
+;ALTRO Menu
+44=Cartella ROMs alternativa
+45=Scansiona ROMs
+46=Trova Neogeo
+47=Selezione skin
+48=Mostra giochi
+49=Auto Carica/Salva
+50=Macros/Aiuti
+51=Animazioni interfaccia
+;Filtri lista giochi
+52=Tutti
+53=Disponibili
+54=Disponibili+NoXOR
+55=Tutti i sistemi
+56=Solo CPS-2
+57=Solo CPS-1
+58=Solo Neogeo
+;Macros/Hints
+59=Macros & Aiuti
+60=Solo Macros
+61=Solo aiuti
+62=Nessuno
+;Hint text
+63=Giocatore %d Personaggio %s
+
+;Messaggi vari
+64=Volume: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Messaggi di caricamento ROM
+67=Allocazione Memoria...
+68=Caricamento File %s.%s -> %s...
+69=%s, File non trovato
+70=OK
+71=CRC errato. Atteso %X , Trovato %X
+72=Dimensione errata. Atteso %d , Trovato %d
+73=Caricamento Program Roms...
+74=Caricamento Tavole di decrittazione...
+75=Caricamento Z80 Program Roms...
+76=Caricamento samples sonori...
+77=Caricamento Roms grafiche...
+78=ATTENZIONE!! Alcune ROMs mancano o sono differenti
+79=Premi INVIO per continuae o ESCAPE per tornare al menu
+80=Decodifica dati grafici e inizializzazione emulazione...
+81=Scansione %s...
+82=Scansione ROMs Neogeo in %s...
+83=Attendere prego, Analisi dei Romsets
+
+;Menu In-Game 
+;Usa solo caratteri alfanumerici (A-Z,a-z,0-9) perché
+;il carattere grafico non li supporta
+;Usa % alla fine per aggiustare la dimensione del menu
+;Generic
+84=Salva Stato
+85=Carica Stato
+86=Trucchi
+87=Gestione Shots
+88=Arresta Gioco
+89=Trucchi
+90=On
+91=Off
+;Specifici per Neogeo
+92=Settaggio macchina
+93=Settaggio Memory Card
+94=Settaggio CD
+95=Selezione Regione         %
+96=Japan
+97=USA
+98=Europe
+99=Sconosciuto
+100=Sistema
+101=Arcade
+102=Console
+103=Sconosciuto
+104=Free Play
+105=CPU Overclocking (MHz)
+106=Debug Dip Switches
+107=Debug Dips at
+108=Developer Mode
+109=Attiva Memory Card
+110=Inserisci Memory Card
+111=Estrai Memory Card
+112=Call Memory Card Manager
+113=Stato
+114=Inserita
+115=Non Inserita
+116=CD Mode                %
+117=CD Drive
+118=Etichetta:
+119=Traccia:
+120=Gioco:
+121=Selezione immagine ISO
+122=CDROM reale
+123=Immagine ISO
+124=Non Inserita
+125=Nessuna
+126=Seleziona Cuesheet o immagine ISO
+127=Questo gioco non
+128=supporta i salvataggi
+
+;Testi di cattura screenshot
+129=Tile Livello 1 (8x8)
+130=Tile Livello 2 (16x16)
+131=Tile Livello 3 (32x32)
+132=Livello BGHi Tile
+133=Prendi uno Screenshot
+134=Colore di sfondo       %
+135=Originale
+136=Rosa
+137=Livello Sprite
+138=Sprites Livello 0
+139=Sprites Livello 1
+140=Sprites Livello 2
+141=Sprites Livello 3
+142=Sprites Livello 4
+143=Sprites Livello 5
+144=Sprites Livello 6
+145=Sprites Livello 7
+146=Livello Tile frontale
+147=Sprite strip number
+148=Abilitato
+
+//1.95
+149=Lingua
+
+//1.96
+150=Registra Filmato
+151=Riproduci Filmato
+152=Ferma registrazione/Riproduzione
+153=Registrazione avviata
+154=Riproduzione avviata
+155=Registrazione/riproduzione fermata
+156=Riproduzione terminata
+
+//1.97
+157=Transparenze
+
+
+//2.2	Menu
+//Usa @ per leggere il valore di un altro tasto
+200=&Emulazione
+201=&Video
+202=&Audio
+203=&Gioco
+204=Va&rie
+205=&?
+
+//Emulazione
+210=&Carica Rom...
+211=Cartelle &Rom...
+212=C&hiudi Rom
+213=Modalità &Turbo	Scroll Lock
+214=&Resetta\tF3
+215=&Pausa\tPause
+216=&Step Frame\tSpace
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=&Opzioni
+223=&Esci\tAlt-F4
+
+//Video
+230=&Schermo Intero
+231=&Finestra
+232=Passa a Schermo &Intero\tCtrl-Enter
+233=@10
+234=&Trasparenza sprites
+235=Ta&belle di Transparenza
+236=Transparenze &automatiche
+237=&Risoluzione
+238=&Miglioramento Immagine
+239=&Non allargare
+240=Rispetta le &proporzioni
+241=Riempi lo sc&hermo
+242=&VSync
+243=B&uffer Triplo
+
+244=Abilita &Rasters
+245=Abilita &Masking
+246=Crea &ScreenShots\tF8
+
+//Audio
+250=&Cattura audio in WAV\tF5
+251=Abilita &Sonoro
+252=&Frequenza Sample
+253=&Interpolazione
+254=&Modalità Processing
+255=&Pre-amplifica Volume
+
+256=&No
+257=&2 Punti
+258=&4 Punti
+259=Cattura la musica &PGM attuale
+
+//Gioco
+270=&Configura controlli
+271=&Macros
+272=&Aiuti
+273=Macro &Layout
+274=&Regione
+275=&Trucchi\tF4
+276=CPU &Overclock...
+
+
+//Varie
+290=Genera Romcenter &DAT
+291=Auto-setta a &16 bit di colore
+292=&Lingua
+
+//?
+300=&Nebula Home Page
+301=&Crediti...

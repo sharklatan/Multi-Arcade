@@ -1,0 +1,8 @@
+[Region]
+0=World,1D1572,5
+1=China,1D1572,1
+2=Korea,1D1572,3
+3=Japan,1D1572,2
+4=Taiwan,1D1572,0
+5=Hong Kong,1D1572,4
+Default=1

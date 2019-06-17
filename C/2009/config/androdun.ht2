@@ -1,0 +1,50 @@
+HIT2    Force Table V2 (Don't change, otherwise Nebula will not recognize it)
+
+;Iron Man on Retrogames MSB (www.retrogames.com)
+
+;Andro Dunos Force table
+
+[Effect Map]
+1=androdun_shoot.FFE
+2=androdun_death.FFE
+3=androdun_charge.FFE
+4=androdun_big.FFE
+
+[Codes]
+;syntax:
+;TYPE/DATA PLAYER EFFECT
+;TYPE/DATA:
+;   S=Sound Code                 (S84)
+;   +=Value at Address increased by more than the specified val (+FF8120,2)
+;   -=Value at Address decreased by more than the specified val (-FF8120,2)
+;   ==Value at address matches   (=FF8120,1)
+;Anything after EFFECT will be ignored
+
+
+;p1 small shot
+
+S7C0 1 1
+S7C1 1 1
+S7C2 1 1
+S7C3 1 1
+
+S20C0 1 1
+S20C1 1 1
+S20C2 1 1
+S20C3 1 1
+
+;p1 death
+
+-100342,00 1 2
+
+
+;p1 charge
+
+=10034E,40 1 3
+=10034E,60 1 3
+=10034E,80 1 3
+
+;big boss death
+
+S2091 1 4
+S2031 1 4

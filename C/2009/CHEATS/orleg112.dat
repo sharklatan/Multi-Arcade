@@ -1,0 +1,8 @@
+[Region]
+0=World,1D16FC,5
+1=China,1D16FC,1
+2=Korea,1D16FC,3
+3=Japan,1D16FC,2
+4=Taiwan,1D16FC,0
+5=Hong Kong,1D16FC,4
+Default=0

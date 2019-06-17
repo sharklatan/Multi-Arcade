@@ -1,0 +1,13 @@
+NEBULA CPS2 Emulator           		(C) 2001 ElSemi
+http://nebula.emulatronia.com		NebulaEmu@myrealbox.com
+
+Nebula is a CPS1, CPS2 and Neogeo Emulator. 
+It emulates the hardware in that Capcom and SNK arcade boards.
+
+Note that to make Nebula run you must have the dump of the original ROMs of the
+arcade board you want to use. Remember that you MUST own the original ROMs 
+to be legally entitled to use the ROM dumps.
+
+Nebula is free and can be freely distributed. Nebula can't be distributed 
+along with ROM images.
+

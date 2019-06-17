@@ -1,0 +1,9 @@
+[Region]
+0=Japan,FF80A1,0
+1=USA,FF80A1,2
+2=Asia,FF80A1,4
+3=Hispanic,FF80A1,6
+4=Euro,FF80A1,8
+5=Brazil,FF80A1,a
+Default=0
+

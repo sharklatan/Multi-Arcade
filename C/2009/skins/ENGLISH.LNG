@@ -1,0 +1,280 @@
+[Language]
+
+;1.94 and before
+
+;GUI Strings
+0=Yes
+1=No
+2=VIDEO
+3=AUDIO
+4=CONTROLS
+5=OTHER
+
+;Video config
+6=Video config for:
+7=Screen Resolution
+8=Image Enhacement
+9=Stretch
+10=Surface allocation
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Fill Screen
+14=Keep Aspect
+;Surface modes
+15=Video memory
+16=System memory
+
+;Audio config
+17=Audio Config for:
+18=Enable Sound
+19=Sampling rate
+20=Interpolation
+21=Processing mode
+;Interpolation modes
+22=No interpolation
+23=2 points
+24=4 points
+
+;Controls config
+25=Press a key or button
+26=Player %d
+27=Restore defaults
+28=Save as default
+29=Menu keys
+30=Up
+31=Down
+32=Left
+33=Right
+34=Button %d
+35=Macro %d
+36=Hotkey %d
+37=Three Punches
+38=Three Kicks
+39=Action
+40=Back
+41=Show Menu
+42=Start
+43=Coin
+
+;Other Menu
+44=Alternate rom directory
+45=Check Roms
+46=Find Neogeo
+47=Skin Selection
+48=Show Games
+49=Auto Load/Save
+50=Macros/Hints
+51=GUI Animations
+;Game list filters
+52=All
+53=Available
+54=Available+NoXOR
+55=All Systems
+56=CPS-2 Only
+57=CPS-1 Only
+58=NeoGeo Only
+;Macros/Hints
+59=Macros & Hints
+60=Macros Only
+61=Hints Only
+62=None
+;Hint text
+63=Player %d Character: %s
+
+;Misc messages
+64=Volume: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Rom Loading messages
+67=Allocating Memory...
+68=Loading File %s.%s -> %s...
+69=%s, File not found
+70=OK
+71=Bad CRC. Expected %X , Found %X
+72=Wrong Size. Expected %d , Found %d
+73=Loading Program Roms...
+74=Loading Decryption Tables...
+75=Loading Z80 Program Roms...
+76=Loading Sound samples...
+77=Loading Graphics Roms...
+78=WARNING!! Some roms are missing or different
+79=Press ENTER to continue or ESCAPE to return to menu
+80=Decoding graphics data and initializing emulation...
+81=Checking %s...
+82=Looking for Neogeo roms in %s...
+83=Please wait, Analyzing Romsets
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Save State
+85=Load State
+86=Cheats
+87=Shots factory
+88=Quit Game
+89=Cheats
+90=On
+91=Off
+;Neogeo Specific
+92=Machine Settings
+93=Memory Card Settings
+94=CD Settings
+95=Machine Region          %
+96=Japan
+97=USA
+98=Europe
+99=Unknown
+100=System
+101=Arcade
+102=Console
+103=Unknown
+104=Free Play
+105=CPU Overclocking (MHz)
+106=Debug Dip Switches
+107=Debug Dips at
+108=Developer Mode
+109=Active Memory Card
+110=Insert Memory Card
+111=Eject Memory Card
+112=Call Memory Card Manager
+113=Status
+114=Inserted
+115=Not Inserted
+116=CD Mode                %
+117=CD Drive
+118=Label:
+119=Tracks:
+120=Game:
+121=Select ISO Image
+122=Real CDROM
+123=ISO Image
+124=Not Inserted
+125=None
+126=Select Cuesheet or ISO Image
+127=This game doesn't
+128=support Savestates
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Take a Screenshot
+134=Background Color       %
+135=Original
+136=Pink
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146=Front tile Layer
+147=Sprite strip number
+148=Enabled
+
+//1.95
+149=Language
+
+//1.96
+150=Record Movie
+151=Play Movie
+152=Stop recording/Playback
+153=Recording started
+154=Playback started
+155=Recording/playback stopped
+156=Playback finished
+
+//1.97
+157=Transparency
+
+
+//2.2	Menus
+//Use @ to read the value from another key
+200=&Emulation
+201=&Video
+202=&Sound
+203=&Game
+204=&Misc
+205=&?
+
+//Emulación
+210=&Load Rom...
+211=&Rom Directories...
+212=&Unload Rom
+213=&Turbo Mode	Scroll Lock
+214=&Reset\tF3
+215=&Pause\tPause
+216=&Step Frame\tSpace
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=&Options
+223=&Exit\tAlt-F4
+
+//Video
+230=Fullscreen
+231=Window
+232=Switch to Full screen\tCtrl-Enter
+233=@10
+234=Sprites transparency
+235=Transparency table
+236=Automatic Transparencies
+237=Resolution
+238=Image Enhancement
+239=No stretch
+240=Keep Aspect
+241=Fill Screen
+242=VSync
+243=Triple buffer
+
+244=Enable Rasters
+245=Enable Masking
+246=Shots Factory\tF8
+
+//Sound
+250=Log sound to WAV\tF5
+251=Enable Sound
+252=Sampling Rate
+253=Interpolation
+254=Processing Mode
+255=Pre-amplify Volume
+259=Dump current PGM music
+260=Use WinAmp Track Remapping
+
+256=No
+257=2 Points
+258=4 Points
+
+259=Dump current PGM music
+
+//Game
+270=Config controls
+271=Macros
+272=Hints
+273=Macro Layout
+274=Region
+275=Cheats\tF4
+276=CPU Overclock...
+277=NeoGeo Options
+
+
+//Misc
+290=Generate Romcenter DAT
+291=Auto-switch to 16 bit desktop
+292=Language
+293=Auto-switch to Fullscreen after Rom Load
+
+//?
+300=Nebula Home Page
+301=About...
+

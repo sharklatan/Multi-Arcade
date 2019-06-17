@@ -1,0 +1,280 @@
+[Language]
+
+;1.94 and bef0re
+
+;GUI Strings
+0=Y3s
+1=N0
+2=V1D30
+3=4UD10
+4=C0NTR0LS
+5=0TH3R
+
+;Video config
+6=V1d30 c0nf1g f0r:
+7=Scr33n R3s0lut10n
+8=1m4g3 3nh4c3m3nt
+9=Str3tch
+10=Surf4c3 4ll0c4t10n
+11=Tr1pl3 Buff3r
+12=VSync
+;Stretch modes
+13=F1ll Scr33n
+14=K33p 4sp3ct
+;Surface modes
+15=V1d30 m3m0ry
+16=Syst3m m3m0ry
+
+;Audio config
+17=4ud10 C0nf1g f0r:
+18=3n4bl3 S0und
+19=S4mpl1ng r4t3
+20=1nt3rp0l4t10n
+21=Pr0c3ss1ng m0d3
+;Interpolation modes
+22=N0 1nt3rp0l4t10n
+23=2 p01nts
+24=4 p01nts
+
+;Controls config
+25=Pr3ss 4 k3y 0r butt0n
+26=Pl4y3r %d
+27=R3st0r3 d3f4ults
+28=S4v3 4s d3f4ult
+29=M3nu k3ys
+30=Up
+31=D0wn
+32=L3ft
+33=R1ght
+34=Butt0n %d
+35=M4cr0 %d
+36=H0tk3y %d
+37=Thr33 Punch3s
+38=Thr33 K1cks
+39=4ct10n
+40=B4ck
+41=Sh0w M3nu
+42=St4rt
+43=C01n
+
+;Other Menu
+44=4lt3rn4t3 r0m d1r3ct0ry
+45=Ch3ck R0ms
+46=F1nd N30g30
+47=Sk1n S3l3ct10n
+48=Sh0w G4m3s
+49=4ut0 L04d/S4v3
+50=M4cr0s/H1nts
+51=GU1 4n1m4t10ns
+;Game list filters
+52=4ll
+53=4v41l4bl3
+54=4v41l4bl3+N0X0R
+55=4ll Syst3ms
+56=CPS-2 0nly
+57=CPS-1 0nly
+58=N30G30 0nly
+;Macros/Hints
+59=M4cr0s & H1nts
+60=M4cr0s 0nly
+61=H1nts 0nly
+62=N0n3
+;Hint text
+63=Pl4y3r %d Ch4r4ct3r: %s
+
+;Misc messages
+64=V0lum3: %d
+65=Fr4m3sk1p %d
+66=Fr4m3sk1p 4ut0
+
+;Rom Loading messages
+67=4ll0c4t1ng M3m0ry...
+68=L04d1ng F1l3 %s.%s -> %s...
+69=%s, F1l3 n0t f0und
+70=0K
+71=B4d CRC. 3xp3ct3d %X , F0und %X
+72=Wr0ng S1z3. 3xp3ct3d %d , F0und %d
+73=L04d1ng Pr0gr4m R0ms...
+74=L04d1ng D3crypt10n T4bl3s...
+75=L04d1ng Z80 Pr0gr4m R0ms...
+76=L04d1ng S0und s4mpl3s...
+77=L04d1ng Gr4ph1cs R0ms...
+78=W4RN1NG!! S0m3 r0ms 4r3 m1ss1ng 0r d1ff3r3nt
+79=Pr3ss 3NT3R t0 c0nt1nu3 0r 3SC4P3 t0 r3turn t0 m3nu
+80=D3c0d1ng gr4ph1cs d4t4 4nd 1n1t14l1z1ng 3mul4t10n...
+81=Ch3ck1ng %s...
+82=L00k1ng f0r N30g30 r0ms 1n %s...
+83=Pl34s3 w41t, 4n4lyz1ng R0ms3ts
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=S4v3 St4t3
+85=L04d St4t3
+86=Ch34ts
+87=Sh0ts f4ct0ry
+88=Qu1t G4m3
+89=Ch34ts
+90=0n
+91=0ff
+;Neogeo Specific
+92=M4ch1n3 S3tt1ngs
+93=M3m0ry C4rd S3tt1ngs
+94=CD S3tt1ngs
+95=M4ch1n3 R3g10n          %
+96=J4p4n
+97=US4
+98=3ur0p3
+99=Unkn0wn
+100=Syst3m
+101=4rc4d3
+102=C0ns0l3
+103=Unkn0wn
+104=Fr33 Pl4y
+105=CPU 0v3rcl0ck1ng (MHz)
+106=D3bug D1p Sw1tch3s
+107=D3bug D1ps 4t
+108=D3v3l0p3r M0d3
+109=4ct1v3 M3m0ry C4rd
+110=1ns3rt M3m0ry C4rd
+111=3j3ct M3m0ry C4rd
+112=C4ll M3m0ry C4rd M4n4g3r
+113=St4tus
+114=1ns3rt3d
+115=N0t 1ns3rt3d
+116=CD M0d3                %
+117=CD Dr1v3
+118=L4b3l:
+119=Tr4cks:
+120=G4m3:
+121=S3l3ct 1S0 1m4g3
+122=R34l CDR0M
+123=1S0 1m4g3
+124=N0t 1ns3rt3d
+125=N0n3
+126=S3l3ct Cu3sh33t 0r 1S0 1m4g3
+127=Th1s g4m3 d03sn't
+128=supp0rt S4v3st4t3s
+
+;Shot factory texts
+129=T1l3 L4y3r 1 (8x8)
+130=T1l3 L4y3r 2 (16x16)
+131=T1l3 L4y3r 3 (32x32)
+132=BGH1 T1l3 L4y3r
+133=T4k3 4 Scr33nsh0t
+134=B4ckgr0und C0l0r       %
+135=0r1g1n4l
+136=P1nk
+137=Spr1t3 L4y3r
+138=Spr1t3s L4y3r 0
+139=Spr1t3s L4y3r 1
+140=Spr1t3s L4y3r 2
+141=Spr1t3s L4y3r 3
+142=Spr1t3s L4y3r 4
+143=Spr1t3s L4y3r 5
+144=Spr1t3s L4y3r 6
+145=Spr1t3s L4y3r 7
+146=Fr0nt t1l3 L4y3r
+147=Spr1t3 str1p numb3r
+148=3n4bl3d
+
+//1.95
+149=L4ngu4g3
+
+//1.96
+150=R3c0rd M0v13
+151=Pl4y M0v13
+152=St0p r3c0rd1ng/Pl4yb4ck
+153=R3c0rd1ng st4rt3d
+154=Pl4yb4ck st4rt3d
+155=R3c0rd1ng/pl4yb4ck st0pp3d
+156=Pl4yb4ck f1n1sh3d
+
+//1.97
+157=Tr4nsp4r3ncy
+
+
+//2.2	Menus
+//Use @ to read the value from another key
+200=&3mul4t10n
+201=&V1d30
+202=&S0und
+203=&G4m3
+204=&M1sc
+205=&?
+
+//Emulación
+210=&L04d R0m...
+211=&R0m D1r3ct0r13s...
+212=&Unl04d R0m
+213=&Turb0 M0d3	Scr0ll L0ck
+214=&R3s3t\tF3
+215=&P4us3\tP4us3
+216=&St3p Fr4m3\tSp4c3
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=&0pt10ns
+223=&3x1t\t4lt-F4
+
+//Video
+230=Fullscr33n
+231=W1nd0w
+232=Sw1tch t0 Full scr33n\tCtrl-3nt3r
+233=@10
+234=Spr1t3s tr4nsp4r3ncy
+235=Tr4nsp4r3ncy t4bl3
+236=4ut0m4t1c Tr4nsp4r3nc13s
+237=R3s0lut10n
+238=1m4g3 3nh4nc3m3nt
+239=N0 str3tch
+240=K33p 4sp3ct
+241=F1ll Scr33n
+242=VSync
+243=Tr1pl3 buff3r
+
+244=3n4bl3 R4st3rs
+245=3n4bl3 M4sk1ng
+246=Sh0ts F4ct0ry\tF8
+
+//Sound
+250=L0g s0und t0 W4V\tF5
+251=3n4bl3 S0und
+252=S4mpl1ng R4t3
+253=1nt3rp0l4t10n
+254=Pr0c3ss1ng M0d3
+255=Pr3-4mpl1fy V0lum3
+259=Dump curr3nt PGM mus1c
+260=Us3 W1n4mp Tr4ck R3m4pp1ng
+
+256=N0
+257=2 P01nts
+258=4 P01nts
+
+259=Dump curr3nt PGM mus1c
+
+//Game
+270=C0nf1g c0ntr0ls
+271=M4cr0s
+272=H1nts
+273=M4cr0 L4y0ut
+274=R3g10n
+275=Ch34ts\tF4
+276=CPU 0v3rcl0ck...
+277=N30G30 0pt10ns
+
+
+//Misc
+290=G3n3r4t3 R0mc3nt3r D4T
+291=4ut0-sw1tch t0 16 b1t d3skt0p
+292=L4ngu4g3
+293=4ut0-sw1tch t0 Fullscr33n 4ft3r R0m L04d
+
+//?
+300=N3bul4 H0m3 P4g3
+301=4b0ut...
+

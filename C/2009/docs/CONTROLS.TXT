@@ -1,0 +1,11 @@
+CONTROLS: 
+
+Allows changing the controls for the currently selected game.
+
+After the "normal" controls, there are some special control bindings:
+	Macro:	Activates Macro-Moves (up to 12 keys), they are sequences
+		of moves to perform some special operations (Hadoken, 
+Shoryuken) with only 1 key press
+	HotKey:	Activates button hotkeys (up to 6 keys). They are multiple
+		simultaneous button presses assigned to 1 key press.
+

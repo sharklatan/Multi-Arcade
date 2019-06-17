@@ -1,0 +1,74 @@
+COMMAND LINE:
+
+        Nebula [game] [options]
+
+        game	-	Is the game used in the other options.
+                        		If no options are specified, then the game is loaded and run.
+
+        options –
+-log	-	Enable logging of errors in the file error.log
+-noraster	-	Disables raster effects.
+-list	-	Creates a file Gamelist.lst with all the supported games.
+-romdesc	-	Creates a file GameData.lst with the rom data of the selected game.
+-export	-	Creates a dat file in the ROMDATA directory with data from the selected 
+game.
+	-packgui	-	Builds a GUI.DAT file from a GUI.ZIP file. See SKINS section for details 
+on this file.
+	-knet	-	Run Nebula in Kaillera Netplay mode.
+	-romcenter	Creates a romcenter datafile
+	-blade15	-	Enables 15Khz Video output for Trident Blade3D cards. Needs 
+BLADEIO.VXD (http://www.beimborn.com/mame/dl/blade15_24.zip)
+
+
+DEFAULT KEYS:
+
+1	-	start player 1
+2 	- 	start player 2
+3	-	start player 3
+4	-	start player 4
+5 	- 	coin player 1
+6	-	coin player 2
+7	-	coin player 3
+8	-	coin player 4
+f1	-	Service (add credits)
+f2	-	Test (Configuration)
+f3	-	Reset
+f4	-	Cheat and region menu.
+f5	-	Start/stop sound recording. Sounds are saved in the SHOTS directory. The
+		filename is the game name+the actual code.		
+f6	-	Shows Audio Jukebox (CPS only). It's recommended to enter in the test menu 
+		to use this feature because the game must continue running.
+f7 	-	Take a Screenshot (directory SHOTS)
+f8	-	Shots Factory
+f9	-	Profiler (shows fps)
+f10	-	Save State
+f11	-	Load State
+SHIFT-f10	Record Movie
+SHIFT-f11	Play Movie
+SCROLL LOCK -	Removes Framelimit (max speed)
+PAUSE	-	Pauses emulator
+SPACE 	- 	Advances emulation while pressed while in pause mode.
+ENTER	-	Advances 1 frame while in pause mode (gfx rip ;) )
+TAB	-	Enter/Exit in-game GUI
++ (NUMPAD -	Increase Frameskip
+- (NUMPAD) -	Decrease Frameskip
+-	-	Decrease volume
+=	-	Increase volume
+ESC	-	In game Menus
+SHIFT-ESC -	Quick Exit
+
+Different keys for Windowed mode (All other keys work the same way):
+TAB	-	show Ingame Menus
+ESC	-	switch to window Mode (If in fullscreen) or show/hide window menu (if in window)
+
+arrows  	-	Movement player 1
+A	-	Button 1 player 1
+S       
+D
+Z
+X
+C	-	Button 6 player 1
+
+If you are reported some missing roms and you can't see what they are. Run Nebula with the
+-log option and read the file error.log generated after the loading.
+

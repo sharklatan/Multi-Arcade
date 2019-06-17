@@ -1,0 +1,31 @@
+OTHER:
+
+	Alternate rom directory: Allows an additional directory where to search for roms.
+		Do not add the trailing backslash.
+		You can use up to 10 rom directories, to switch between 
+directory configuration use the < and > buttons next to 
+the title (note that this is only for configuring the directories, 
+Nebula will search roms in all directories configured, not only in
+		the one you have currently selected). Nebula will search for roms
+		the directories in the order they are stored, so you can use this as an
+		advantage, for example you can have your original CPS2 dumps in a
+		CD and the fixes/xor tables in your HD, if your HD path is written
+		Before the CD path, then the newer roms will be read instead of the
+		CD ones.
+
+	Show only: Lets you filter the game list. 
+  You can filter by available/missing xor/all  games and by system 
+(CPS2, CPS1 or Neogeo).
+
+	Skin Selection: 	Allows to change the current nebula skin. Skins must be in
+			the SKINS\ directory and can have long (not very long) names.
+	
+Auto Save/Load:	Saves the game state when you exit the emulator and loads it
+		again when you enter again (like if the arcade machine was not
+		switched off)
+
+Macros/Hints:	Enables the Macros and Hints (Hints are graphical help about 
+		Moves)
+
+GUI animations: Enables/disables animations in the gui. (for slow computers)
+

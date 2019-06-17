@@ -1,0 +1,185 @@
+[Language]
+
+; Translated by Mr K / MHz
+;1.94 and before
+
+;GUI Strings
+0=Oui
+1=Non
+2=VIDEO
+3=AUDIO
+4=CONTROLES
+5=AUTRES
+
+;Video config
+6=Configuration video config pour:
+7=Resolution ecran
+8=Amelioration d'image
+9=Etirer
+10=Allocation des surfaces
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Remplir ecran
+14=Garder l'aspect
+;Surface modes
+15=Memoire video
+16=Memoire systeme
+
+;Audio config
+17=Configuration audio pour:
+18=Activer le son
+19=Frequence
+20=Interpolation
+21=Methode
+;Interpolation modes
+22=Pas d'interpolation
+23=2 points
+24=4 points
+
+;Controls config
+25=Appuyez sur une touche
+26=Joueur %d
+27=Restaurer les defauts
+28=Sauver en tant que defaut
+29=Menu touches
+30=Haut
+31=Bad
+32=Gauche
+33=Droite
+34=Bouton %d
+35=Macro %d
+36=Hotkey %d
+37=Trois coups de poing
+38=Trois coups de pied
+39=Action
+40=Retour
+41=Montrer Menu
+42=Start
+43=Piece
+
+;Other Menu
+44=Repertoire rom alternatif
+45=Veririfier les Roms
+46=Chercher Neogeo
+47=Selection de Skin
+48=Montrer les jeux
+49=Charger/Sauver automatiquement
+50=Macros/Astuces
+51=Animations GUI
+;Game list filters
+52=Tous
+53=Disponibles
+54=Disponibles+NoXOR
+55=Tous Systemes
+56=CPS-2 seulement
+57=CPS-1 seulement
+58=NeoGeo seulement
+;Macros/Hints
+59=Macros & Astuces
+60=Macros seulement
+61=Hints seulement
+62=Aucun
+;Hint text
+63=Joueur %d Personnage: %s
+
+;Misc messages
+64=Volume: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Rom Loading messages
+67=Allocation memoire...
+68=Chargement fichier %s.%s -> %s...
+69=%s, Fichier non trouve
+70=OK
+71=Mauvais CRC. Attendu %X , Trouve %X
+72=Mauvaise taille. Attendu %d , Trouve %d
+73=Chargement Roms programme...
+74=Chargement Tables de decryption...
+75=Chargement Roms programme Z80...
+76=Chargement Samples son...
+77=Chargement Roms graphiques...
+78=ATTENTION!! Certaines roms sont differentes ou manquantes
+79=Appuyer sur ENTREE pour continuer ou ESCAPE pour retourner au menu
+80=Decodage des donnees graphiques et initialisation de l'emulation...
+81=Verification %s...
+82=Recherche de roms Neogeo dans %s...
+83=Veuillez patienter, analyse des Romsets en cours
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Sauver etat
+85=Charger etat
+86=Cheats
+87=Usine a captures
+88=Quitter le jeu
+89=Cheats
+90=On
+91=Off
+;Neogeo Specific
+92=Parametres de la machine
+93=Parametres de la Memory Card
+94=Parametres CD
+95=Region de la machine           %
+96=Japon
+97=USA
+98=Europe
+99=Inconnu
+100=Systeme
+101=Arcade
+102=Console
+103=Inconnu
+104=Parties gratuites
+105=Overclockage du CPU (MHz)
+106=Debug Dip Switches
+107=Debug Dips a
+108=Developer Mode
+109=Activer la Memory Card
+110=Inserer une Memory Card
+111=Ejecter la Memory Card
+112=Invoquer le manager de Memory Card
+113=Statut
+114=Inseree
+115=Non Inseree
+116=Mode CD                %
+117=Lecteur de CD
+118=Label:
+119=Pistes:
+120=Jeu:
+121=Choisir une image ISO
+122=Vrai CDROM
+123=Image ISO
+124=Non insere
+125=Aucun
+126=Choisir une Cuesheet ou une image ISO
+127=Ce jeu ne permet pas
+128=les sauvegardes
+
+;Shot factory texts
+129=Couche de tiles 1 (8x8)
+130=Couche de tiles 2 (16x16)
+131=Couche de tiles 3 (32x32)
+132=Couche de tiles BGHi
+133=Faire une capture
+134=Couleur de fond
+135=Original
+136=Rose
+137=Couche de sprite
+138=Couche de sprite 0
+139=Couche de sprite 1
+140=Couche de sprite 2
+141=Couche de sprite 3
+142=Couche de sprite 4
+143=Couche de sprite 5
+144=Couche de sprite 6
+145=Couche de sprite 7
+146=Couche de tiles de devant
+147=Bande de sprites numero
+148=Active
+
+//1.95
+149=Francais

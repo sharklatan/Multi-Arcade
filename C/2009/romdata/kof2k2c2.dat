@@ -1,0 +1,41 @@
+%%%%%%%%%%%%%Create by RomData Maker%%%%%%%%%%%%%%
+% Author:                     %
+% EMail:                      %
+% URL:                        %
+% Create Date:24/01/2009      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+system: NEO
+RomName: Kof2k2C2
+Game: The King of Fighters 3rd Strike of OROCHI
+Parent: kof2k2nd
+
+[Program]
+kof2k2c2_p1.rom,0,100000,eb84d68f,0
+kof2k2c2_p2.rom,100000,400000,293BBF78,0
+
+[Text]
+kof2k2c2_s1.rom,0,20000,67E7CBE1,0
+
+[Z80]
+265d-m1.rom,0,20000,1C661A4B,0
+
+[Samples]
+265d-v1.rom,0,800000,0FC9A58D,0
+265d-v2.rom,800000,800000,B8C475A4,0
+
+[Graphics]
+kf2k2_c1.rom,0,800000,7EFA6EF7,0
+kf2k2_c2.rom,1,800000,AA82948B,0
+kf2k2_c3.rom,1000000,800000,959FAD0B,0
+kof2k2c2_c4.rom,1000001,800000,2558972F,0
+kf2k2_c5.rom,2000000,800000,74BBA7C6,0
+kf2k2_c6.rom,2000001,800000,e20d2216,0
+kof2k2c2_c7.rom,3000000,800000,201E75E0,0
+kof2k2c2_c8.rom,3000001,800000,FF0FD53B,0
+
+[System]
+CartridgeID: 265
+GfxCrypt: 0
+GfxKey: 0
+ButLayout: 9
+Fix: 0

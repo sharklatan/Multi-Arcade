@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%Create by RomData Maker%%%%%%%%%%%%%%
+% Author:                     %
+% EMail:                      %
+% URL:                        %
+% Create Date:27/10/2007      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: Neo
+RomName: KOF2K4MP
+Game: kof 2004 mp
+
+[Program]
+2k4_p1.rom,0,100000,99CDDD7E,0
+2k4_p2.rom,100000,400000,698679A7,0
+
+[Text]
+2k4_s1.rom,0,20000,348686DD,0
+
+[Z80]
+2k4_m1.rom,0,20000,5A47D9AD,0
+
+[Samples]
+2k4_v1.rom,0,400000,8991F6E9,0
+2k4_v2.rom,400000,400000,511E4D2F,0
+2k4_v3.rom,800000,400000,1DD8B53A,0
+2k4_v4.rom,C00000,400000,63BB5462,0
+
+[Graphics]
+2k4_c1.rom,0,800000,7A050288,0
+2k4_c2.rom,1,800000,E924AFCF,0
+2k4_c3.rom,1000000,800000,959FAD0B,0
+2k4_c4.rom,1000001,800000,EFE6A468,0
+2k4_c5.rom,2000000,800000,74BBA7C6,0
+2k4_c6.rom,2000001,800000,E20D2216,0
+2k4_c7.rom,3000000,800000,FA705B2B,0
+2k4_c8.rom,3000001,800000,2C912FF9,0
+
+[System]
+CartridgeID: 2265
+GfxCrypt: 0
+GfxKey: 0
+ButLayout: 9
+Fix: 0

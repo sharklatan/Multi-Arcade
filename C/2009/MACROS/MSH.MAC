@@ -1,0 +1,55 @@
+[Player1]
+Character=ff4050,0,2,4,6,8,a,c,e,10,12,14,16,18
+Direction=ff404c,1,0
+
+[Player2]
+Character=ff4450,0,2,4,6,8,a,c,e,10,12,14,16,18
+Direction=ff404c,0,1
+
+
+[0]
+Name=Spiderman
+Macro1Name=Web ball (slow)
+Macro1Move=D,DF,F+1
+Macro2Name=Web ball (medium)
+Macro2Move=D,DF,F+2
+Macro3Name=Web ball (fast)
+Macro3Move=D,DF,F+3
+
+
+
+[2]
+Name=Capt. America
+
+[4]
+Name=Hulk
+
+[6]
+Name=IronMan
+
+[8]
+Name=Wolverine
+
+[a]
+Name=Psylocke
+
+[c]
+Name=BlackHeart
+
+[e]
+Name=Shuma Gorath
+
+[10]
+Name=Juggernaut
+
+[12]
+Name=Magneto
+
+[14]
+Name=Dr Doom
+
+[16]
+Name=Thanos
+
+[18]
+Name=Anita

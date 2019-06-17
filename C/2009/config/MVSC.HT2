@@ -1,0 +1,28 @@
+HIT2    Force Table V2 (Don't change, otherwise Nebula will not recognize it)
+
+;Add your Name/Mail/whatever somewhere
+
+;MVSC Force table
+
+[Effect Map]
+1=HIT.FFE
+2=GUARD.FFE
+
+[Codes]
+;syntax:
+;TYPE/DATA PLAYER EFFECT
+;TYPE/DATA:
+;   S=Sound Code                 (S84)
+;   +=Value at Address increased by more than the specified val (+FF8120,2)
+;   -=Value at Address decreased by more than the specified val (-FF8120,2)
+;   ==Value at address matches   (=FF8120,1)
+;Anything after EFFECT will be ignored
+
+
+;p1 life loss
+-FF3270,0 1 1
+-FF3A70,0 1 1
+
+;p2 life loss
+-FF3670,0 2 1
+-FF3E70,0 2 1

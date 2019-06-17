@@ -1,0 +1,278 @@
+[Language]
+;Vertaald door MS-X
+;E-mail: Patrick_B@dolfijn.nl
+;Mail me met suggesties verbeteringen ed.
+;
+;Versie voor nebula 2.16, werkt niet met andere uit de 2.xx serie 
+;als je de new gui gebruikt
+
+;GUI Strings
+0=Ja
+1=Nee
+2=Beeld
+3=Geluid
+4=Besturing
+5=Overig
+
+;Video config
+6=Beeld Configuratie
+7=Beeld Resolutie
+8=Beeld Verbetering
+9=Vergroten
+10=Video Alocatie
+11=Tripple Buffer
+12=VSync
+;Stretch Modes
+13=Vul Scherm
+14=Behoud Ratio
+;Surface Modes
+15=Video Geheugen
+16=Systeem Geheugen
+
+;Audio config
+17=Configuratie Voor:
+18=Geluid Aan
+19=Frequentie
+20=Interpoleren
+21=Proces Modus
+;Interpolation modes
+22=Geen Interpolatie
+23=2 punt's
+24=4 punt's
+
+;Controls config
+25=Druk op een Toets
+26=Speler %d
+27=Terug Naar Standaard
+28=Opslaan Als Standaard
+29=Menu
+30=Boven
+31=Beneden
+32=Links
+33=Rechts
+34=Toets %d
+35=Macro %d
+36=Snel Toets %d
+37=Drie Stoten
+38=Drie Trappen
+39=Actie
+40=Terug
+41=Menu
+42=Start
+43=Muntstuk
+
+;Other Menu
+44=Alternatieve Rom Mappen
+45=Zoek Roms
+46=Zoek Neogeo
+47=Skin Selectie
+48=Spel Lijst           %
+49=Auto. Laden/Opslaan  %
+50=Macros/Hints    %
+51=GUI Animaties             %
+;Game list filters
+52=Allemaal
+53=Aanwezig
+54=Aanwezig+GeenXOR
+55=Alle Systemen
+56=Alleen CPS-2 
+57=Alleen CPS-1
+58=Alleen NeoGeo
+;Macros/Hints
+59=Macros & Hints
+60=Macros Alleen
+61=Hints Alleen
+62=Geen
+;Hint text
+63=Speler %d Spelfiguur: %s
+
+;Misc messages
+64=Volume: %d
+65=Frameskip %d
+66=Frameskip Automatish
+
+;Rom Loading messages
+67=Localiseren Van Geheugen...
+68=Laden van %s.%s -> %s...
+69=%s, Bestand Niet Gevonden
+70=OK
+71=Slechte CRC. Verwacht %X , Gevonden %X
+72=Verkeerde grootte. Verwacht %d , Gevonden %d
+73=Laden Van Programma Roms...
+74=Laden Van Decryptie tafels (XOR'S)...
+75=Laden Van Z80 Programma Roms...
+76=Laden Van Geluids Samples...
+77=Laden Van Grafische Roms...
+78=Waarschuwing!! Sommige Roms Zijn Anders Of Incompleet
+79=Druk Op Enter Om Verder Te Gaan, Druk Op ESC Om Af Te Breken
+80=Decoderen Van Grafische Bestanden En Begin Met Emulatie...
+81=Checking %s...
+82=Zoeken Van Neogeo Roms in %s...
+83=Wacht a.u.b,Bezig Met Analyseren Van Romsets
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Spel Opslaan
+85=Spel Laden
+86=Cheats
+87=Plaatjes Fabriek
+88=Stop Spel
+89=Cheats
+90=Aan
+91=Uit
+;Neogeo Specific
+92=Machine Instellingen
+93=Memory Kaart Instellingen
+94=CD Instellingen
+95=Machine Regio          %
+96=Japan
+97=USA
+98=Europa
+99=Onbekend
+100=Systeem
+101=Arcade
+102=Console
+103=Onbekend
+104=Free Play
+105=CPU Overklokken (MHz)    %
+106=Debug Schakelaars
+107=Debug Dips Op
+108=Developer Modus
+109=Actieve Memory Kaart
+110=Voer Memory Kaart In
+111=Haal Memory kaart Eruit
+112=Roep Memory Kaart Manager Aan
+113=Status
+114=Ingevoerd
+115=Niet Ingevoerd
+116=CD Modus                %
+117=CD Speler
+118=Label:
+119=Nummers:
+120=Spel:
+121=Selecteer ISO Bestand
+122=Echte CDROM
+123=ISO bestand
+124=Niet Ingevoerd
+125=Geen
+126=Selecteer Cuesheet Of ISO bestand
+127=Dit Spel Ondersteund
+128=Geen Spel Slots
+
+;Shot factory texts
+129=Tile Laag 1 (8x8) 
+130=Tile Laag 2 (16x16)     %
+131=Tile Laag 3 (32x32)
+132=BGHi Tile Laag
+133=Neem Een Screenshot
+134=Achtergrond            %
+135=Orgineel
+136=Roze
+137=Sprite Laag
+138=Sprites Laag 0
+139=Sprites Laag 1
+140=Sprites Laag 2
+141=Sprites Laag 3
+142=Sprites Laag 4
+143=Sprites Laag 5
+144=Sprites Laag 6
+145=Sprites Laag 7
+146=Voorste Laag
+147=Sprite Strip Nr.
+148=Sprite
+
+//version 1.95 
+
+149=Taal
+
+//versie 1.96
+150=Video Opnemen
+151=Video Afspelen
+152=Stop Opnemen/Afspelen
+153=Opnemen is begonnen
+154=Afspelen is begonnen
+155=Opnemen/Afspelen is gestopt
+156=Afspelen voltooid
+
+//1.97
+157=Transparantie
+
+//2.2	Menus
+//Use @ to read the value from another key
+200=&Emulatie
+201=&Beeld
+202=&Geluid
+203=&Spel
+204=&Overig
+205=&?
+
+//Emulación
+210=&Laad rom
+211=&Rom mappen
+212=&Ontlaad rom
+213=&Turbo Modus	Scroll Lock
+214=&Resetten\tF3
+215=&Pauseren\tPause
+216=&Frame-voor-frame\tSpace
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=&Opties
+223=&Afsluiten\tAlt-F4
+
+//Video
+230=Volledig Scherm
+231=Venster
+232=Schakel naar Voll. Scherm\tAlt-Enter
+233=@10
+234=Sprites transparantie
+235=Transparantie tafel
+236=Auto Transparantie
+237=Resolutie
+238=Beeld verbetering
+239=Niet Strekken
+240=Behoud Ratio
+241=Vul Scherm
+242=VSync
+243=Triple buffer
+
+244=Zet rasters aan
+245=Zet masking aan
+246=Plaatjes fabriek\tF8
+
+//Sound
+250=Log Geluid naar WAV\tF5
+251=Zet geluid aan
+252=Sampling Rate
+253=Interpolatie
+254=Proces Modus
+255=Voor-versterkt Volume
+
+256=No
+257=2 Punts
+258=4 Punts
+
+//Game
+270=Configureer Besturing
+271=Macros
+272=Hints
+273=Macro Indeling
+274=Regio
+275=Cheats\tF4
+276=CPU Overklokken
+
+
+//Misc
+290=Genereer Romcenter DAT
+291=Auto-schakelen naar 16 bit's desktop
+292=Taal
+
+//?
+300=Nebula Home Page
+301=Over..
+

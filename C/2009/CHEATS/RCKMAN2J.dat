@@ -1,0 +1,18 @@
+[Region]
+0=Japan,C0,0
+1=USA,C0,2
+2=Hispanic,C0,4
+3=Asia,C0,6
+4=Euro,C0,8
+5=Brazil,C0,a
+Default=0 
+
+[0]
+Name=Infinite health
+0=Off,0,0
+1=On,ff8350,20
+
+[1]
+Name=Infinite time
+0=Off,0,0
+1=On,ff811c,80

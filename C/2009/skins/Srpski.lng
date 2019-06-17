@@ -1,0 +1,186 @@
+[Language]
+
+;1.94 and before
+
+;GUI Strings
+0=Da
+1=Ne
+2=VIDEO
+3=ZVUK
+4=KONTROLE
+5=OSTALO
+
+;Video config
+6=Video konfiguracija za:
+7=Rezolucija
+8=Poboljšanje kvaliteta  slike
+9=Širenje slike
+10=Alokacija površine 
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Ispuni ekran
+14=Pravi odnos strana
+;Surface modes
+15=Video memorija
+16=Sistemska memorija
+
+;Audio config
+17=Podešavanja zvuka za:
+18=Ukljuci zvuk
+19=Kvalitet semplova
+20=Interpolacija
+21=Mod procesiranja
+;Interpolation modes
+22=Bez interpolacije
+23=2 tacke 
+24=4 tacke
+
+;Controls config
+25=Pritisni taster ili dugme
+26=Igrac %d
+27=Vrati osnovno
+28=Snimi kao osnovni
+29=Tasteri u menijima
+30=Gore
+31=Dole
+32=Levo
+33=Desno
+34=Taster %d
+35=Makro %d
+36=Hotkey %d
+37=3 udarca rukom
+38=3 udarca nogom
+39=Akcija
+40=Nazad
+41=Prikazi meni
+42=Start
+43=Kredit
+
+;Other Menu
+44=Druge lokacije ROM-ova
+45=Proveri ROM-ove
+46=Pronadji Neogeo
+47=Izbor skinova
+48=Igre
+49=Auto ucit./snimanje
+50=Makroi/poruke
+51=GUI Animacija
+;Filtriranje liste igara
+52=Sve
+53=Prisutne
+54=Prisutne+fali XOR
+55=Svi sistemi
+56=Samo CPS-2
+57=Samo CPS-1
+58=Samo NeoGeo
+;Macros/Upozorenja
+59=Makroi & Upozor.
+60=Samo makroi
+61=Samo upozorenja
+62=Ništa
+;Hint text
+63=Igrac %d Karakter: %s
+
+;Misc messages
+64=Jacina zvuka: %d
+65=Preskakanje frejmova %d
+66=Automatsko preskakanje frejmova
+
+;Rom Loading messages
+67=Alokacija memorije u toku...
+68=Ucitava se fajl %s.%s -> %s...
+69=%s, Fajl nije pronaðen
+70=OK
+71=Loš CRC. Ocekivan %X , Nadjen %X
+72=Pogrešna velicina. Ocekivan %d , Nadjen %d
+73=Ucitavanje programskih ROM-ova...
+74=Ucitavanje dekripcionih tabela...
+75=Ucitavanje Z80 Programskih ROM-ova...
+76=Ucitavanje zvucnih semplova...
+77=Ucitavanje grafickih ROM-ova...
+78=UPOZORENJE!! Neki ROM-ovi nedostaju, ili su drugaciji
+79=Pritisnite ENTER za nastavak ili ESCAPE za povratak u meni
+80=Dekodiranje grafickih podataka i inicijalizacija emulacije...
+81=Provera %s...
+82=Potraga za NeoGeo ROM-ovima u %s...
+83=Molimo sacekajte, analiziram ROM-setove
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Snimi poziciju
+85=Ucitaj poziciju
+86=Varanja
+87=Fabrika slika
+88=Izadji iz igre
+89=Varanja
+90=Da
+91=Ne
+;Neogeo Specific
+92=Podesavanje masine
+93=Podesavanje mem. kartice
+94=Podesavanje CD-a
+95=Region masine          %
+96=Japan
+97=SAD
+98=Evropa
+99=Nepoznat
+100=Sistem
+101=Automat
+102=Konzola
+103=Nepoznat
+104=Slobodna igra
+105=Overklok CPU-a (MHz)
+106=Debaguj Dip Swi.
+107=Debaguj Dipove u
+108=Developer Mode
+109=Aktiviraj mem. karticu
+110=Ubaci memorijsku karticu
+111=Izbaci memorijsku karticu
+112=Pozovi memory card menadzer
+113=Status
+114=Ubacena
+115=Nije ubacena
+116=CD Mod                %
+117=CD Drajv
+118=Naziv:
+119=Numere:
+120=Igra:
+121=Odaberi ISO Image
+122=Pravi CDROM
+123=ISO Image
+124=Nije ubacen
+125=Nijedan
+126=Odaberite Cuesheet ili ISO Image
+127=Ova igra 
+128=Ne podrzava snimanje pozicije
+
+;Shot factory texts
+129=Tile sloj 1 (8x8)
+130=Tile sloj 2 (16x16)
+131=Tile sloj 3 (32x32)
+132=BGHi Tile sloj
+133=Izvadi sliku
+134=Pozadina       %
+135=Obicna
+136=Roze
+137=Sloj sprajta
+138=Sloj sprajta 0
+139=Sloj sprajta 1
+140=Sloj sprajta 2
+141=Sloj sprajta 3
+142=Sloj sprajta 4
+143=Sloj sprajta 5
+144=Sloj sprajta 6
+145=Sloj sprajta 7
+146=Prednji tile sloj
+147=Sprite strip number
+148=Da
+
+//1.95
+149=Jezik
+
+;Preveo [forsaken demon] forsakend@hotmail.com www.emulationgalaxy.co.yu

@@ -1,0 +1,4608 @@
+MultiPart: Nebula 2.25 CPS1 Romsets
+
+System: CPS1
+RomName: forgottn
+Game: Forgotten Worlds (US)
+
+[Program]
+lwu11a,0,20000,DDF78831,0
+lwu15a,1,20000,F7CE2097,0
+lwu10a,40000,20000,8CB38C81,0
+lwu14a,40001,20000,D70EF9FD,0
+lw-07,80000,80000,FD252A26,1
+
+[Graphics]
+lw-02,0,80000,43E6C5C8,0
+lw-09,2,80000,899CB4AD,0
+lw-06,4,80000,5B9EDFFC,0
+lw-13,6,80000,8E058EF5,0
+lw-01,200000,80000,318F298,0
+lw-08,200002,80000,25A8E43C,0
+lw-05,200004,80000,E4552FD7,0
+lw-12,200006,80000,8E6A832B,0
+
+[Z80]
+lwu00,0,10000,59DF2A63,0
+
+[Samples]
+lw-03u,0,20000,807D051F,0
+lw-04u,20000,20000,E6CD098E,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 9
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Demo Sounds,1,40,Off,0,On,40
+Flip Screen,1,80,Off,80,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Freeze,2,80,Off,80,On,0
+Game Mode,2,40,Game,40,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: lostwrld
+Game: Lost Worlds (Japan)
+Parent: forgottn
+
+[Program]
+lw-11c.14f,0,20000,67E42546,0
+lw-15c.14g,1,20000,402E2A46,0
+lw-10c.13f,40000,20000,C46479D7,0
+lw-14c.13g,40001,20000,97670F4A,0
+lw-07,80000,80000,FD252A26,1
+
+[Graphics]
+lw-02,0,80000,43E6C5C8,0
+lw-09,2,80000,899CB4AD,0
+lw-06,4,80000,5B9EDFFC,0
+lw-13,6,80000,8E058EF5,0
+lw-01,200000,80000,318F298,0
+lw-08,200002,80000,25A8E43C,0
+lw-05,200004,80000,E4552FD7,0
+lw-12,200006,80000,8E6A832B,0
+
+[Z80]
+lwu00,0,10000,59DF2A63,0
+
+[Samples]
+lw-03.14c,0,20000,CE2159E7,0
+lw-04.13c,20000,20000,39305536,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 9
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: ghouls
+Game: Ghouls'n Ghosts (World)
+
+[Program]
+ghl29.bin,0,20000,166A58A2,0
+ghl30.bin,1,20000,7AC8407A,0
+ghl27.bin,40000,20000,F734B2BE,0
+ghl28.bin,40001,20000,3D3E714,0
+ghl17.bin,80000,80000,3EA1B0F2,3
+
+[Graphics]
+ghl5.bin,0,80000,BA9C0B0,0
+ghl7.bin,2,80000,5D760AB9,0
+ghl6.bin,4,80000,4BA90B59,0
+ghl8.bin,6,80000,4BDEE9DE,0
+ghl09.bin,200000,10000,AE24BB19,1
+ghl18.bin,200001,10000,D34E271A,1
+ghl13.bin,200002,10000,3F70DD37,1
+ghl22.bin,200003,10000,7E69E2E6,1
+ghl11.bin,200004,10000,37C9B6C6,1
+ghl20.bin,200005,10000,2F1345B4,1
+ghl15.bin,200006,10000,3C2A212A,1
+ghl24.bin,200007,10000,889AAC05,1
+ghl10.bin,280000,10000,BCC0F28C,1
+ghl19.bin,280001,10000,2A40166A,1
+ghl14.bin,280002,10000,20F85C03,1
+ghl23.bin,280003,10000,8426144B,1
+ghl12.bin,280004,10000,DA088D61,1
+ghl21.bin,280005,10000,17E11DF0,1
+ghl16.bin,280006,10000,F187BA1C,1
+ghl25.bin,280007,10000,29F79C78,1
+
+[Z80]
+ghl26.bin,0,10000,3692F6E5,0
+
+[Samples]
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 6
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Cabinet,1,c0,Upright 1 Player,c0,Upright 2 Players,80,Cocktail,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+Bonus Life,2,30,30K 60K & every 70K,30,40K 70K & every 80K,0,10K 30K & every 30K,20,20K 50K & every 70K,10
+Lives,3,3,3,3,4,2,5,1,6,0
+Flip Screen,3,10,Off,10,On,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: ghoulsu
+Game: Ghouls'n Ghosts (US)
+Parent: ghouls
+
+[Program]
+dmu29,0,20000,334D85B2,0
+dmu30,1,20000,CEE8CEB5,0
+dmu27,40000,20000,4A524140,0
+dmu28,40001,20000,94AAE205,0
+ghl17.bin,80000,80000,3EA1B0F2,3
+
+[Graphics]
+ghl5.bin,0,80000,BA9C0B0,0
+ghl7.bin,2,80000,5D760AB9,0
+ghl6.bin,4,80000,4BA90B59,0
+ghl8.bin,6,80000,4BDEE9DE,0
+ghl09.bin,200000,10000,AE24BB19,1
+ghl18.bin,200001,10000,D34E271A,1
+ghl13.bin,200002,10000,3F70DD37,1
+ghl22.bin,200003,10000,7E69E2E6,1
+ghl11.bin,200004,10000,37C9B6C6,1
+ghl20.bin,200005,10000,2F1345B4,1
+ghl15.bin,200006,10000,3C2A212A,1
+ghl24.bin,200007,10000,889AAC05,1
+ghl10.bin,280000,10000,BCC0F28C,1
+ghl19.bin,280001,10000,2A40166A,1
+ghl14.bin,280002,10000,20F85C03,1
+ghl23.bin,280003,10000,8426144B,1
+ghl12.bin,280004,10000,DA088D61,1
+ghl21.bin,280005,10000,17E11DF0,1
+ghl16.bin,280006,10000,F187BA1C,1
+ghl25.bin,280007,10000,29F79C78,1
+
+[Z80]
+ghl26.bin,0,10000,3692F6E5,0
+
+[Samples]
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 6
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Cabinet,1,c0,Upright 1 Player,c0,Upright 2 Players,80,Cocktail,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+Bonus Life,2,30,30K 60K & every 70K,30,40K 70K & every 80K,0,10K 30K & every 30K,20,20K 50K & every 70K,10
+Freeze,2,80,Off,80,On,0
+Lives,3,3,3,3,4,2,5,1,2,0
+Flip Screen,3,10,Off,10,On,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: daimakai
+Game: Dai Makai-Mura (Japan)
+Parent: ghouls
+
+[Program]
+dmj_38.bin,0,20000,82FD1798,0
+dmj_39.bin,1,20000,35366CCC,0
+dmj_40.bin,40000,20000,A17C170A,0
+dmj_41.bin,40001,20000,6AF0B391,0
+ghl17.bin,80000,80000,3EA1B0F2,3
+
+[Graphics]
+ghl5.bin,0,80000,BA9C0B0,0
+ghl7.bin,2,80000,5D760AB9,0
+ghl6.bin,4,80000,4BA90B59,0
+ghl8.bin,6,80000,4BDEE9DE,0
+ghl09.bin,200000,10000,AE24BB19,1
+ghl18.bin,200001,10000,D34E271A,1
+ghl13.bin,200002,10000,3F70DD37,1
+ghl22.bin,200003,10000,7E69E2E6,1
+ghl11.bin,200004,10000,37C9B6C6,1
+ghl20.bin,200005,10000,2F1345B4,1
+ghl15.bin,200006,10000,3C2A212A,1
+ghl24.bin,200007,10000,889AAC05,1
+ghl10.bin,280000,10000,BCC0F28C,1
+ghl19.bin,280001,10000,2A40166A,1
+ghl14.bin,280002,10000,20F85C03,1
+ghl23.bin,280003,10000,8426144B,1
+ghl12.bin,280004,10000,DA088D61,1
+ghl21.bin,280005,10000,17E11DF0,1
+ghl16.bin,280006,10000,F187BA1C,1
+ghl25.bin,280007,10000,29F79C78,1
+
+[Z80]
+ghl26.bin,0,10000,3692F6E5,0
+
+[Samples]
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 6
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Cabinet,1,c0,Upright 1 Player,c0,Upright 2 Players,80,Cocktail,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+Bonus Life,2,30,30K 60K & every 70K,30,40K 70K & every 80K,0,10K 30K & every 30K,20,20K 50K & every 70K,10
+Freeze,2,80,Off,80,On,0
+Lives,3,3,3,3,4,2,5,1,6,0
+Flip Screen,3,10,Off,10,On,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: strider
+Game: Strider (US set 1)
+
+[Program]
+strider.30,0,20000,DA997474,0
+strider.35,1,20000,5463AAA3,0
+strider.31,40000,20000,D20786DB,0
+strider.36,40001,20000,21AA2863,0
+strider.32,80000,80000,9B3CFC08,1
+
+[Graphics]
+strider.06,0,80000,4EEE9AEA,0
+strider.08,2,80000,2D7F21E4,0
+strider.02,4,80000,7705AA46,0
+strider.04,6,80000,5B18B722,0
+strider.05,200000,80000,5F000B,0
+strider.07,200002,80000,B9441519,0
+strider.01,200004,80000,B7D04E8B,0
+strider.03,200006,80000,6B4713B4,0
+
+[Z80]
+strider.09,0,10000,2ED403BC,0
+
+[Samples]
+strider.18,0,20000,4386BC80,0
+strider.19,20000,20000,444536D7,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 01,00,01
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 5
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Cabinet,1,c0,Upright 1 Player,c0,Upright 2 Players,80,Cocktail,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+Bonus Life,2,30,20K 40K & every 60K,30,30K 50K & every 70K,20,20K & 60K only,10,30K & 60K only,0
+Internal Diff. on Life Loss,2,c0,-1,0,Default,80,-3,c0
+Lives,3,3,3,3,4,2,5,1,2,0
+Freeze,3,4,Off,4,On,0
+Free Play,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,20,Off,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: stridrua
+Game: Strider (US set 2)
+Parent: strider
+
+[Program]
+strid.30,0,20000,66aec273,0
+strid.35,1,20000,50e0e865,0
+strid.31,40000,20000,eae93bd1,0
+strid.36,40001,20000,b904a31d,0
+strider.32,80000,80000,9B3CFC08,1
+
+[Graphics]
+strider.06,0,80000,4EEE9AEA,0
+strider.08,2,80000,2D7F21E4,0
+strider.02,4,80000,7705AA46,0
+strider.04,6,80000,5B18B722,0
+strider.05,200000,80000,5F000B,0
+strider.07,200002,80000,B9441519,0
+strider.01,200004,80000,B7D04E8B,0
+strider.03,200006,80000,6B4713B4,0
+
+[Z80]
+strid.09,0,10000,08d63519,0
+
+[Samples]
+strider.18,0,20000,4386BC80,0
+strider.19,20000,20000,444536D7,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 01,00,01
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 5
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Cabinet,1,c0,Upright 1 Player,c0,Upright 2 Players,80,Cocktail,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+2 Coins to Start 1 to Continue,2,8,Off,08,On,0
+Bonus Life,2,30,20K 40K & every 60K,30,30K 50K & every 70K,20,20K & 60K only,10,30K & 60K only,0
+Internal Diff. on Life Loss,2,c0,-1,0,Default,80,-3,c0
+Lives,3,3,3,3,4,2,5,1,2,0
+Freeze,3,4,Off,4,On,0
+Free Play,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,20,Off,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: striderj
+Game: Strider Hiryu (Japan set 1)
+Parent: strider
+
+[Program]
+sthj23.bin,0,80000,46E7B12,1
+strider.32,80000,80000,9B3CFC08,1
+
+[Graphics]
+strider.06,0,80000,4EEE9AEA,0
+strider.08,2,80000,2D7F21E4,0
+strider.02,4,80000,7705AA46,0
+strider.04,6,80000,5B18B722,0
+strider.05,200000,80000,5F000B,0
+strider.07,200002,80000,B9441519,0
+strider.01,200004,80000,B7D04E8B,0
+strider.03,200006,80000,6B4713B4,0
+
+[Z80]
+strider.09,0,10000,2ED403BC,0
+
+[Samples]
+strider.18,0,20000,4386BC80,0
+strider.19,20000,20000,444536D7,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 01,00,01
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 5
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: stridrja
+Game: Strider Hiryu (Japan set 2)
+Parent: strider
+
+[Program]
+sth36.bin,0,20000,53C7B006,0
+sth42.bin,1,20000,4037F65F,0
+sth37.bin,40000,20000,80E8877D,0
+sth43.bin,40001,20000,6B3FA466,0
+strider.32,80000,80000,9B3CFC08,1
+
+[Graphics]
+strider.06,0,80000,4EEE9AEA,0
+strider.08,2,80000,2D7F21E4,0
+strider.02,4,80000,7705AA46,0
+strider.04,6,80000,5B18B722,0
+strider.05,200000,80000,5F000B,0
+strider.07,200002,80000,B9441519,0
+strider.01,200004,80000,B7D04E8B,0
+strider.03,200006,80000,6B4713B4,0
+
+[Z80]
+strider.09,0,10000,2ED403BC,0
+
+[Samples]
+strider.18,0,20000,4386BC80,0
+strider.19,20000,20000,444536D7,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 01,00,01
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 5
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: dynwar
+Game: Dynasty Wars (World)
+
+[Program]
+30.11f,0,20000,f9ec6d68,0
+35.11h,1,20000,e41fff2f,0
+31.12f,40000,20000,e3de76ff,0
+36.12h,40001,20000,7a13cfbf,0
+tkm-9.8h,80000,80000,93654bcf,1
+
+[Graphics]
+tkm-5.7a,0,80000,f64bb6a0,0
+tkm-8.9a,2,80000,21fe6274,0
+tkm-6.3a,4,80000,0bf228cb,0
+tkm-7.5a,6,80000,1255dfb1,0
+tkm-1.8a,200000,80000,44f7661e,0
+tkm-4.10a,200002,80000,a54c515d,0
+tkm-2.4a,200004,80000,ca5c687c,0
+tkm-3.6a,200006,80000,f9fe6591,0
+
+[Z80]
+tke17.12b,0,10000,B3B79D4F,0
+
+[Samples]
+tke18.11c,0,20000,ac6e307d,0
+tke19.12c,20000,20000,068741db,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,01,01
+BoardID: 60,0002
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,4 Coins/1 Credit,1,3 Coins/1 Credit,2,2 Coins/1 Credit,3,2 Coins/1 Credit (1 to continue),0
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,4 Coins/1 Credit,8,3 Coins/1 Credit,10,2 Coins/1 Credit,18,2 Coins/1 Credit (1 to continue),0
+Free Play,1,80,Off,80,On,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+Freeze,3,1,Off,1,On,0
+Turbo Mode,3,2,Off,2,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,20,Off,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: dynwarj
+Game: Tenchi wo Kurau (Japan)
+Parent: dynwar
+
+[Program]
+36.bin,0,20000,1A516657,0
+42.bin,1,20000,12A290A0,0
+37.bin,40000,20000,932FC943,0
+43.bin,40001,20000,872AD76D,0
+34.bin,80000,20000,8F663D00,0
+40.bin,80001,20000,1586DBF3,0
+35.bin,C0000,20000,9DB93D7A,0
+41.bin,C0001,20000,1AAE69A4,0
+
+[Graphics]
+09.bin,0,20000,C3E83C69,1
+01.bin,1,20000,187B2886,1
+13.bin,2,20000,273D87D,1
+05.bin,3,20000,339378B8,1
+24.bin,4,20000,C6909B6F,1
+17.bin,5,20000,2E2F8320,1
+38.bin,6,20000,CD7923ED,1
+32.bin,7,20000,21A0A453,1
+10.bin,100000,20000,FF28F8D0,1
+02.bin,100001,20000,CC83C02F,1
+14.bin,100002,20000,18FB232C,1
+06.bin,100003,20000,6F9EDD75,1
+25.bin,100004,20000,152EA74A,1
+18.bin,100005,20000,1833F932,1
+39.bin,100006,20000,BC09B360,1
+33.bin,100007,20000,89DE1533,1
+11.bin,200000,20000,29EAF490,1
+03.bin,200001,20000,7BF51337,1
+15.bin,200002,20000,D36CDB91,1
+07.bin,200003,20000,E04AF054,1
+26.bin,200004,20000,7FC714B,1
+19.bin,200005,20000,7114E5C6,1
+28.bin,200006,20000,AF62BF07,1
+21.bin,200007,20000,523F462A,1
+12.bin,300000,20000,38652339,1
+04.bin,300001,20000,4951BC0F,1
+16.bin,300002,20000,381608AE,1
+08.bin,300003,20000,B475D4E9,1
+27.bin,300004,20000,A27E81FA,1
+20.bin,300005,20000,2796DC,1
+29.bin,300006,20000,6B41F82D,1
+22.bin,300007,20000,52145369,1
+
+[Z80]
+23.bin,0,10000,B3B79D4F,0
+
+[Samples]
+30.bin,0,20000,7E5F6CB4,0
+31.bin,20000,20000,4A30C737,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,01,01
+BoardID: 60,0002
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: willow
+Game: Willow (US)
+
+[Program]
+wlu_30.rom,0,20000,D604DBB1,0
+willow-u.35,1,20000,7a791e77,0
+wlu_31.rom,40000,20000,EB48A83,0
+wlu_36.rom,40001,20000,36100209,0
+wl_32.rom,80000,80000,DFD9F643,1
+
+[Graphics]
+wl_gfx5.rom,0,80000,AFA74B73,0
+wl_gfx7.rom,2,80000,12A0DC0B,0
+wl_gfx1.rom,4,80000,C6F2ABCE,0
+wl_gfx3.rom,6,80000,4AA4C6D3,0
+wl_24.rom,200000,20000,6F0ADEE5,1
+wl_14.rom,200001,20000,9CF3027D,1
+wl_26.rom,200002,20000,F09C8ECF,1
+wl_16.rom,200003,20000,E35407AA,1
+wl_20.rom,200004,20000,84992350,1
+wl_10.rom,200005,20000,B87B5A36,1
+wl_22.rom,200006,20000,FD3F89F0,1
+wl_12.rom,200007,20000,7DA49D69,1
+
+[Z80]
+wl_09.rom,0,10000,F6B3D060,0
+
+[Samples]
+wl_18.rom,0,20000,BDE23D4D,0
+wl_19.rom,20000,20000,683898F5,0
+
+[System]
+LayerControl: 70,20,10,08
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,01,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,4 Coins/1 Credit,1,3 Coins/1 Credit,2,2 Coins/1 Credit,3,2 Coins/1 Credit (1 to continue),0
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,4 Coins/1 Credit,8,3 Coins/1 Credit,10,2 Coins/1 Credit,18,2 Coins/1 Credit (1 to continue),0
+Cabinet,1,c0,Upright 1 Player,c0,Upright 2 Players,80,Cocktail,0
+Difficulty,2,7,4 (Normal),7,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),4,2,5,3,6
+Nando Speed,2,18,Normal,18,Fast,8,Very Fast,0,Slow,10
+Stage Magic Continue,2,80,Off,80,On,0
+Lives,3,3,2,3,3,1,4,0,1,2
+Vitality,3,c,3,c,4,8,5,4,2,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,20,Off,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: willowj
+Game: Willow (Japan, Japanese)
+Parent: willow
+
+[Program]
+wl36.bin,0,20000,2B0D7CBC,0
+wl42.bin,1,20000,1AC39615,0
+wl37.bin,40000,20000,30A717FA,0
+wl43.bin,40001,20000,D0DDDC9E,0
+wl_32.rom,80000,80000,DFD9F643,1
+
+[Graphics]
+wl_gfx5.rom,0,80000,AFA74B73,0
+wl_gfx7.rom,2,80000,12A0DC0B,0
+wl_gfx1.rom,4,80000,C6F2ABCE,0
+wl_gfx3.rom,6,80000,4AA4C6D3,0
+wl_24.rom,200000,20000,6F0ADEE5,1
+wl_14.rom,200001,20000,9CF3027D,1
+wl_26.rom,200002,20000,F09C8ECF,1
+wl_16.rom,200003,20000,E35407AA,1
+wl_20.rom,200004,20000,84992350,1
+wl_10.rom,200005,20000,B87B5A36,1
+wl_22.rom,200006,20000,FD3F89F0,1
+wl_12.rom,200007,20000,7DA49D69,1
+
+[Z80]
+wl_09.rom,0,10000,F6B3D060,0
+
+[Samples]
+wl_18.rom,0,20000,BDE23D4D,0
+wl_19.rom,20000,20000,683898F5,0
+
+[System]
+LayerControl: 70,20,10,08
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,01,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: willowje
+Game: Willow (Japan, English)
+Parent: willow
+
+[Program]
+wlu_30.rom,0,20000,d604dbb1,0
+wlu_35.rom,1,20000,daee72fe,0
+wlu_31.rom,40000,20000,0eb48a83,0
+wlu_36.rom,40001,20000,36100209,0
+wl_32.rom,80000,80000,DFD9F643,1
+
+[Graphics]
+wl_gfx5.rom,0,80000,AFA74B73,0
+wl_gfx7.rom,2,80000,12A0DC0B,0
+wl_gfx1.rom,4,80000,C6F2ABCE,0
+wl_gfx3.rom,6,80000,4AA4C6D3,0
+wl_24.rom,200000,20000,6F0ADEE5,1
+wl_14.rom,200001,20000,9CF3027D,1
+wl_26.rom,200002,20000,F09C8ECF,1
+wl_16.rom,200003,20000,E35407AA,1
+wl_20.rom,200004,20000,84992350,1
+wl_10.rom,200005,20000,B87B5A36,1
+wl_22.rom,200006,20000,FD3F89F0,1
+wl_12.rom,200007,20000,7DA49D69,1
+
+[Z80]
+wl_09.rom,0,10000,F6B3D060,0
+
+[Samples]
+wl_18.rom,0,20000,BDE23D4D,0
+wl_19.rom,20000,20000,683898F5,0
+
+[System]
+LayerControl: 70,20,10,08
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,01,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: unsquad
+Game: U.N. Squadron (US)
+
+[Program]
+unsquad.30,0,20000,24D8F88D,0
+unsquad.35,1,20000,8B954B59,0
+unsquad.31,40000,20000,33E9694B,0
+unsquad.36,40001,20000,7CC8FB9E,0
+unsquad.32,80000,80000,AE1D7FB0,1
+
+[Graphics]
+unsquad.05,0,80000,BF4575D8,0
+unsquad.07,2,80000,A02945F4,0
+unsquad.01,4,80000,5965CA8D,0
+unsquad.03,6,80000,AC6DB17D,0
+
+[Z80]
+unsquad.09,0,10000,F3DD1367,0
+
+[Samples]
+unsquad.18,0,20000,584B43A9,0
+
+[System]
+LayerControl: 66,08,10,20
+BGHiControl: 68,6a,6c,6e
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 72,0401
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,4 Coins/1 Credit,1,3 Coins/1 Credit,2,2 Coins/1 Credit,3,2 Coins/1 Credit (1 to continue),0
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,4 Coins/1 Credit,8,3 Coins/1 Credit,10,2 Coins/1 Credit,18,2 Coins/1 Credit (1 to continue),0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Damage,2,18,Normal,18,Big,8,Biggest,0,Small,10
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: area88
+Game: Area 88 (Japan)
+Parent: unsquad
+
+[Program]
+ar36.bin,0,20000,65030392,0
+ar42.bin,1,20000,C48170DE,0
+unsquad.31,40000,20000,33E9694B,0
+unsquad.36,40001,20000,7CC8FB9E,0
+unsquad.32,80000,80000,AE1D7FB0,1
+
+[Graphics]
+unsquad.05,0,80000,BF4575D8,0
+unsquad.07,2,80000,A02945F4,0
+unsquad.01,4,80000,5965CA8D,0
+unsquad.03,6,80000,AC6DB17D,0
+
+[Z80]
+unsquad.09,0,10000,F3DD1367,0
+
+[Samples]
+unsquad.18,0,20000,584B43A9,0
+
+[System]
+LayerControl: 66,08,10,20
+BGHiControl: 68,6a,6c,6e
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 72,0401
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: ffight
+Game: Final Fight (World)
+
+[Program]
+ff30-36.bin,0,20000,F9A5CE83,0
+ff35-42.bin,1,20000,65F11215,0
+ff31-37.bin,40000,20000,E1033784,0
+ff36-43.bin,40001,20000,995E968A,0
+ff32-32m.bin,80000,80000,C747696E,1
+
+[Graphics]
+ff05-05m.bin,0,80000,9C284108,0
+ff07-07m.bin,2,80000,A7584DFB,0
+ff01-01m.bin,4,80000,B605E44,0
+ff03-03m.bin,6,80000,52291CD2,0
+
+[Z80]
+ff09-09.bin,0,10000,B8367EB5,0
+
+[Samples]
+ff18-18.bin,0,20000,375C66E7,0
+ff19-19.bin,20000,20000,1EF137F9,0
+
+[System]
+LayerControl: 6e,02,0c,0c
+BGHiControl: 66,70,68,72
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0004
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty Level 1,2,7,Normal,4,Medium,3,Hard,2,Harder,1,Hardest,0,Easiest,7,Easier,6,Easy,5
+Difficulty Level 2,2,18,Normal,10,Hard,8,Hardest,0,Easy,18
+Bonus Life,2,60,100k,60,200k,40,100k & every 200k,20,None,0
+Lives,3,3,2,3,3,2,4,1,1,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: ffightu
+Game: Final Fight (US 900112)
+Parent: ffight
+
+[Program]
+36,0,20000,E2A48AF9,0
+42,1,20000,F4BB480E,0
+37,40000,20000,C371C667,0
+43,40001,20000,2F5771F9,0
+ff32-32m.bin,80000,80000,C747696E,1
+
+[Graphics]
+ff05-05m.bin,0,80000,9C284108,0
+ff07-07m.bin,2,80000,A7584DFB,0
+ff01-01m.bin,4,80000,B605E44,0
+ff03-03m.bin,6,80000,52291CD2,0
+
+[Z80]
+ff09-09.bin,0,10000,B8367EB5,0
+
+[Samples]
+ff18-18.bin,0,20000,375C66E7,0
+ff19-19.bin,20000,20000,1EF137F9,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: ffightj
+Game: Final Fight (Japan)
+Parent: ffight
+
+[Program]
+ff30-36.bin,0,20000,F9A5CE83,0
+ff35-42.bin,1,20000,65F11215,0
+ff31-37.bin,40000,20000,E1033784,0
+ff43.bin,40001,20000,B6DEE1C3,0
+ff32-32m.bin,80000,80000,C747696E,1
+
+[Graphics]
+ff09.bin,0,20000,5b116d0d,1
+ff01.bin,1,20000,815b1797,1
+ff13.bin,2,20000,8721a7da,1
+ff05.bin,3,20000,d0fcd4b5,1
+ff24.bin,4,20000,a1ab607a,1
+ff17.bin,5,20000,2dc18cf4,1
+ff38.bin,6,20000,6535a57f,1
+ff32.bin,7,20000,c8bc4a57,1
+ff10.bin,100000,20000,624a924a,1
+ff02.bin,100001,20000,5d91f694,1
+ff14.bin,100002,20000,0a2e9101,1
+ff06.bin,100003,20000,1c18f042,1
+ff25.bin,100004,20000,6e8181ea,1
+ff18.bin,100005,20000,b19ede59,1
+ff39.bin,100006,20000,9416b477,1
+ff33.bin,100007,20000,7369fa07,1
+
+[Z80]
+ff09-09.bin,0,10000,B8367EB5,0
+
+[Samples]
+ff18-18.bin,0,20000,375C66E7,0
+ff19-19.bin,20000,20000,1EF137F9,0
+
+[System]
+LayerControl: 6e,02,0c,0c
+BGHiControl: 66,70,68,72
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0004
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: ffightj1
+Game: Final Fight (Japan 900305)
+Parent: ffight
+
+[Program]
+ff30-36.rom,0,20000,088ed1c9,0
+ff35-42.rom,1,20000,c4c491e6,0
+ff31-37.rom,40000,20000,708557ff,0
+ff36-43.rom,40001,20000,c004004a,0
+ff32-32m.bin,80000,80000,C747696E,1
+
+[Graphics]
+ff09.bin,0,20000,5b116d0d,1
+ff01.bin,1,20000,815b1797,1
+ff13.bin,2,20000,8721a7da,1
+ff05.bin,3,20000,d0fcd4b5,1
+ff24.bin,4,20000,a1ab607a,1
+ff17.bin,5,20000,2dc18cf4,1
+ff38.bin,6,20000,6535a57f,1
+ff32.bin,7,20000,c8bc4a57,1
+ff10.bin,100000,20000,624a924a,1
+ff02.bin,100001,20000,5d91f694,1
+ff14.bin,100002,20000,0a2e9101,1
+ff06.bin,100003,20000,1c18f042,1
+ff25.bin,100004,20000,6e8181ea,1
+ff18.bin,100005,20000,b19ede59,1
+ff39.bin,100006,20000,9416b477,1
+ff33.bin,100007,20000,7369fa07,1
+
+[Z80]
+ff09-09.bin,0,10000,B8367EB5,0
+
+[Samples]
+ff18-18.bin,0,20000,375C66E7,0
+ff19-19.bin,20000,20000,1EF137F9,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0002
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: 1941
+Game: 1941 - Counter Attack (World)
+
+[Program]
+41e_30.rom,0,20000,9DEB1E75,0
+41e_35.rom,1,20000,D63942B3,0
+41e_31.rom,40000,20000,DF201112,0
+41e_36.rom,40001,20000,816A818F,0
+41_32.rom,80000,80000,4E9648CA,1
+
+[Graphics]
+41_gfx5.rom,0,80000,1D1CB11,0
+41_gfx7.rom,2,80000,AEAA3509,0
+41_gfx1.rom,4,80000,FF77985A,0
+41_gfx3.rom,6,80000,983BE58F,0
+
+[Z80]
+41_09.rom,0,10000,F9D8527,0
+
+[Samples]
+41_18.rom,0,20000,D1F15AEB,0
+41_19.rom,20000,20000,15AEC3A6,0
+
+[System]
+LayerControl: 68,02,08,20
+BGHiControl: 6a,6c,6e,70
+Stars: 14,14
+Banks: 00,00,00
+BoardID: 60,0005
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 4
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Life Bar,2,18,More Slowly,18,Slowly,10,Quickly,8,More Quickly,0
+Bullet's Speed,2,60,Very Slow,60,Slow,40,Fast,20,Very Fast,0
+Initial Vitality,2,80,3 Bars,80,4 Bars,0
+Throttle Game Speed,3,1,On,1,Off,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: 1941j
+Game: 1941 - Counter Attack (Japan)
+Parent: 1941
+
+[Program]
+4136.bin,0,20000,7FBD42AB,0
+4142.bin,1,20000,C7781F89,0
+4137.bin,40000,20000,C6464B0B,0
+4143.bin,40001,20000,440FC0B5,0
+41_32.rom,80000,80000,4E9648CA,1
+
+[Graphics]
+41_gfx5.rom,0,80000,1D1CB11,0
+41_gfx7.rom,2,80000,AEAA3509,0
+41_gfx1.rom,4,80000,FF77985A,0
+41_gfx3.rom,6,80000,983BE58F,0
+
+[Z80]
+41_09.rom,0,10000,F9D8527,0
+
+[Samples]
+41_18.rom,0,20000,D1F15AEB,0
+41_19.rom,20000,20000,15AEC3A6,0
+
+[System]
+LayerControl: 68,02,08,20
+BGHiControl: 6a,6c,6e,70
+Stars: 14,14
+Banks: 00,00,00
+BoardID: 60,0005
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mercs
+Game: Mercs (World 900302)
+
+[Program]
+so2_30e.rom,0,20000,E17F9BF7,0
+so2_35e.rom,1,20000,78E63575,0
+so2_31e.rom,40000,20000,51204D36,0
+so2_36e.rom,40001,20000,9CFBA8B4,0
+so2_32.rom,80000,80000,2EB5CF0C,1
+
+[Graphics]
+so2_gfx6.rom,0,80000,AA6102AF,0
+so2_gfx8.rom,2,80000,839E6869,0
+so2_gfx2.rom,4,80000,597C2875,0
+so2_gfx4.rom,6,80000,912A9CA0,0
+so2_24.rom,200000,20000,3F254EFE,1
+so2_14.rom,200001,20000,F5A8905E,1
+so2_26.rom,200002,20000,F3AA5A4A,1
+so2_16.rom,200003,20000,B43CD1A8,1
+so2_20.rom,200004,20000,8CA751A3,1
+so2_10.rom,200005,20000,E9F569FD,1
+so2_22.rom,200006,20000,FCE9A377,1
+so2_12.rom,200007,20000,B7DF8A06,1
+
+[Z80]
+so2_09.rom,0,10000,D09D7C7A,0
+
+[Samples]
+so2_18.rom,0,20000,BBEA1643,0
+so2_19.rom,20000,20000,AC58AA71,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0402
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: D
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Coin Slots,2,8,3,8,1,0
+Max Players,2,10,3,10,2,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,Off,20,On,0
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mercsu
+Game: Mercs (US 900302)
+Parent: mercs
+
+[Program]
+so2_30e.rom,0,20000,E17F9BF7,0
+s02-35,1,20000,4477DF61,0
+so2_31e.rom,40000,20000,51204D36,0
+so2_36e.rom,40001,20000,9CFBA8B4,0
+so2_32.rom,80000,80000,2EB5CF0C,1
+
+[Graphics]
+so2_gfx6.rom,0,80000,AA6102AF,0
+so2_gfx8.rom,2,80000,839E6869,0
+so2_gfx2.rom,4,80000,597C2875,0
+so2_gfx4.rom,6,80000,912A9CA0,0
+so2_24.rom,200000,20000,3F254EFE,1
+so2_14.rom,200001,20000,F5A8905E,1
+so2_26.rom,200002,20000,F3AA5A4A,1
+so2_16.rom,200003,20000,B43CD1A8,1
+so2_20.rom,200004,20000,8CA751A3,1
+so2_10.rom,200005,20000,E9F569FD,1
+so2_22.rom,200006,20000,FCE9A377,1
+so2_12.rom,200007,20000,B7DF8A06,1
+
+[Z80]
+so2_09.rom,0,10000,D09D7C7A,0
+
+[Samples]
+so2_18.rom,0,20000,BBEA1643,0
+so2_19.rom,20000,20000,AC58AA71,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0402
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: D
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mercsua
+Game: Mercs (US 900608)
+Parent: mercs
+
+[Program]
+so2.30a,0,20000,e4e725d7,0
+so2.35a,1,20000,e7843445,0
+so2.31a,40000,20000,c0b91dea,0
+so2.36a,40001,20000,591edf6c,0
+so2_32.rom,80000,80000,2EB5CF0C,1
+
+[Graphics]
+so2_gfx6.rom,0,80000,AA6102AF,0
+so2_gfx8.rom,2,80000,839E6869,0
+so2_gfx2.rom,4,80000,597C2875,0
+so2_gfx4.rom,6,80000,912A9CA0,0
+so2_24.rom,200000,20000,3F254EFE,1
+so2_14.rom,200001,20000,F5A8905E,1
+so2_26.rom,200002,20000,F3AA5A4A,1
+so2_16.rom,200003,20000,B43CD1A8,1
+so2_20.rom,200004,20000,8CA751A3,1
+so2_10.rom,200005,20000,E9F569FD,1
+so2_22.rom,200006,20000,FCE9A377,1
+so2_12.rom,200007,20000,B7DF8A06,1
+
+[Z80]
+so2_09.rom,0,10000,D09D7C7A,0
+
+[Samples]
+so2_18.rom,0,20000,BBEA1643,0
+so2_19.rom,20000,20000,AC58AA71,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0402
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: D
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mercsj
+Game: Senjou no Ookami II (Japan 900302)
+Parent: mercs
+
+[Program]
+so2_30e.rom,0,20000,E17F9BF7,0
+so2_42.bin,1,20000,2C3884C6,0
+so2_31e.rom,40000,20000,51204D36,0
+so2_36e.rom,40001,20000,9CFBA8B4,0
+so2_32.rom,80000,80000,2EB5CF0C,1
+
+[Graphics]
+so2_gfx6.rom,0,80000,AA6102AF,0
+so2_gfx8.rom,2,80000,839E6869,0
+so2_gfx2.rom,4,80000,597C2875,0
+so2_gfx4.rom,6,80000,912A9CA0,0
+so2_24.rom,200000,20000,3F254EFE,1
+so2_14.rom,200001,20000,F5A8905E,1
+so2_26.rom,200002,20000,F3AA5A4A,1
+so2_16.rom,200003,20000,B43CD1A8,1
+so2_20.rom,200004,20000,8CA751A3,1
+so2_10.rom,200005,20000,E9F569FD,1
+so2_22.rom,200006,20000,FCE9A377,1
+so2_12.rom,200007,20000,B7DF8A06,1
+
+[Z80]
+so2_09.rom,0,10000,D09D7C7A,0
+
+[Samples]
+so2_18.rom,0,20000,BBEA1643,0
+so2_19.rom,20000,20000,AC58AA71,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0402
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: D
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mtwins
+Game: Mega Twins (World 900619)
+
+[Program]
+che_30.rom,0,20000,9A2A2DB1,0
+che_35.rom,1,20000,A7F96B02,0
+che_31.rom,40000,20000,BBFF8A99,0
+che_36.rom,40001,20000,FA00C39,0
+ch_32.rom,80000,80000,9B70BD41,1
+
+[Graphics]
+ch_gfx5.rom,0,80000,4EC75F15,0
+ch_gfx7.rom,2,80000,D85D00D6,0
+ch_gfx1.rom,4,80000,F33CA9D4,0
+ch_gfx3.rom,6,80000,BA2047F,0
+
+[Z80]
+ch_09.rom,0,10000,4D4255B7,0
+
+[Samples]
+ch_18.rom,0,20000,F909E8DE,0
+ch_19.rom,20000,20000,FC158CF7,0
+
+[System]
+LayerControl: 52,08,20,10
+BGHiControl: 54,56,58,5a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 5e,0404
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Lives,2,38,2,18,3,8,4,0,1,10
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: chikij
+Game: Chiki Chiki Boys (Japan 900619)
+Parent: mtwins
+
+[Program]
+chj36a.bin,0,20000,EC1328D8,0
+chj42a.bin,1,20000,4AE13503,0
+chj37a.bin,40000,20000,46D2CF7B,0
+chj43a.bin,40001,20000,8D387FE8,0
+ch_32.rom,80000,80000,9B70BD41,1
+
+[Graphics]
+ch_gfx5.rom,0,80000,4EC75F15,0
+ch_gfx7.rom,2,80000,D85D00D6,0
+ch_gfx1.rom,4,80000,F33CA9D4,0
+ch_gfx3.rom,6,80000,BA2047F,0
+
+[Z80]
+ch_09.rom,0,10000,4D4255B7,0
+
+[Samples]
+ch_18.rom,0,20000,F909E8DE,0
+ch_19.rom,20000,20000,FC158CF7,0
+
+[System]
+LayerControl: 52,08,20,10
+BGHiControl: 54,56,58,5a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 5e,0404
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: msword
+Game: Magic Sword - Heroic Fantasy (World 900725)
+
+[Program]
+mse_30.rom,0,20000,3FC8DBC,0
+mse_35.rom,1,20000,D5BF66CD,0
+mse_31.rom,40000,20000,30332BCF,0
+mse_36.rom,40001,20000,8F7D6CE9,0
+ms_32.rom,80000,80000,2475DDFC,1
+
+[Graphics]
+ms_gfx5.rom,0,80000,C00FE7E2,0
+ms_gfx7.rom,2,80000,4CCACAC5,0
+ms_gfx1.rom,4,80000,D2BBE00,0
+ms_gfx3.rom,6,80000,3A1A5BF4,0
+
+[Z80]
+ms_9.rom,0,10000,57B29519,0
+
+[Samples]
+ms_18.rom,0,20000,FB64E90D,0
+ms_19.rom,20000,20000,74F892B9,0
+
+[System]
+LayerControl: 62,20,02,04
+BGHiControl: 64,66,68,6a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 6e,0403
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Player's vitality consumption,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Enemy's vitality and attacking power,2,38,4 (Normal),38,5,18,6,10,7,8,8 (Hardest),0,1 (Easiest),20,2,28,3,30
+Stage Select,2,40,On,0,Off,40
+Vitality Packs,3,3,2,3,3 (2 when continue),2,4 (3 when continue),1,1,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mswordr1
+Game: Magic Sword - Heroic Fantasy (World 900623)
+Parent: msword
+
+[Program]
+ms30.11f,0,20000,21c1f078,0
+ms35.11h,1,20000,a540a73a,0
+ms31.12f,40000,20000,d7e762b5,0
+ms36.12h,40001,20000,66f2dcdb,0
+ms_32.rom,80000,80000,2475DDFC,1
+
+[Graphics]
+ms_gfx5.rom,0,80000,C00FE7E2,0
+ms_gfx7.rom,2,80000,4CCACAC5,0
+ms_gfx1.rom,4,80000,D2BBE00,0
+ms_gfx3.rom,6,80000,3A1A5BF4,0
+
+[Z80]
+ms_9.rom,0,10000,57B29519,0
+
+[Samples]
+ms_18.rom,0,20000,FB64E90D,0
+ms_19.rom,20000,20000,74F892B9,0
+
+[System]
+LayerControl: 62,20,02,04
+BGHiControl: 64,66,68,6a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 6e,0403
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mswordu
+Game: Magic Sword - Heroic Fantasy (US 900725)
+Parent: msword
+
+[Program]
+msu30,0,20000,D963C816,0
+msu35,1,20000,72F179B3,0
+msu31,40000,20000,20CD7904,0
+msu36,40001,20000,BF88C080,0
+ms_32.rom,80000,80000,2475DDFC,1
+
+[Graphics]
+ms_gfx5.rom,0,80000,C00FE7E2,0
+ms_gfx7.rom,2,80000,4CCACAC5,0
+ms_gfx1.rom,4,80000,D2BBE00,0
+ms_gfx3.rom,6,80000,3A1A5BF4,0
+
+[Z80]
+ms_9.rom,0,10000,57B29519,0
+
+[Samples]
+ms_18.rom,0,20000,FB64E90D,0
+ms_19.rom,20000,20000,74F892B9,0
+
+[System]
+LayerControl: 62,20,02,04
+BGHiControl: 64,66,68,6a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 6e,0403
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: mswordj
+Game: Magic Sword (Japan 900623)
+Parent: msword
+
+[Program]
+msj_36.bin,0,20000,4F0EF50,0
+msj_42.bin,1,20000,9FCBB9CD,0
+msj_37.bin,40000,20000,6C060D70,0
+msj_43.bin,40001,20000,AEC77787,0
+ms_32.rom,80000,80000,2475DDFC,1
+
+[Graphics]
+ms_gfx5.rom,0,80000,C00FE7E2,0
+ms_gfx7.rom,2,80000,4CCACAC5,0
+ms_gfx1.rom,4,80000,D2BBE00,0
+ms_gfx3.rom,6,80000,3A1A5BF4,0
+
+[Z80]
+ms_9.rom,0,10000,57B29519,0
+
+[Samples]
+ms_18.rom,0,20000,FB64E90D,0
+ms_19.rom,20000,20000,74F892B9,0
+
+[System]
+LayerControl: 62,20,02,04
+BGHiControl: 64,66,68,6a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 6e,0403
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: cawing
+Game: Carrier Air Wing (World 901012)
+
+[Program]
+cae_30a.rom,0,20000,91FCEACD,0
+cae_35a.rom,1,20000,3EF03083,0
+cae_31a.rom,40000,20000,E5B75CAF,0
+cae_36a.rom,40001,20000,C73FD713,0
+ca_32.rom,80000,80000,C4837D4,1
+
+[Graphics]
+ca_gfx5.rom,0,80000,66D4CC37,0
+ca_gfx7.rom,2,80000,B6F896F2,0
+ca_gfx1.rom,4,80000,4D0620FD,0
+ca_gfx3.rom,6,80000,B0341C3,0
+
+[Z80]
+ca_9.rom,0,10000,96FE7485,0
+
+[Samples]
+ca_18.rom,0,20000,4A613A2C,0
+ca_19.rom,20000,20000,74584493,0
+
+[System]
+LayerControl: 4c,10,0a,0a
+BGHiControl: 4a,48,46,44
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 40,0406
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty Level (Enemy's Strength),2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Difficulty Level (Player's Strength),2,18,Normal,18,Hard,8,Hardest,0,Easy,10
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: cawingu
+Game: Carrier Air Wing (US 901012)
+Parent: cawing
+
+[Program]
+cae_30a.rom,0,20000,91FCEACD,0
+cau_35a.rom,1,20000,f090d9b2,0
+cae_31a.rom,40000,20000,E5B75CAF,0
+cae_36a.rom,40001,20000,C73FD713,0
+ca_32.rom,80000,80000,C4837D4,1
+
+[Graphics]
+ca_gfx5.rom,0,80000,66D4CC37,0
+ca_gfx7.rom,2,80000,B6F896F2,0
+ca_gfx1.rom,4,80000,4D0620FD,0
+ca_gfx3.rom,6,80000,B0341C3,0
+
+[Z80]
+ca_9.rom,0,10000,96FE7485,0
+
+[Samples]
+ca_18.rom,0,20000,4A613A2C,0
+ca_19.rom,20000,20000,74584493,0
+
+[System]
+LayerControl: 4c,10,0a,0a
+BGHiControl: 4a,48,46,44
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 40,0406
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: cawingj
+Game: U.S. Navy (Japan 901012)
+Parent: cawing
+
+[Program]
+cae_30a.rom,0,20000,91FCEACD,0
+caj42a.bin,1,20000,39F8362,0
+cae_31a.rom,40000,20000,E5B75CAF,0
+cae_36a.rom,40001,20000,C73FD713,0
+caj34.bin,80000,20000,51EA57F4,0
+caj40.bin,80001,20000,2AB71AE1,0
+caj35.bin,C0000,20000,1D71973,0
+caj41.bin,C0001,20000,3A43B538,0
+
+[Graphics]
+caj09.bin,0,20000,41b0f9a6,1
+caj01.bin,1,20000,1002d0b8,1
+caj13.bin,2,20000,6f3948b2,1
+caj05.bin,3,20000,207373d7,1
+caj24.bin,4,20000,e356aad7,1
+caj17.bin,5,20000,540f2fd8,1
+caj38.bin,6,20000,2464d4ab,1
+caj32.bin,7,20000,9b5836b3,1
+caj10.bin,100000,20000,bf8a5f52,1
+caj02.bin,100001,20000,125b018d,1
+caj14.bin,100002,20000,8458e7d7,1
+caj06.bin,100003,20000,cf80e164,1
+caj25.bin,100004,20000,cdd0204d,1
+caj18.bin,100005,20000,29c1d4b1,1
+caj39.bin,100006,20000,eea23b67,1
+caj33.bin,100007,20000,dde3891f,1
+
+[Z80]
+ca_9.rom,0,10000,96FE7485,0
+
+[Samples]
+ca_18.rom,0,20000,4A613A2C,0
+ca_19.rom,20000,20000,74584493,0
+
+[System]
+LayerControl: 4c,10,0a,0a
+BGHiControl: 4a,48,46,44
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 40,0406
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: nemo
+Game: Nemo (World 901130)
+
+[Program]
+nme_30a.rom,0,20000,D2C03E56,0
+nme_35a.rom,1,20000,5FD31661,0
+nme_31a.rom,40000,20000,B2BD4F6F,0
+nme_36a.rom,40001,20000,EE9450E3,0
+nm_32.rom,80000,80000,D6D1ADD3,1
+
+[Graphics]
+nm_gfx5.rom,0,80000,487B8747,0
+nm_gfx7.rom,2,80000,203DC8C6,0
+nm_gfx1.rom,4,80000,9E878024,0
+nm_gfx3.rom,6,80000,BB01E6B6,0
+
+[Z80]
+nm_09.rom,0,10000,F4B0581,0
+
+[Samples]
+nm_18.rom,0,20000,BAB333D4,0
+nm_19.rom,20000,20000,2650A0A8,0
+
+[System]
+LayerControl: 42,04,02,20
+BGHiControl: 44,46,48,4a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 4e,0405
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Life Bar,2,18,Medium,18,Maximum,8,Minimun,0
+Lives,3,3,2,3,3,1,4,0,1,2
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: nemoj
+Game: Nemo (Japan 901120)
+Parent: nemo
+
+[Program]
+nm36.bin,0,20000,DAECEABB,0
+nm42.bin,1,20000,55024740,0
+nm37.bin,40000,20000,619068B6,0
+nm43.bin,40001,20000,A948A53B,0
+nm_32.rom,80000,80000,D6D1ADD3,1
+
+[Graphics]
+nm_gfx5.rom,0,80000,487B8747,0
+nm_gfx7.rom,2,80000,203DC8C6,0
+nm_gfx1.rom,4,80000,9E878024,0
+nm_gfx3.rom,6,80000,BB01E6B6,0
+
+[Z80]
+nm_09.rom,0,10000,F4B0581,0
+
+[Samples]
+nm_18.rom,0,20000,BAB333D4,0
+nm_19.rom,20000,20000,2650A0A8,0
+
+[System]
+LayerControl: 42,04,02,20
+BGHiControl: 44,46,48,4a
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 4e,0405
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2
+Game: Street Fighter II - The World Warrior (World 910522)
+
+[Program]
+sf2e.30g,0,20000,fe39ee33,0
+sf2e.37g,1,20000,fb92cd74,0
+sf2e.31g,40000,20000,69a0a301,0
+sf2e.38g,40001,20000,5e22db70,0
+sf2e.28g,80000,20000,8bf9f1e5,0
+sf2e.35g,80001,20000,626ef934,0
+sf2_29a.bin,C0000,20000,bb4af315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,08,10,20
+BGHiControl: 68,6a,6c,6e
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 72,0401
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2eb
+Game: Street Fighter II - The World Warrior (World 910214)
+Parent: sf2
+
+[Program]
+sf2_30a.bin,0,20000,57bd7051,0
+sf2e_37b.rom,1,20000,62691cdd,0
+sf2_31a.bin,40000,20000,a673143d,0
+sf2_38a.bin,40001,20000,4c2ccef7,0
+sf2_28a.bin,80000,20000,4009955e,0
+sf2_35a.bin,80001,20000,8c1f3994,0
+sf2_29a.bin,C0000,20000,bb4af315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 54,08,10,02
+BGHiControl: 52,50,4e,4c
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 48,0407
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ua
+Game: Street Fighter II - The World Warrior (US 910206)
+Parent: sf2
+
+[Program]
+sf2u.30a,0,20000,8BEB861,0
+sf2u.37a,1,20000,B7638D69,0
+sf2u.31a,40000,20000,D5394E0,0
+sf2u.38a,40001,20000,42D6A79E,0
+sf2u.28a,80000,20000,387A175C,0
+sf2u.35a,80001,20000,A1A5ADCC,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 54,08,10,02
+BGHiControl: 52,50,4e,4c
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 48,0407
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ub
+Game: Street Fighter II - The World Warrior (US 910214)
+Parent: sf2
+
+[Program]
+sf2_30a.bin,0,20000,57BD7051,0
+sf2u.37b,1,20000,4A54D479,0
+sf2_31a.bin,40000,20000,A673143D,0
+sf2_38a.bin,40001,20000,4C2CCEF7,0
+sf2_28a.bin,80000,20000,4009955E,0
+sf2_35a.bin,80001,20000,8C1F3994,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 54,08,10,02
+BGHiControl: 52,50,4e,4c
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 48,0407
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ud
+Game: Street Fighter II - The World Warrior (US 910318)
+Parent: sf2
+
+[Program]
+sf2u.30d,0,20000,4bb2657c,0
+sf2u.37d,1,20000,b33b42f2,0
+sf2u.31d,40000,20000,d57b67d7,0
+sf2u.38d,40001,20000,9c8916ef,0
+sf2u.28d,80000,20000,175819d1,0
+sf2u.35d,80001,20000,82060da4,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 68,02,08,20
+BGHiControl: 6a,6c,6e,70
+Stars: 14,14
+Banks: 02,02,02
+BoardID: 60,0005
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ue
+Game: Street Fighter II - The World Warrior (US 910228)
+Parent: sf2
+
+[Program]
+sf2u.30e,0,20000,F37CD088,0
+sf2u.37e,1,20000,6C61A513,0
+sf2u.31e,40000,20000,7C4771B4,0
+sf2u.38e,40001,20000,A4BD0CD9,0
+sf2u.28e,80000,20000,E3B95625,0
+sf2u.35e,80001,20000,3648769A,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: dc,10,08,02
+BGHiControl: da,d8,d6,d4
+Stars: 00,00
+Banks: 02,02,02
+BoardID: d0,0408
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2uf
+Game: Street Fighter II - The World Warrior (US 910411)
+Parent: sf2
+
+[Program]
+sf2e.30g,0,20000,fe39ee33,0
+sf2u.37f,1,20000,169e7388,0
+sf2e.31g,40000,20000,69a0a301,0
+sf2u.38f,40001,20000,1510e4e2,0
+sf2u.28f,80000,20000,acd8175b,0
+sf2u.35f,80001,20000,c0a80bd1,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 42,04,02,20
+BGHiControl: 44,46,48,4a
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 4e,0405
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ui
+Game: Street Fighter II - The World Warrior (US 910522)
+Parent: sf2
+
+[Program]
+sf2e.30g,0,20000,FE39EE33,0
+sf2u.37i,1,20000,9DF707DD,0
+sf2e.31g,40000,20000,69A0A301,0
+sf2u.38i,40001,20000,4CB46DAF,0
+sf2u.28i,80000,20000,1580BE4C,0
+sf2u.35i,80001,20000,1468D185,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 52,08,20,10
+BGHiControl: 54,56,58,5a
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 5e,0404
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2uk
+Game: Street Fighter II - The World Warrior (US 911101)
+Parent: sf2
+
+[Program]
+sf2u.30k,0,20000,8f66076c,0
+sf2u.37k,1,20000,4e1f6a83,0
+sf2u.31k,40000,20000,f9f89f60,0
+sf2u.38k,40001,20000,6ce0a85a,0
+sf2u.28k,80000,20000,8e958f31,0
+sf2u.35k,80001,20000,fce76fad,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 54,08,10,02
+BGHiControl: 52,50,4e,4c
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 48,0407
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2j
+Game: Street Fighter II - The World Warrior (Japan 911210)
+Parent: sf2
+
+[Program]
+sf2j30.bin,0,20000,79022B31,0
+sf2j37.bin,1,20000,516776EC,0
+sf2j31.bin,40000,20000,FE15CB39,0
+sf2j38.bin,40001,20000,38614D70,0
+sf2j28.bin,80000,20000,D283187A,0
+sf2j35.bin,80001,20000,D28158E4,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 62,20,02,04
+BGHiControl: 64,66,68,6a
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 6e,0403
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+2 Players Game,2,8,2 Credits/Winner Continue,0,1 Credit/No Continue,8
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ja
+Game: Street Fighter II - The World Warrior (Japan 910214)
+Parent: sf2
+
+[Program]
+sf2_30a.bin,0,20000,57BD7051,0
+sf2j_37a.bin,1,20000,1E1F6844,0
+sf2_31a.bin,40000,20000,A673143D,0
+sf2_38a.bin,40001,20000,4C2CCEF7,0
+sf2_28a.bin,80000,20000,4009955E,0
+sf2_35a.bin,80001,20000,8C1F3994,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 54,08,10,02
+BGHiControl: 52,50,4e,4c
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 48,0407
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+2 Players Game,2,8,2 Credits/Winner Continue,0,1 Credit/No Continue,8
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2jc
+Game: Street Fighter II - The World Warrior (Japan 910306)
+Parent: sf2
+
+[Program]
+sf2_30c.bin,0,20000,8ADD35EC,0
+sf2j_37c.bin,1,20000,D74A256,0
+sf2_31c.bin,40000,20000,C4FFF4A9,0
+sf2_38c.bin,40001,20000,8210FC0E,0
+sf2_28c.bin,80000,20000,6EDDD5E8,0
+sf2_35c.bin,80001,20000,6BCB404C,0
+sf2_29a.bin,C0000,20000,BB4AF315,0
+sf2_36a.bin,C0001,20000,C02A13EB,0
+
+[Graphics]
+sf2_06.bin,0,80000,22C9CC8E,0
+sf2_08.bin,2,80000,57213BE8,0
+sf2_05.bin,4,80000,BA529B4F,0
+sf2_07.bin,6,80000,4B1B33A8,0
+sf2_15.bin,200000,80000,2C7E2229,0
+sf2_17.bin,200002,80000,B5548F17,0
+sf2_14.bin,200004,80000,14B84312,0
+sf2_16.bin,200006,80000,5E9CD89A,0
+sf2_25.bin,400000,80000,994BFA58,0
+sf2_27.bin,400002,80000,3E66AD9D,0
+sf2_24.bin,400004,80000,C1BEFAA8,0
+sf2_26.bin,400006,80000,627C831,0
+
+[Z80]
+sf2_09.bin,0,10000,A4823A1B,0
+
+[Samples]
+sf2_18.bin,0,20000,7F162009,0
+sf2_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 6c,02,04,08
+BGHiControl: 6a,68,66,64
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 60,0402
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+2 Players Game,2,8,2 Credits/Winner Continue,0,1 Credit/No Continue,8
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: 3wonders
+Game: Three Wonders (World 910520)
+
+[Program]
+rte.30a,0,20000,EF5B8B33,0
+rte.35a,1,20000,7D705529,0
+rte.31a,40000,20000,32835E5E,0
+rte.36a,40001,20000,7637975F,0
+3wonders.28,80000,20000,54137C8,0
+3wonders.33,80001,20000,7264CB1B,0
+rte.29a,C0000,20000,CDDAA919,0
+rte.34a,C0001,20000,ED52E7E5,0
+
+[Graphics]
+3wonders.05,0,80000,86AEF804,0
+3wonders.07,2,80000,4F057110,0
+3wonders.01,4,80000,902489D0,0
+3wonders.03,6,80000,E35CE720,0
+3wonders.06,200000,80000,13CB0E7C,0
+3wonders.08,200002,80000,1F055014,0
+3wonders.02,200004,80000,E9A034F4,0
+3wonders.04,200006,80000,DF0EEA8B,0
+
+[Z80]
+3wonders.09,0,10000,ABFCA165,0
+
+[Samples]
+3wonders.18,0,20000,26B211AB,0
+3wonders.19,20000,20000,DBE64AD0,0
+
+[System]
+LayerControl: 68,20,04,08
+BGHiControl: 66,64,62,60
+Stars: 12,12
+Banks: 00,01,01
+BoardID: 72,0800
+Multiply: 4e,4c,4a,48
+ButLayout: A
+Fix: 7
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Freeze,2,80,Off,80,On,0
+Lives (Midnight Wanderers),2,3,2,2,3,1,5,0,1,3
+Difficulty (Midnight Wanderers),2,c,Normal,8,Hard,4,Hardest,0,Easy,c
+Lives (Chariot),2,30,2,20,3,10,5,0,1,30
+Difficulty (Chariot),2,c0,Normal,80,Hard,40,Hardest,0,Easy,c0
+Lives (Don`t Pull),3,3,2,2,3,1,5,0,1,3
+Difficulty (Don`t Pull),3,c,Normal,8,Hard,4,Hardest,0,Easy,c
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: 3wonderu
+Game: Three Wonders (US 910520)
+Parent: 3wonders
+
+[Program]
+3wonders.30,0,20000,B156FD8,0
+3wonders.35,1,20000,57350BF4,0
+3wonders.31,40000,20000,E723FCC,0
+3wonders.36,40001,20000,523A45DC,0
+3wonders.28,80000,20000,54137C8,0
+3wonders.33,80001,20000,7264CB1B,0
+3wonders.29,C0000,20000,37BA3E20,0
+3wonders.34,C0001,20000,F99F46C0,0
+
+[Graphics]
+3wonders.05,0,80000,86AEF804,0
+3wonders.07,2,80000,4F057110,0
+3wonders.01,4,80000,902489D0,0
+3wonders.03,6,80000,E35CE720,0
+3wonders.06,200000,80000,13CB0E7C,0
+3wonders.08,200002,80000,1F055014,0
+3wonders.02,200004,80000,E9A034F4,0
+3wonders.04,200006,80000,DF0EEA8B,0
+
+[Z80]
+3wonders.09,0,10000,ABFCA165,0
+
+[Samples]
+3wonders.18,0,20000,26B211AB,0
+3wonders.19,20000,20000,DBE64AD0,0
+
+[System]
+LayerControl: 68,20,04,08
+BGHiControl: 66,64,62,60
+Stars: 12,12
+Banks: 00,01,01
+BoardID: 72,0800
+Multiply: 4e,4c,4a,48
+ButLayout: A
+Fix: 7
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: wonder3
+Game: Wonder 3 (Japan 910520)
+Parent: 3wonders
+
+[Program]
+rtj36.bin,0,20000,E3741247,0
+rtj42.bin,1,20000,B4BAA117,0
+rtj37.bin,40000,20000,A1F677B0,0
+rtj43.bin,40001,20000,85337A47,0
+3wonders.28,80000,20000,54137C8,0
+3wonders.33,80001,20000,7264CB1B,0
+rtj35.bin,C0000,20000,E72F9EA3,0
+rtj41.bin,C0001,20000,A11EE998,0
+
+[Graphics]
+3wonders.05,0,80000,86AEF804,0
+3wonders.07,2,80000,4F057110,0
+3wonders.01,4,80000,902489D0,0
+3wonders.03,6,80000,E35CE720,0
+3wonders.06,200000,80000,13CB0E7C,0
+3wonders.08,200002,80000,1F055014,0
+3wonders.02,200004,80000,E9A034F4,0
+3wonders.04,200006,80000,DF0EEA8B,0
+
+[Z80]
+rt23.bin,0,10000,7D5A77A7,0
+
+[Samples]
+3wonders.18,0,20000,26B211AB,0
+3wonders.19,20000,20000,DBE64AD0,0
+
+[System]
+LayerControl: 68,20,04,08
+BGHiControl: 66,64,62,60
+Stars: 12,12
+Banks: 00,01,01
+BoardID: 72,0800
+Multiply: 4e,4c,4a,48
+ButLayout: A
+Fix: 7
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: kod
+Game: The King of Dragons (World 910711)
+
+[Program]
+kod30.rom,0,20000,C7414FD4,0
+kod37.rom,1,20000,A5BF40D2,0
+kod31.rom,40000,20000,1FFFC7BD,0
+kod38.rom,40001,20000,89E57A82,0
+kod28.rom,80000,20000,9367BCD9,0
+kod35.rom,80001,20000,4CA6A48A,0
+kod29.rom,C0000,20000,6A0BA878,0
+kod36.rom,C0001,20000,B509B39D,0
+
+[Graphics]
+kod02.rom,0,80000,E45B8701,0
+kod04.rom,2,80000,A7750322,0
+kod01.rom,4,80000,5F74BF78,0
+kod03.rom,6,80000,5E5303BF,0
+kod11.rom,200000,80000,113358F3,0
+kod13.rom,200002,80000,38853C44,0
+kod10.rom,200004,80000,9EF36604,0
+kod12.rom,200006,80000,402B9B4F,0
+
+[Z80]
+kod09.rom,0,10000,F5514510,0
+
+[Samples]
+kod18.rom,0,20000,69ECB2C8,0
+kod19.rom,20000,20000,2D851C1,0
+
+[System]
+LayerControl: 60,30,08,30
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 5e,5c,5a,58
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin Slots,1,8,3,8,1,0
+Max Players,1,10,3,10,2,0
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Lives,2,38,2,38,3,28,4,20,5,18,6,10,7,8,8,0,1,30
+Bonus Life,2,c0,100k & every 450k,c0,160k & every 450k,40,None,0,80k & every 400k,80
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: kodu
+Game: The King of Dragons (US 910910)
+Parent: kod
+
+[Program]
+kdu-30b.bin,0,20000,825817F9,0
+kdu-37b.bin,1,20000,D2422DFB,0
+kdu-31b.bin,40000,20000,9AF36039,0
+kdu-38b.bin,40001,20000,BE8405A1,0
+kod28.rom,80000,20000,9367BCD9,0
+kod35.rom,80001,20000,4CA6A48A,0
+kd-29.bin,C0000,20000,360FA72,0
+kd-36a.bin,C0001,20000,95A3CEF8,0
+
+[Graphics]
+kod02.rom,0,80000,E45B8701,0
+kod04.rom,2,80000,A7750322,0
+kod01.rom,4,80000,5F74BF78,0
+kod03.rom,6,80000,5E5303BF,0
+kod11.rom,200000,80000,113358F3,0
+kod13.rom,200002,80000,38853C44,0
+kod10.rom,200004,80000,9EF36604,0
+kod12.rom,200006,80000,402B9B4F,0
+
+[Z80]
+kd09.bin,0,10000,BAC6EC26,0
+
+[Samples]
+kd18.bin,0,20000,4C63181D,0
+kd19.bin,20000,20000,92941B80,0
+
+[System]
+LayerControl: 60,30,08,30
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 5e,5c,5a,58
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin Slots,1,8,3,8,1,0
+Max Players,1,10,3,10,2,0
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Lives,2,38,2,38,3,28,4,20,5,18,6,10,7,8,8,0,1,30
+Bonus Life,2,c0,200k & every 450k,c0,160k & every 450k,40,None,0,80k & every 400k,80
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: kodj
+Game: The King of Dragons (Japan 910805)
+Parent: kod
+
+[Program]
+kd30.bin,0,20000,EBC788AD,0
+kd37.bin,1,20000,E55C3529,0
+kd31.bin,40000,20000,C710D722,0
+kd38.bin,40001,20000,57D6ED3A,0
+kd33.bin,80000,80000,9BD7AD4B,1
+
+[Graphics]
+kod02.rom,0,80000,E45B8701,0
+kod04.rom,2,80000,A7750322,0
+kod01.rom,4,80000,5F74BF78,0
+kod03.rom,6,80000,5E5303BF,0
+kod11.rom,200000,80000,113358F3,0
+kod13.rom,200002,80000,38853C44,0
+kod10.rom,200004,80000,9EF36604,0
+kod12.rom,200006,80000,402B9B4F,0
+
+[Z80]
+kd09.bin,0,10000,BAC6EC26,0
+
+[Samples]
+kd18.bin,0,20000,4C63181D,0
+kd19.bin,20000,20000,92941B80,0
+
+[System]
+LayerControl: 60,30,08,30
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 5e,5c,5a,58
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin Slots,1,8,3,8,1,0
+Max Players,1,10,3,10,2,0
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Lives,2,38,2,38,3,28,4,20,5,18,6,10,7,8,8,0,1,30
+Bonus Life,2,c0,200k & every 450k,c0,160k & every 450k,40,None,0,80k & every 400k,80
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: kodb
+Game: The King of Dragons (bootleg Not Working)
+Parent: kod
+
+[Program]
+kod.17,0,80000,36DD74C,0
+kod.18,1,80000,3E4B7295,0
+
+[Graphics]
+kod02.rom,0,80000,E45B8701,0
+kod04.rom,2,80000,A7750322,0
+kod01.rom,4,80000,5F74BF78,0
+kod03.rom,6,80000,5E5303BF,0
+kod11.rom,200000,80000,113358F3,0
+kod13.rom,200002,80000,38853C44,0
+kod10.rom,200004,80000,9EF36604,0
+kod12.rom,200006,80000,402B9B4F,0
+
+[Z80]
+kod.15,0,10000,01CAE60C,0
+
+[Samples]
+kd18.bin,0,20000,4C63181D,0
+kd19.bin,20000,20000,92941B80,0
+
+[System]
+LayerControl: 60,30,08,30
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 5e,5c,5a,58
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: captcomm
+Game: Captain Commando (World 911014)
+
+[Program]
+cc_24d.rom,100000,20000,680E543F,0
+cc_28d.rom,100001,20000,8820039F,0
+cce_23d.rom,0,80000,19C58ECE,1
+cc_22d.rom,80000,80000,A91949B7,1
+
+[Graphics]
+gfx_01.rom,0,80000,7261D8BA,0
+gfx_03.rom,2,80000,6A60F949,0
+gfx_02.rom,4,80000,637302,0
+gfx_04.rom,6,80000,CC87CF61,0
+gfx_05.rom,200000,80000,28718BED,0
+gfx_07.rom,200002,80000,D4ACC53A,0
+gfx_06.rom,200004,80000,C69F151,0
+gfx_08.rom,200006,80000,1F9EBB97,0
+
+[Z80]
+cc_09.rom,0,10000,698E8B58,0
+
+[Samples]
+cc_18.rom,0,20000,6DE2C2DB,0
+cc_19.rom,20000,20000,B99091AE,0
+
+[System]
+LayerControl: 60,20,12,12
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 46,44,42,40
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty 1,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest,0,1 (Easiest),7,2,6,3,5
+Difficulty 2,2,18,Normal,10,Hard,8,Hardest,0,Easy,18
+Max Players,2,c0,2,c0,3,80,4,0,1,40
+Lives,3,3,2,3,3,2,4,1,1,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: captcomu
+Game: Captain Commando (US 910928)
+Parent: captcomm
+
+[Program]
+23b,0,80000,3DA44FD,1
+22c,80000,80000,9B82A052,1
+24b,100000,20000,84FF99B2,0
+28b,100001,20000,FBCEC223,0
+
+[Graphics]
+gfx_01.rom,0,80000,7261D8BA,0
+gfx_03.rom,2,80000,6A60F949,0
+gfx_02.rom,4,80000,637302,0
+gfx_04.rom,6,80000,CC87CF61,0
+gfx_05.rom,200000,80000,28718BED,0
+gfx_07.rom,200002,80000,D4ACC53A,0
+gfx_06.rom,200004,80000,C69F151,0
+gfx_08.rom,200006,80000,1F9EBB97,0
+
+[Z80]
+cc_09.rom,0,10000,698E8B58,0
+
+[Samples]
+cc_18.rom,0,20000,6DE2C2DB,0
+cc_19.rom,20000,20000,B99091AE,0
+
+[System]
+LayerControl: 60,20,12,12
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 46,44,42,40
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: captcomj
+Game: Captain Commando (Japan 911202)
+Parent: captcomm
+
+[Program]
+cc23.bin,0,80000,5B482B62,1
+cc22.bin,80000,80000,FD34195,1
+cc24.bin,100000,20000,3A794F25,0
+cc28.bin,100001,20000,FC3C2906,0
+
+[Graphics]
+gfx_01.rom,0,80000,7261D8BA,0
+gfx_03.rom,2,80000,6A60F949,0
+gfx_02.rom,4,80000,637302,0
+gfx_04.rom,6,80000,CC87CF61,0
+gfx_05.rom,200000,80000,28718BED,0
+gfx_07.rom,200002,80000,D4ACC53A,0
+gfx_06.rom,200004,80000,C69F151,0
+gfx_08.rom,200006,80000,1F9EBB97,0
+
+[Z80]
+cc_09.rom,0,10000,698E8B58,0
+
+[Samples]
+cc_18.rom,0,20000,6DE2C2DB,0
+cc_19.rom,20000,20000,B99091AE,0
+
+[System]
+LayerControl: 60,20,12,12
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 46,44,42,40
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: knights
+Game: Knights of the Round (World 911127)
+
+[Program]
+kr_23e.rom,0,80000,1B3997EB,1
+kr_22.rom,80000,80000,D0B671A9,1
+
+[Graphics]
+kr_gfx1.rom,0,80000,9E36C1A4,0
+kr_gfx3.rom,2,80000,C5832CAE,0
+kr_gfx2.rom,4,80000,F095BE2D,0
+kr_gfx4.rom,6,80000,179DFD96,0
+kr_gfx5.rom,200000,80000,1F4298D2,0
+kr_gfx7.rom,200002,80000,37FA8751,0
+kr_gfx6.rom,200004,80000,200BC3D,0
+kr_gfx8.rom,200006,80000,BB2B4E7,0
+
+[Z80]
+kr_09.rom,0,10000,5E44D9EE,0
+
+[Samples]
+kr_18.rom,0,20000,DA69D15F,0
+kr_19.rom,20000,20000,BFC654E9,0
+
+[System]
+LayerControl: 68,20,10,02
+BGHiControl: 66,64,62,60
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 46,44,42,40
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Enemy's attack frequency,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Enemy's attack power,2,38,4 (Normal),38,5,30,6,28,7,20,8 (Hardest),18,1 (Easiest),10,2,8,3,0
+Coin Slots,3,40,3,40,1,0
+Max Players,3,80,3,80,2,0
+Lives,3,3,2,3,3,2,4,1,1,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: knightsu
+Game: Knights of the Round (US 911127)
+Parent: knights
+
+[Program]
+kru23.rom,0,80000,252BC2BA,1
+kr_22.rom,80000,80000,D0B671A9,1
+
+[Graphics]
+kr_gfx1.rom,0,80000,9E36C1A4,0
+kr_gfx3.rom,2,80000,C5832CAE,0
+kr_gfx2.rom,4,80000,F095BE2D,0
+kr_gfx4.rom,6,80000,179DFD96,0
+kr_gfx5.rom,200000,80000,1F4298D2,0
+kr_gfx7.rom,200002,80000,37FA8751,0
+kr_gfx6.rom,200004,80000,200BC3D,0
+kr_gfx8.rom,200006,80000,BB2B4E7,0
+
+[Z80]
+kr_09.rom,0,10000,5E44D9EE,0
+
+[Samples]
+kr_18.rom,0,20000,DA69D15F,0
+kr_19.rom,20000,20000,BFC654E9,0
+
+[System]
+LayerControl: 68,20,10,02
+BGHiControl: 66,64,62,60
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 46,44,42,40
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: knightsj
+Game: Knights of the Round (Japan 911127)
+Parent: knights
+
+[Program]
+krj30.bin,0,20000,AD3D1A8E,0
+krj37.bin,1,20000,E694A491,0
+krj31.bin,40000,20000,85596094,0
+krj38.bin,40001,20000,9198BF8F,0
+kr_22.rom,80000,80000,D0B671A9,1
+
+[Graphics]
+kr_gfx1.rom,0,80000,9E36C1A4,0
+kr_gfx3.rom,2,80000,C5832CAE,0
+kr_gfx2.rom,4,80000,F095BE2D,0
+kr_gfx4.rom,6,80000,179DFD96,0
+kr_gfx5.rom,200000,80000,1F4298D2,0
+kr_gfx7.rom,200002,80000,37FA8751,0
+kr_gfx6.rom,200004,80000,200BC3D,0
+kr_gfx8.rom,200006,80000,BB2B4E7,0
+
+[Z80]
+kr_09.rom,0,10000,5E44D9EE,0
+
+[Samples]
+kr_18.rom,0,20000,DA69D15F,0
+kr_19.rom,20000,20000,BFC654E9,0
+
+[System]
+LayerControl: 68,20,10,02
+BGHiControl: 66,64,62,60
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 46,44,42,40
+ButLayout: A
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ce
+Game: Street Fighter II' - Champion Edition (World 920313)
+
+[Program]
+sf2ce.23,0,80000,3F846B74,1
+sf2ce.22,80000,80000,99F1CCA4,1
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ceua
+Game: Street Fighter II' - Champion Edition (US 920313)
+Parent: sf2ce
+
+[Program]
+s92u-23a,0,80000,AC44415B,1
+sf2ce.22,80000,80000,99F1CCA4,1
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ceub
+Game: Street Fighter II' - Champion Edition (US 920513)
+Parent: sf2ce
+
+[Program]
+s92-23b,0,80000,996A3015,1
+s92-22b,80000,80000,2BBE15ED,1
+s92-21b,100000,80000,B383CB1C,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2ceuc
+Game: Street Fighter II' - Champion Edition (US 920803)
+Parent: sf2ce
+
+[Program]
+s92-23c,0,80000,0a8b6aa2,1
+s92-22c,80000,80000,5fd8630b,1
+s92-21b,100000,80000,b383cb1c,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2cej
+Game: Street Fighter II' - Champion Edition (Japan 920513)
+Parent: sf2ce
+
+[Program]
+s92j_23b.bin,0,80000,140876C5,1
+s92j_22b.bin,80000,80000,2FBB3BFE,1
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+2 Players Game,2,8,2 Credits/Winner Continue,8,1 Credit/No Continue,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2rb
+Game: Street Fighter II' - Champion Edition (Rainbow set 1)
+Parent: sf2ce
+
+[Program]
+sf2d__23.rom,0,80000,450532B0,3
+sf2d__22.rom,80000,80000,FE9D9CF5,3
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: B
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2rb2
+Game: Street Fighter II' - Champion Edition (Rainbow set 2)
+Parent: sf2ce
+
+[Program]
+27.bin,0,20000,40296ECD,0
+31.bin,1,20000,87954A41,0
+26.bin,40000,20000,A6974195,0
+30.bin,40001,20000,8141FE32,0
+25.bin,80000,20000,9EF8F772,0
+29.bin,80001,20000,7D9C479C,0
+24.bin,C0000,20000,93579684,0
+28.bin,C0001,20000,FF728865,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: C
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2red
+Game: Street Fighter II' - Champion Edition (Red Wave)
+Parent: sf2ce
+
+[Program]
+sf2red.23,0,80000,40276ABB,1
+sf2red.22,80000,80000,18DAF387,1
+sf2red.21,100000,80000,52C486BB,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2v004
+Game: Street Fighter II! - Champion Edition (V004)
+Parent: sf2ce
+
+[Program]
+sf2v004.23,0,80000,52D19F2C,1
+sf2v004.22,80000,80000,4B26FDE7,1
+sf2red.21,100000,80000,52C486BB,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2accp2
+Game: Street Fighter II' - Champion Edition (Accelerator Pt.II)
+Parent: sf2ce
+
+[Program]
+sf2ca-23.bin,0,80000,36C3BA2F,1
+sf2ca-22.bin,80000,80000,550453D,1
+sf2ca-21.bin,100000,40000,4C1C43BA,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m1
+Game: Street Fighter II' - Champion Edition (M1) (Not Working)
+Parent: sf2ce
+
+[Program]
+222e,0,80000,1e20d0a3,0
+196e,1,80000,88cc38a3,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m2
+Game: Street Fighter II' - Champion Edition (M2)
+Parent: sf2ce
+
+[Program]
+ch222esp,0,80000,9e6d058a,0
+ch196esp,1,80000,ed2ff437,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 11
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+Unknown,2,ff,Unknown,7
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m3
+Game: Street Fighter II' - Champion Edition (M3) (Not Working)
+Parent: sf2ce
+
+[Program]
+u222chp,0,80000,db567b66,0
+u196chp,1,80000,95ea597e,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m4
+Game: Street Fighter II' - Champion Edition (M4)
+Parent: sf2ce
+
+[Program]
+u222ne,0,80000,7133489e,0
+u196ne,1,80000,b07a4f90,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 54,ff,ff,ff
+BGHiControl: 52,50,4e,4c
+Stars: 00,00
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: B
+Fix: 13
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+2 Players Game,2,8,2 Credits/Winner Continue,8,1 Credit/No Continue,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m5
+Game: Street Fighter II' - Champion Edition (M5)
+Parent: sf2ce
+
+[Program]
+u222,0,80000,03991fba,0
+u196,1,80000,39f15a1e,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m6
+Game: Street Fighter II' - Champion Edition (M6)
+Parent: sf2ce
+
+[Program]
+u222-6b,0,80000,0a3692be,0
+u196-6b,1,80000,80454da7,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2m7
+Game: Street Fighter II' - Champion Edition (M7)
+Parent: sf2ce
+
+[Program]
+u222-2i,0,40000,1ca7adbd,0
+u196-2i,1,40000,f758408c,0
+u222-2s,80000,40000,720cea3e,0
+u196-2s,80001,40000,9932832c,0
+s92_21a.bin,100000,80000,925A7877,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2yyc
+Game: Street Fighter II' - Champion Edition (YYC)
+Parent: sf2ce
+
+[Program]
+b12.rom,0,80000,8F742FD5,0
+b14.rom,1,80000,8831EC7F,0
+b11.rom,100000,20000,94A46525,0
+b13.rom,100001,20000,8FB3DD47,0
+b11.rom,140000,20000,94A46525,0
+b13.rom,140001,20000,8FB3DD47,0
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 10
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2koryu
+Game: Street Fighter II' - Champion Edition (Kouryu)
+Parent: sf2ce
+
+[Program]
+u222.rom,0,80000,9236A79A,0
+u196.rom,1,80000,B23A869D,0
+u221.rom,100000,20000,64E6E091,0
+u195.rom,100001,20000,C95E4443,0
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s92_10.bin,400000,80000,960687D5,0
+s92_11.bin,400002,80000,978ECD18,0
+s92_12.bin,400004,80000,D6EC9A0A,0
+s92_13.bin,400006,80000,ED2C67F6,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 11
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: varth
+Game: Varth - Operation Thunderstorm (World 920612)
+
+[Program]
+vae_30a.rom,0,20000,7FCD0091,0
+vae_35a.rom,1,20000,35CF9509,0
+vae_31a.rom,40000,20000,15E5EE81,0
+vae_36a.rom,40001,20000,153A201E,0
+vae_28a.rom,80000,20000,7A0E0D25,0
+vae_33a.rom,80001,20000,F2365922,0
+vae_29a.rom,C0000,20000,5E2CD2C3,0
+vae_34a.rom,C0001,20000,3D9BDF83,0
+
+[Graphics]
+va_gfx5.rom,0,80000,B1FB726E,0
+va_gfx7.rom,2,80000,4C6588CD,0
+va_gfx1.rom,4,80000,B1ACE37,0
+va_gfx3.rom,6,80000,44DFE706,0
+
+[Z80]
+va_09.rom,0,10000,7A99446E,0
+
+[Samples]
+va_18.rom,0,20000,DE30510E,0
+va_19.rom,20000,20000,610A4AC,0
+
+[System]
+LayerControl: 6e,02,0c,0c
+BGHiControl: 66,70,68,72
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0004
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 4
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Bonus Life,2,18,600k 2.000k & 4500k,10,1.200k 3.500k,8,2000k only,0,600k & every 1.400k,18
+Lives,3,3,3,3,4,0,1,2,2,1
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: varthu
+Game: Varth - Operation Thunderstorm (US 920612)
+Parent: varth
+
+[Program]
+vau23a.bin,0,80000,FBE68726,1
+vae_28a.rom,80000,20000,7A0E0D25,0
+vae_33a.rom,80001,20000,F2365922,0
+vae_29a.rom,C0000,20000,5E2CD2C3,0
+vae_34a.rom,C0001,20000,3D9BDF83,0
+
+[Graphics]
+va_gfx5.rom,0,80000,B1FB726E,0
+va_gfx7.rom,2,80000,4C6588CD,0
+va_gfx1.rom,4,80000,B1ACE37,0
+va_gfx3.rom,6,80000,44DFE706,0
+
+[Z80]
+va_09.rom,0,10000,7A99446E,0
+
+[Samples]
+va_18.rom,0,20000,DE30510E,0
+va_19.rom,20000,20000,610A4AC,0
+
+[System]
+LayerControl: 6e,02,0c,0c
+BGHiControl: 66,70,68,72
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 60,0004
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: varthj
+Game: Varth - Operation Thunderstorm (Japan 920714)
+Parent: varth
+
+[Program]
+vaj36b.bin,0,20000,1D798D6A,0
+vaj42b.bin,1,20000,F720233,0
+vaj37b.bin,40000,20000,24414B17,0
+vaj43b.bin,40001,20000,34B4B06C,0
+vaj34b.bin,80000,20000,87C79AED,0
+vaj40b.bin,80001,20000,210B4BD0,0
+vaj35b.bin,C0000,20000,6B0DA69F,0
+vaj41b.bin,C0001,20000,6542C8A4,0
+
+[Graphics]
+va_gfx5.rom,0,80000,B1FB726E,0
+va_gfx7.rom,2,80000,4C6588CD,0
+va_gfx1.rom,4,80000,B1ACE37,0
+va_gfx3.rom,6,80000,44DFE706,0
+
+[Z80]
+va_09.rom,0,10000,7A99446E,0
+
+[Samples]
+va_18.rom,0,20000,DE30510E,0
+va_19.rom,20000,20000,610A4AC,0
+
+[System]
+LayerControl: 60,20,06,06
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 4e,4c,4a,48
+ButLayout: A
+Fix: 4
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: cworld2j
+Game: Capcom World 2 (Japan 920611)
+
+[Program]
+q536.bin,0,20000,38a08099,0
+q542.bin,1,20000,4d29b3a4,0
+q537.bin,40000,20000,eb547ebc,0
+q543.bin,40001,20000,3ef65ea8,0
+q534.bin,80000,20000,7fcc1317,0
+q540.bin,80001,20000,7f14b7b4,0
+q535.bin,c0000,20000,abacee26,0
+q541.bin,c0001,20000,d3654067,0
+
+[Graphics]
+q509.bin,0,20000,48496d80,1
+q501.bin,1,20000,c5453f56,1
+q513.bin,2,20000,c741ac52,1
+q505.bin,3,20000,143e068f,1
+q524.bin,4,20000,b419d139,1
+q517.bin,5,20000,bd3b4d11,1
+q538.bin,6,20000,9c24670c,1
+q532.bin,7,20000,3ef9c7c2,1
+q510.bin,100000,20000,119e5e93,1
+q502.bin,100001,20000,a2cadcbe,1
+q514.bin,100002,20000,a8755f82,1
+q506.bin,100003,20000,c92a91fc,1
+q525.bin,100004,20000,979237cb,1
+q518.bin,100005,20000,c57da03c,1
+q539.bin,100006,20000,a5839b25,1
+q533.bin,100007,20000,04d03930,1
+
+[Z80]
+q523.bin,0,10000,e14dc524,0
+
+[Samples]
+q530.bin,0,20000,d10c1b68,0
+q531.bin,20000,20000,7d17e496,0
+
+[System]
+LayerControl: 60,20,14,14
+BGHiControl: 6e,6c,6a,68
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Extended Test Mode,1,80,Off,80,On,0
+Difficulty,2,7,0,6,1,5,2,4,3,3,4,2
+Extend,2,18,N,18,E,10,D,0
+Lives,3,e0,3,e0,4,a0,5,c0,1,0,2,80
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2hf
+Game: Street Fighter II' - Hyper Fighting (World 921209)
+Parent: sf2ce
+
+[Program]
+s92e_23a.bin,0,80000,2DD72514,1
+sf2_22.bin,80000,80000,aea6e035,1
+sf2_21.bin,100000,80000,fd200288,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s2t_10.bin,400000,80000,3C042686,0
+s2t_11.bin,400002,80000,8B7E7183,0
+s2t_12.bin,400004,80000,293C888C,0
+s2t_13.bin,400006,80000,842B35A4,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2t
+Game: Street Fighter II' - Hyper Fighting (US 921209)
+Parent: sf2ce
+
+[Program]
+sf2.23,0,80000,89A1FC38,1
+sf2_22.bin,80000,80000,AEA6E035,1
+sf2_21.bin,100000,80000,FD200288,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s2t_10.bin,400000,80000,3C042686,0
+s2t_11.bin,400002,80000,8B7E7183,0
+s2t_12.bin,400004,80000,293C888C,0
+s2t_13.bin,400006,80000,842B35A4,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: sf2tj
+Game: Street Fighter II' Turbo - Hyper Fighting (Japan 921209)
+Parent: sf2ce
+
+[Program]
+s2tj_23.bin,0,80000,EA73B4DC,1
+s2t_22.bin,80000,80000,AEA6E035,1
+s2t_21.bin,100000,80000,FD200288,1
+
+[Graphics]
+s92_01.bin,0,80000,3B0D852,0
+s92_02.bin,2,80000,840289EC,0
+s92_03.bin,4,80000,CDB5F027,0
+s92_04.bin,6,80000,E2799472,0
+s92_05.bin,200000,80000,BA8A2761,0
+s92_06.bin,200002,80000,E584BFB5,0
+s92_07.bin,200004,80000,21E3F87D,0
+s92_08.bin,200006,80000,BEFC47DF,0
+s2t_10.bin,400000,80000,3C042686,0
+s2t_11.bin,400002,80000,8B7E7183,0
+s2t_12.bin,400004,80000,293C888C,0
+s2t_13.bin,400006,80000,842B35A4,0
+
+[Z80]
+s92_09.bin,0,10000,8F6B60E,0
+
+[Samples]
+s92_18.bin,0,20000,7F162009,0
+s92_19.bin,20000,20000,BEADE53F,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 02,02,02
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: B
+Fix: 0
+
+[DipsData]
+Coin A,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin B,1,38,1 Coin/1 Credit,38,1 Coin/2 Credits,30,1 Coin/3 Credits,28,1 Coin/4 Credits,20,1 Coin/6 Credits,18,4 Coins/1 Credit,0,3 Coins/1 Credit,8,2 Coins/1 Credit,10
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+2 Players Game,2,8,2 Credits/Winner Continue,8,1 Credit/No Continue,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,0,No,40
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: pnickj
+Game: Pnickies (Japan 940608)
+
+[Program]
+pnij36.bin,0,20000,2D4FFB2B,0
+pnij42.bin,1,20000,C085DFAF,0
+
+[Graphics]
+pnij09.bin,0,20000,48177B0A,1
+pnij01.bin,1,20000,1A0F311,1
+pnij13.bin,2,20000,406451B0,1
+pnij05.bin,3,20000,8C515DC0,1
+pnij26.bin,4,20000,E2AF981E,1
+pnij18.bin,5,20000,F17A0E56,1
+pnij38.bin,6,20000,EB75BD8C,1
+pnij32.bin,7,20000,84560BEF,1
+pnij10.bin,100000,20000,C2ACC171,1
+pnij02.bin,100001,20000,E21FC33,1
+pnij14.bin,100002,20000,7FE59B19,1
+pnij06.bin,100003,20000,79F4BFE3,1
+pnij27.bin,100004,20000,83D5CB0E,1
+pnij19.bin,100005,20000,AF08B230,1
+pnij39.bin,100006,20000,70FBE579,1
+pnij33.bin,100007,20000,3ED2C680,1
+
+[Z80]
+pnij17.bin,0,10000,E86F787A,0
+
+[Samples]
+pnij24.bin,0,20000,5092257D,0
+pnij25.bin,20000,20000,22109AAA,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+Coin Slots,1,8,1,8,2,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Vs Play Mode,2,c0,1 Game Match,c0,3 Games Match,80,5 Games Match,40,7 Games Match,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: qad
+Game: Quiz & Dragons (US 920701)
+
+[Program]
+qdu_36a.rom,0,20000,de9c24a0,0
+qdu_42a.rom,1,20000,cfe36f0c,0
+qdu_37a.rom,40000,20000,10d22320,0
+qdu_43a.rom,40001,20000,15e6beb9,0
+
+[Graphics]
+qdu_09.rom,0,20000,8c3f9f44,1
+qdu_01.rom,1,20000,f688cf8f,1
+qdu_13.rom,2,20000,afbd551b,1
+qdu_05.rom,3,20000,c3db0910,1
+qdu_24.rom,4,20000,2f1bd0ec,1
+qdu_17.rom,5,20000,a812f9e2,1
+qdu_38.rom,6,20000,ccdddd1f,1
+qdu_32.rom,7,20000,a8d295d3,1
+
+[Z80]
+qdu_23.rom,0,10000,cfb5264b,0
+
+[Samples]
+qdu_30.rom,0,20000,f190da84,0
+qdu_31.rom,20000,20000,b7583f73,0
+
+[System]
+LayerControl: 6c,14,02,14
+BGHiControl: 00,00,00,00
+Stars: 00,00
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 00,00,00,00
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,Normal,4,Hard,3,Hardest,2,Easiest,6,Easy,5
+Wisdom,2,18,Normal,10,Hard,8,Hardest,0,Easy,18
+Lives,2,e0,5,e0,1,60,2,80,3,a0,4,c0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,20,Off,0
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: qadj
+Game: Quiz & Dragons (Japan 940921)
+Parent: qad
+
+[Program]
+qad23a.bin,0,80000,4d3553de,1
+qad22a.bin,80000,80000,3191ddd0,1
+
+[Graphics]
+qad01.bin,0,80000,9d853b57,0
+qad02.bin,2,80000,b35976c4,0
+qad03.bin,4,80000,cea4ca8c,0
+qad04.bin,6,80000,41b74d1b,0
+
+[Z80]
+qad09.bin,0,10000,733161cc,0
+
+[Samples]
+qad18.bin,0,20000,2bfe6f6a,0
+qad19.bin,20000,20000,13d3236b,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,0,7,1,6,2,5,3,4,4,3
+Lives,2,e0,3,e0,1,a0,2,c0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: qtono2
+Game: Quiz Tonosama no Yabou 2 Zenkoku-ban (Japan 950123)
+
+[Program]
+tn2j-30.11e,0,20000,9226eb5e,0
+tn2j-37.11f,1,20000,d1d30da1,0
+tn2j-31.12e,40000,20000,015e6a8a,0
+tn2j-38.12f,40001,20000,1f139bcc,0
+tn2j-28.9e,80000,20000,86d27f71,0
+tn2j-35.9f,80001,20000,7a1ab87d,0
+tn2j-29.10e,c0000,20000,9c384e99,0
+tn2j-36.10f,c0001,20000,4c4b2a0a,0
+
+[Graphics]
+tn2-02m.4a,0,80000,f2016a34,0
+tn2-04m.6a,2,80000,094e0fb1,0
+tn2-01m.3a,4,80000,cb950cf9,0
+tn2-03m.5a,6,80000,18a5bf59,0
+tn2-11m.4c,200000,80000,d0edd30b,0
+tn2-13m.6c,200002,80000,426621c3,0
+tn2-10m.3c,200004,80000,a34ece70,0
+tn2-12m.5c,200006,80000,e04ff2f4,0
+
+[Z80]
+tn2j-09.12a,0,8000,6d8edcef,0
+
+[Samples]
+tn2j-18.11c,0,20000,a40bf9a7,0
+tn2j-19.12c,20000,20000,5b3b931e,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,7,1 Coin/1 Credit,7,1 Coin/2 Credits,6,1 Coin/3 Credits,5,1 Coin/4 Credits,4,1 Coin/6 Credits,3,4 Coins/1 Credit,0,3 Coins/1 Credit,1,2 Coins/1 Credit,2
+2 Coins to Start 1 to Continue,1,40,Off,40,On,0
+Difficulty,2,7,4 (Normal),4,5,3,6,2,7,1,8 (Hardest),0,1 (Easiest),7,2,6,3,5
+Lives,2,e0,3,e0,4,a0,5,c0,1,60,2,80
+Infinite Lives,3,2,Off,2,On,0
+Free Play,3,4,Off,4,On,0
+Freeze,3,8,Off,8,On,0
+Flip Screen,3,10,Off,10,On,0
+Demo Sounds,3,20,On,0,Off,20
+Allow Continue,3,40,Yes,40,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: pang3
+Game: Pang! 3 (Euro 950511)
+
+[Program]
+pa3w-17.11l,0,80000,12138234,1
+pa3w-16.10l,80000,80000,D1BA585C,1
+
+[Graphics]
+pa3-01m.2c,0,200000,68A152C,4
+pa3-07m.2f,2,200000,3A4A619D,4
+
+[Z80]
+pa3-11.11f,0,8000,90A08C46,0
+
+[Samples]
+pa3-05.10d,0,20000,73A10D5D,0
+pa3-06.11d,20000,20000,AFFA4F82,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: A
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: pang3j
+Game: Pang! 3 (Japan 950511)
+Parent: pang3
+
+[Program]
+pa3j-17.11l,0,80000,21F6E51F,1
+pa3j-16.10l,80000,80000,CA1D7897,1
+
+[Graphics]
+pa3-01m.2c,0,200000,68A152C,4
+pa3-07m.2f,2,200000,3A4A619D,4
+
+[Z80]
+pa3-11.11f,0,8000,90A08C46,0
+
+[Samples]
+pa3-05.10d,0,20000,73A10D5D,0
+pa3-06.11d,20000,20000,AFFA4F82,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: A
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: megaman
+Game: Mega Man - The Power Battle (Asia 951006)
+
+[Program]
+rcma_23b.rom,0,80000,61E4A397,1
+rcma_22b.rom,80000,80000,708268C4,1
+rcma_21a.rom,100000,80000,4376EA95,1
+
+[Graphics]
+rcm_01.rom,0,80000,6ECDF13F,0
+rcm_02.rom,2,80000,944D4F0F,0
+rcm_03.rom,4,80000,36F3073C,0
+rcm_04.rom,6,80000,54E622FF,0
+rcm_05.rom,200000,80000,5DD131FD,0
+rcm_06.rom,200002,80000,F0FAF813,0
+rcm_07.rom,200004,80000,826DE013,0
+rcm_08.rom,200006,80000,FBFF64CF,0
+rcm_10.rom,400000,80000,4DC8ADA9,0
+rcm_11.rom,400002,80000,F2B9EE06,0
+rcm_12.rom,400004,80000,FED5F203,0
+rcm_13.rom,400006,80000,5069D4A9,0
+rcm_14.rom,600000,80000,303BE3BD,0
+rcm_15.rom,600002,80000,4F2D372F,0
+rcm_16.rom,600004,80000,93D97FDE,0
+rcm_17.rom,600006,80000,92371042,0
+
+[Z80]
+rcm_09.rom,0,20000,9632D6EF,0
+
+[Samples]
+rcm_18.rom,0,20000,80F1F8AA,0
+rcm_19.rom,20000,20000,F257DBE1,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,1f,1 Coin/1 Credit,1f,1 Coin/2 Credits,1e,1 Coin/3 Credits,1d,1 Coin/6 Credits,1a,1 Coin/9 Credits,17,Free Play,0d,9 Coins/1 Credit,0f,6 Coins/1 Credit,12,3 Coins/1 Credit,15,2 Coins/1 Credit,16,2 Coins to Start 1 to Continue,0e
+Coin slots,1,60,2 Common,60,1 Individual,40,1 Common,20
+Difficulty,2,3,Normal,2,Hard,1,Hardest,0,Easy,3
+Time,2,c,100,c,90,8,70,4,60,0
+Voice,2,40,On,40,Off,0
+Flip Screen,3,1,Off,1,On,0
+Demo Sounds,3,2,On,2,Off,0
+Allow Continue,3,4,Yes,4,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPS1
+RomName: rockmanj
+Game: Rockman - The Power Battle (Japan 950922)
+Parent: megaman
+
+[Program]
+rcm23a.bin,0,80000,EFD96CB2,1
+rcm22a.bin,80000,80000,8729A689,1
+rcm21a.bin,100000,80000,517CCDE2,1
+
+[Graphics]
+rcm_01.rom,0,80000,6ECDF13F,0
+rcm_02.rom,2,80000,944D4F0F,0
+rcm_03.rom,4,80000,36F3073C,0
+rcm_04.rom,6,80000,54E622FF,0
+rcm_05.rom,200000,80000,5DD131FD,0
+rcm_06.rom,200002,80000,F0FAF813,0
+rcm_07.rom,200004,80000,826DE013,0
+rcm_08.rom,200006,80000,FBFF64CF,0
+rcm_10.rom,400000,80000,4DC8ADA9,0
+rcm_11.rom,400002,80000,F2B9EE06,0
+rcm_12.rom,400004,80000,FED5F203,0
+rcm_13.rom,400006,80000,5069D4A9,0
+rcm_14.rom,600000,80000,303BE3BD,0
+rcm_15.rom,600002,80000,4F2D372F,0
+rcm_16.rom,600004,80000,93D97FDE,0
+rcm_17.rom,600006,80000,92371042,0
+
+[Z80]
+rcm_09.rom,0,20000,9632D6EF,0
+
+[Samples]
+rcm_18.rom,0,20000,80F1F8AA,0
+rcm_19.rom,20000,20000,F257DBE1,0
+
+[System]
+LayerControl: 66,02,04,08
+BGHiControl: 68,6a,6c,6e
+Stars: 30,30
+Banks: 00,00,00
+BoardID: 00,0000
+Multiply: 40,42,44,46
+ButLayout: A
+Fix: 0
+
+[DipsData]
+Coinage,1,1f,1 Coin/1 Credit,1f,1 Coin/2 Credits,1e,1 Coin/3 Credits,1d,1 Coin/6 Credits,1a,1 Coin/9 Credits,17,Free Play,0d,9 Coins/1 Credit,0f,6 Coins/1 Credit,12,3 Coins/1 Credit,15,2 Coins/1 Credit,16,2 Coins to Start 1 to Continue,0e
+Coin slots,1,60,2 Common,60,1 Individual,40,1 Common,20
+Difficulty,2,3,Normal,2,Hard,1,Hardest,0,Easy,3
+Time,2,c,100,c,90,8,70,4,60,0
+Flip Screen,3,1,Off,1,On,0
+Demo Sounds,3,2,On,2,Off,0
+Allow Continue,3,4,Yes,4,No,0
+Game Mode,3,80,Game,80,Test,0
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

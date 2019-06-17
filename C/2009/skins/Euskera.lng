@@ -1,0 +1,181 @@
+[Language]
+
+;1.94 and before
+
+;GUI Strings
+0=Bai
+1=Ez
+2=BIDEOA
+3=SOINUA
+4=KONTROLAK
+5=BESTEAK
+
+;Video config
+6=Konfigurazioa:
+7=Pantailaren erresoluzioa
+8=Bideoaren hobekuntzak
+9=Luzatu
+10=Erabiltzeko memoria
+11=Buffer hirukoitza
+12=VSync-a
+;Stretch modes
+13=Pantaila guztia
+14=itxura mantendu
+;Surface modes
+15=Bideoarena
+16=Sistemarena
+
+;Audio config
+17=Konfigurazioa:
+18=Soinua piztu
+19=Audio frekuentzia
+20=interpolazioa
+21=Soinu era
+;Interpolation modes
+22=interpolazioarik gabe
+23=2 puntu (lineala)
+24=4 puntu
+
+;Controls config
+25=Sakatu botoi edo tekla bati
+26=Jokalari %d
+27=Berezko balorea
+28=Berezkos gorde
+29=Menuak
+30=Gora
+31=Behera
+32=Ezkerra
+33=Ezkuina
+34=Botoi %d
+35=Macro %d
+36=Hotkey %d
+37=Hiru ukabil
+38=Hiru ostiko
+39=Akzioan
+40=Atzera
+41=Menua ikusi
+42=Start
+43=Txanpona
+
+;Other Menu
+44=beste direktorioak
+45=Rom-ak komprobatu
+46=neogeo bilatu
+47=Skin-a 
+48=jokoak ikusi
+49=Auto Gorde/Ireki
+50=Macros/Pistas
+51=Interfazearen animazioak
+;Game list filters
+52=Denak
+53=Dugunak
+54=Dug. + XOR barik
+55=sistema guztiak
+56=CPS-2 bakarrik
+57=CPS-1 bakarrik
+58=NeoGeo bakarrik
+;Macros/Hints
+59=Makroak eta aztarnak
+60=Makroak bakarrik
+61=Aztarnak bakarrik
+62=ezer ere ez
+;Hint text
+63=jokalariaren pertzonaia %d: %s
+
+;Misc messages
+64=Bolumena: %d
+65=Frameskip %d
+66=Framskip automatikoa
+
+;Rom Loading messages
+67=memoria ematen...
+68=Fitxeroa  %s.%s -> %s...
+69=%s, Fitxeroa ez da aurkitu
+70=Ona
+71=CRC txarra. Itxoiten %X , Aurkituta %X
+72=Tamainu txarra. Itxoiten %d , Aurkituta %d
+73=programa Rom-ak kargatzen...
+74=Desenkriptazio taulak kargatzen...
+75=Z80 kodearen Rom-ak kargatzen...
+76=Soinua kargatzen...
+77=Grafiko Rom-ak kargatzen...
+78=ATENCIÓN!! Zenbat Rom falta dira edo txarrak dira
+79=Segitzeko INTRO sakatu edo ESCAPE menura iztultzeko
+80=Grafikoak dekodifikatzen eta emulazioa hasten...
+81=Ikusten %s...
+82=neogeo rom-ak bilatzen %s...
+83=Itzoin mesedez, romset-a ikusten...
+
+;In-Game menus (Use % at the end to adjust menu size)
+;Generic
+84=Estatua gorde
+85=Estatua ireki
+86=Aztarna menua
+87=Shots factory
+88=Jokoatik alde egin
+89=Aztarnak
+90=On
+91=Off
+;Neogeo Specific
+92=Makinaren opzioak
+93=Memoria txartelaren opzioak
+94=CD-aren opzioak
+95=Sistemaren erregioa          %
+96=Japoia
+97=EEBB
+98=Europa
+99=Ezezaguna
+100=Sistema
+101=Txanponez-erabilia
+102=Bideo-konsola
+103=Ezezaguna
+104=Debaldeko jokoa
+105=CPUaren overclcking-a
+106=Debug Dip Switches
+107=Debug Dips 
+108=Programaketa era
+109=Txartela erabilia
+110=Txartela sartu
+111=Txartela atera
+112=Txartela gestorea ireki
+113=Estatua
+114=Sartuta
+115=Ez sartuta
+116=CD era                %
+117=CD unitatea
+118=Etiketa:
+119=Aztarnak:
+120=Jokua:
+121=ISO-a aukeratu
+122=CDROM Real
+123=ISO
+124=Ez dago CD-rik
+125=Ezer ere ez
+126=CueSheet edo ISO-a aukeratu
+127=Joku hau ez
+128=SaveStateak soportatu
+
+;Shot factory texts
+129=Tiles Larua 1 (8x8)
+130=Tiles Larua 2 (16x16)
+131=Tiles Larua 3 (32x32)
+132=Tiles BGHi larrua
+133=Screenshot bat atera
+134=kolorea          %
+135=Originala
+136=Arrosa
+137=Sprites-en larrua
+138=Sprites larru 0
+139=Sprites larru 1
+140=Sprites larru 2
+141=Sprites larru 3
+142=Sprites larru 4
+143=Sprites larru 5
+144=Sprites larru 6
+145=Sprites larru 7
+146=Tiles larrua
+147=Spriten linea
+148=Ikusgarri
+
+//1.95
+149=Hizkuntza

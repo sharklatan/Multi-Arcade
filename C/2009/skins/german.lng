@@ -1,0 +1,185 @@
+[Language]
+
+;NEBULA 1.95d and before
+;Translated by HUMMEL [Unreal@Freakmail.de]
+;Version 1.0,  Date 27.12.01
+
+
+;GUI Zeilen
+0=ja
+1=nein
+2=GRAFIK
+3=MUSIK
+4=STEUERUNG
+5=SONSTIGES
+
+;Grafik
+6=Einstellungen für:
+7=Bildschirm Auflösung
+8=Auswahl Video Blitter
+9=Bild dehnen
+10=Speicherzuteilung
+11=dreifach Puffer
+12=VSync
+;Bild Modi
+13=Bildschirm füllen
+14=Seitenverhältnis
+;Bildschirm Modi
+15=Grafikspeicher
+16=Arbeitsspeicher
+
+;Musik
+17=Einstellungen für:
+18=Musik an
+19=Samplingrate
+20=Interpolation
+21=Wiedergabe
+;Interpolation
+22=keine Angleichung
+23=2 Punkte
+24=4 Punkte
+
+;Steuerung
+25=Drücke Taste oder Feuerknopf
+26=Spieler %d
+27=Grundeinstellung
+28=speichern
+29=Menü
+30=hoch
+31=runter
+32=links
+33=rechts
+34=Feuerknopf %d
+35=Makro %d
+36=HotKey %d
+37=drei Schläge
+38=drei Tritte
+39=ausführen
+40=zurück
+41=zeige Menü
+42=Start
+43=Münze
+
+;Sonstiges
+44=ROM Verzeichnis
+45=überprüfe ROMs
+46=finde Neogeo
+47=Auswahl Oberfläche
+48=Auflistung Spiele
+49=auto laden/speichern
+50=Makros/Tips
+51=GUI Animationen
+;Spiele Liste Filter
+52=alle
+53=vorhanden
+54=vorh.+nicht-XOR
+55=alle Systeme
+56=nur CPS-2
+57=nur CPS-1
+58=nur NeoGeo
+;Makros/Tips
+59=Makros & Tips
+60=nur Makros
+61=nur Tips
+62=keine
+;Hinweis Text
+63=Spieler %d Charakter: %s
+
+;Diverse Nachrichten
+64=Lautstärke: %d
+65=Bildwiederholung %d
+66=auto Bildwiederholung
+
+;ROM lade Nachrichten
+67=Speicherzuteilung...
+68=lade Datei %s.%s -> %s...
+69=%s, Datei nicht gefunden
+70=OK
+71=falscher CRC. erwarteter %X , gefunden %X
+72=falsche Größe. erwartete %d , gefundene %d
+73=lade Programm ROMs...
+74=lade Entschlüsselungs Code...
+75=lade Z80 Programm ROMs...
+76=lade Musik...
+77=lade Grafik ROMs...
+78=WARNUNG!! manche ROMs werden vermisst oder sind verkehrt
+79=Drücke ENTER-Taste um fortzusetzen oder ESCAPE-Taste für Hauptmenü 
+80=entschlüssel Grafik Daten und beginne Emulation...
+81=Prüfe %s...
+82=Suche nach NeoGeo ROMs in %s...
+83=BITTE WARTEN, ANALYSIERE DIE ROMs
+
+;Im Spiel Menü
+;Nur (A-Z,a-z,0-9) wird unterstützt
+;Benutze % am Ende um die Menügröße anzupassen
+;Generieren
+84=Spielstand speichern
+85=Spielstand laden
+86=schummeln
+87=Foto-Labor
+88=Spiel beenden
+89=schummeln
+90=an
+91=aus
+;Neogeo spezifisch
+92=Einstellungen Spielautomat 
+93=Einstellungen Speicherkarte
+94=CD Einstellungen
+95=Herkunftsland         %
+96=Japan
+97=USA
+98=Europa
+99=unbekannt
+100=System
+101=Arcade
+102=Konsole
+103=unbekannt
+104=freies Spielen
+105=CPU Takt (MHz)
+106=DIP Schalter
+107=DIPs umschalten
+108=Entwickler Modus
+109=aktive Speicherkarte
+110=Speicherkarte einlegen
+111=Speicherkarte auswerfen
+112=*** Manager ***
+113=Status
+114=eingelegt
+115=nicht eingelegt
+116=CD-Modus                %
+117=CD-Laufwerk
+118=Bezeichnung:
+119=Spuren:
+120=Spiel:
+121=wähle ISO-Abbild
+122=CD-ROM
+123=ISO-Abbild
+124=n/a
+125=n/a
+126=wähle CUE-Sheet oder ISO-Abbild
+127=dieses Spiel unterstützt nicht
+128=Speicherstand
+
+;Grundeistellung
+129=Kachelgröße 1 (8x8)
+130=Kachelgröße 2 (16x16)
+131=Kachelgröße 3 (32x32)
+132=BGHi Kachelgröße
+133=Bildschirmfoto
+134=Farbe     %
+135=Original
+136=rosa
+137=Sprite Lage
+138=Sprite Lage 0
+139=Sprite Lage 1
+140=Sprite Lage 2
+141=Sprite Lage 3
+142=Sprite Lage 4
+143=Sprite Lage 5
+144=Sprite Lage 6
+145=Sprite Lage 7
+146=Fordergrund
+147=Streifen
+148=aktiv
+//1.95
+149=Auswahl Sprache

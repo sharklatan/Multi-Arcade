@@ -1,0 +1,28 @@
+AUDIO:
+	
+	System: System to change Audio options:
+		CPS1 	-	CPS1 hardware options, YM2151 FM and OKI ADPCM
+		Qsound	-	CPS2 and later CPS1 games hardware options. 
+Spatial PCM Mixer/resampler
+		Neogeo	-	Neogeo hardware options. YM2610 FM and ADPCM
+
+	Enable Sound: Enables the sound emulation.
+
+Sample rate: 11025, 22050,44100. Recommended 22050 Hz.
+
+	Interpolation: Enhaces sound quality, but requires more cpu power
+		No Interpolation 	- No resampling interpolation, worst quality, less CPU power
+		2 Point		- 2 point linear interpolation, better sound, more CPU usage
+		4 Point		- 4 point curve interpolation, best sound, most CPU usage
+
+	Audio mode:
+		Directsound 2D: 	Uses standard directsound, and software mixing 
+with surround effect
+		Directsound 3D: 	Uses Directsound 3D interface to position the audio.
+				Hardware mixing. Requires hardware capable of 3d sound
+	 			acceleration and at least 16 channels.
+		DS2D Narrow:	Uses standard directsound, and software mixing 
+with less surround effect (good for mono speakers 
+or headphones)
+
+

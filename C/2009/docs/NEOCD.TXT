@@ -1,0 +1,45 @@
+NEOGEO CD
+
+Starting with version 1.93, Nebula supports Neo·Geo CD console games
+
+You’ll need a NeoGeo CD game in CD or in ISO format. ISO reader supports
+Program only ISO tracks (.ISO) or CDRWin ISO+MP3 CD dumps (.CUE). CUE and
+real CD games will have music. ISO program only games will have some music missing
+due to the lack of the audio tracks in the image.
+
+You’ll also need the NeoGeo CDZ bios (Neocd.bin) in a zip file called Neocd.zip in any of
+the roms directories and also the NeoGeo bios (neogeo.zip).
+
+The only supported BIOS file is:
+NEOCD.BIN size 524288 bytes, CRC32: DF9DE490. 
+
+Using a wrong NEOCD.BIN file may cause crashes.
+
+Loading NeoGeo CD games:
+
+To load a NeoGeo CD game you must start a game named “NeoGeo CD” in the Nebula 
+game list. Neogeo CD is listed in the NeoGeo games list. This game will start the 
+NeoGeo CD bios (like a real Neogeo CD). If you have already inserted a CD 
+(or ISO Image), you can start the game by pressing the Start button or waiting till the 
+Bios intro ends. If you press the A button, the CD Player will appear. 
+To insert an ISO image or change the CD options, you must use the In-Game menus
+that appear when you press the ESC key.
+
+Special Neogeo CD Menus:
+In the In-Game menus there is one option specific to Neogeo CD:
+
+CD Options:
+	Allows configuring the CD emulation (type, drive, iso file…)
+- CD Mode: 
+      Real CD: requires a Neogeo CD in your CD Drive.
+An option to configure the CD drive will appear below.
+      
+ISO Image: It will load a CD image from an ISO or CUE file.
+Press Enter in the “Select ISO Image” option to open the file browser
+to select the image you want to load.
+		
+
+Neogeo CD is a “dynamic RAM” system (that is no fixed data in ROMS, the needed data is
+copied from CD to RAM when needed) so no savestates are available yet (and if they are
+available some day, they will be very big, about 8 MB of RAM must be saved)
+

@@ -1,0 +1,14 @@
+;This is a sample TrackList
+;Remove the ; before the sound codes
+;and add your mp3/cda/wav/ogg tracks
+;there.
+[Tracks]
+;Min and Max music codes:
+;MusicLow=0721
+;MusicHigh=074f
+
+
+;this is a sample mp3 track
+;0721=d:\mp3\KOF98 - OST - Track 1.mp3
+;this is a sample CD audio track
+;0722=f:\track01.cda

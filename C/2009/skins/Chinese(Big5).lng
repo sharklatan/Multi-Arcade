@@ -1,0 +1,275 @@
+//by 廣州游戲小組 白河愁 http://kvs.126.com
+[Language]
+
+;1.94 and before
+
+;GUI Strings
+0=是
+1=否
+2=視頻
+3=音頻
+4=輸入控制
+5=其他
+
+;Video config
+6=視頻配置針對
+7=屏幕分辨率
+8=圖像效果增強
+9=圖像拉伸
+10=視頻內存分配
+11=三倍緩沖
+12=同步刷新
+;Stretch modes
+13=填充整個屏幕
+14=保持高寬比
+;Surface modes
+15=顯示內存-速度較快
+16=系統內存-速度較慢
+
+;Audio config
+17=音頻配置針對
+18=啟用聲音
+19=採樣率
+20=內插換算法
+21=處理方式
+;Interpolation modes
+22=不使用-音質一般
+23=兩點換算-音質不錯
+24=四點換算-音質最佳
+
+;Controls config
+25=請輸入一個鍵盤鍵位或手柄按鈕
+26=玩家 %d
+27=恢復為默認值
+28=保存為默認值
+29=菜單控制鍵
+30=上
+31=下
+32=左
+33=右
+34=按鈕 %d
+35=宏定義 %d
+36=熱鍵 %d
+37=按鈕 1+2+3
+38=按鈕 4+5+6
+39=確定
+40=後退
+41=顯示菜單
+42=開始
+43=投幣
+
+;Other Menu
+44=用來存放游戲 rom 的目錄
+45=檢查 Roms
+46=查找 Neogeo
+47=選擇外觀面板
+48=顯示游戲分類
+49=自動存取進度
+50=宏定義和提示
+51=界面動畫效果
+;Game list filters
+52=全部游戲
+53=現有的游戲
+54=現有和未解密的游戲
+55=所有支持的系統
+56=僅 CPS-2 系列
+57=僅 CPS-1 系列
+58=僅 NeoGeo 系列
+;Macros/Hints
+59=兩者都顯示
+60=只顯示宏定義
+61=只顯示提示
+62=不顯示
+;Hint text
+63=玩家 %d 人物: %s
+
+;Misc messages
+64=Volume: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Rom Loading messages
+67=正在分配內存...
+68=正在載入文件 %s.%s -> %s...
+69=%s, 文件未找到
+70=OK
+71=CRC 錯誤. 預期的為 %X , 找到的為 %X
+72=文件大小錯誤. 預期的為 %d , 找到的為 %d
+73=正在載入程序文件...
+74=正在載入解密運算表...
+75=正在載入 Z80 編碼文件...
+76=正在載入聲音採樣...
+77=正在載入圖像文件...
+78=警告!!! 一些文件已丟失或者有差異
+79=按 ENTER 鍵繼續運行或按 ESCAPE 鍵返回程序主界面
+80=正在解碼圖像數據並初始化模擬程序...
+81=正在檢查 %s...
+82=正在文件 %s 中查找 Neogeo Roms...
+83=正在分析游戲 Romsets. 請稍候片刻...
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Save State
+85=Load State
+86=Cheats
+87=Shots factory
+88=Quit Game
+89=Cheats
+90=On
+91=Off
+;Neogeo Specific
+92=Machine Settings
+93=Memory Card Settings
+94=CD Settings
+95=Machine Region          %
+96=Japan
+97=USA
+98=Europe
+99=Unknown
+100=System
+101=Arcade
+102=Console
+103=Unknown
+104=Free Play
+105=CPU Overclocking (MHz)
+106=Debug Dip Switches
+107=Debug Dips at
+108=Developer Mode
+109=Active Memory Card
+110=Insert Memory Card
+111=Eject Memory Card
+112=Call Memory Card Manager
+113=Status
+114=Inserted
+115=Not Inserted
+116=CD Mode                %
+117=CD Drive
+118=Label:
+119=Tracks:
+120=Game:
+121=Select ISO Image
+122=Real CDROM
+123=ISO Image
+124=Not Inserted
+125=None
+126=Select Cuesheet or ISO Image
+127=This game doesn't
+128=support Savestates
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Take a Screenshot
+134=Background Color       %
+135=Original
+136=Pink
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146=Front tile Layer
+147=Sprite strip number
+148=Enabled
+
+//1.95
+149=語言
+
+//1.96
+150=Record Movie 錄制錄象
+151=Play Movie 回放錄象
+152=Stop recording/Playback 停止 錄制/回放
+153=Recording started 錄制已開始
+154=Playback started 回放已開始
+155=Recording/playback stopped 錄制/回放 已停止
+156=Playback finished 回放已完成
+
+//1.97
+157=Transparency 透明
+
+//2.2	Menus
+//Use @ to read the value from another key
+200=模擬(&E)
+201=視頻(&V)
+202=聲音(&S)
+203=游戲(&G)
+204=其它(&M)
+205=幫助(&?)
+
+//Emulaci□
+210=讀取 ROM...(&L)
+211=ROM 目錄(&R)...
+212=釋放 ROM(&U)
+213=快速模式(&T) 按Scroll Lock
+214=重新啟動(&R)\tF3
+215=暫停(&P)\tPause
+216=下一楨(&S)\tSpace
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=選項(&O)
+223=退出(&E)\tAlt-F4
+
+//Video
+230=全屏幕模式
+231=窗口模式
+232=切換到全屏幕\tCtrl-Enter
+233=@10
+234=活動塊透明
+235=通明表
+236=自動透明
+237=分辨率
+238=圖象增強
+239=不拉伸
+240=保持外表
+241=適應屏幕
+242=垂直同步
+243=三倍緩沖
+
+244=打開光柵
+245=打開輪廓描述
+246=圖象共廠\tF8
+
+//Sound
+250=記錄為 WAV\tF5
+251=打開聲音
+252=採樣率
+253=插補
+254=處理模式
+255=音量
+
+256=無
+257=2 點
+258=4 點
+
+//Game
+270=控制設置
+271=宏
+272=提示
+273=宏設置
+274=區域
+275=金手指\tF4
+276=CPU 超頻...
+
+
+//Misc
+290=生成 Romcenter 資料文件
+291=自動切換到 16 位桌面
+292=語言
+
+//?
+300=Nebula 主頁
+301=關於...
+
+

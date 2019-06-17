@@ -1,0 +1,30 @@
+MODIFYING NEBULA GUI
+
+Now you can modify the nebula GUI. You can change the background graphics and the buttons.
+You'll need some files (you can download the current gui files from the homepage):
+
+	Inicio.wav			-	Sound played on startup
+	Jugar.wav		-	Sound played when you hit the Play button
+	Salir.wav			-	"	"	"   "   "     Quit Button
+	Elige.wav			-	Sound played when you click a game name
+	Clic.wav			-	Sound played when some buttons are pressed
+	Pantalla.raw	640x480	- 	GUI background
+	Botones.raw	400x300	-	GUI Buttons
+	Fondo.raw	640x480	-	Rom loading background
+
+*Logo.raw file is not needed anymore as it is included in the main exe.
+
+All these files are RAW files. Using 3 bytes per pixel, in RGB format (interleaved). There is
+no header. You can use those parameters to open them in your favourite graphics program.
+There are some limitations to the graphics you can use. The background of the screenshot and
+options zone should be black, due to the animations using black to clear this zone.
+You must pack these 3 files in a ZIP file and put it in the SKINS\ directory
+The entire gui zip file can't be bigger than 2MB.
+
+If you want to convert the zip file to a internal (unpackable) format, you must rename your
+zip file to gui.zip, put it in the Nebula folder and execute nebula -packgui. You'll get
+a gui.dat file, copy it to the skins directory and rename to whatever name you want. Ensure
+that you don't have two files with the same name (one .zip and the other .dat) otherwise
+strange things could happen when Nebula tries to build the skin list.
+
+

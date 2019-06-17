@@ -1,0 +1,798 @@
+MultiPart: Nebula 2.0 CPS1+QSound Romsets
+System: CPSQ
+RomName: dino
+Game: Cadillacs & Dinosaurs (ETC 930201)
+
+[Program]
+cde_23a.rom,0,80000,8F4E585E,0
+cde_22a.rom,80000,80000,9278AA12,0
+cde_21a.rom,100000,80000,66D23DE2,0
+
+[Graphics]
+cd_gfx01.rom,0,80000,8DA4F917,0
+cd_gfx03.rom,2,80000,6C40F603,0
+cd_gfx02.rom,4,80000,9C8FC2D,0
+cd_gfx04.rom,6,80000,637FF38F,0
+cd_gfx05.rom,200000,80000,470BEFEE,0
+cd_gfx07.rom,200002,80000,22BFB7A3,0
+cd_gfx06.rom,200004,80000,E7599AC4,0
+cd_gfx08.rom,200006,80000,211B4B15,0
+
+[Z80]
+cd_q.rom,0,20000,605FDB0B,0
+
+[Samples]
+cd_q1.rom,0,80000,60927775,0
+cd_q2.rom,80000,80000,770F4C47,0
+cd_q3.rom,100000,80000,2F273FFC,0
+cd_q4.rom,180000,80000,2C67821D,0
+
+[System]
+LayerControl: 4A,16,16,16
+BGHiControl: 4C,4E,40,42
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 76543210
+Swap2: 24601357
+XorKey1: 4343
+XorKey2: 43
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: dinoh
+Game: Cadillacs & Dinosaurs (Hack)
+Parent: dino
+
+[Program]
+cda_23h.rom,0,80000,8E2A9CF0,0
+cda_22h.rom,80000,80000,F72CD219,0
+cda_21h.rom,100000,80000,BC275B76,0
+cda_20h.rom,180000,80000,8987C975,0
+
+[Graphics]
+cd_gfx01.rom,0,80000,8DA4F917,0
+cd_gfx03.rom,2,80000,6C40F603,0
+cd_gfx02.rom,4,80000,9C8FC2D,0
+cd_gfx04.rom,6,80000,637FF38F,0
+cd_gfx05.rom,200000,80000,470BEFEE,0
+cd_gfx07.rom,200002,80000,22BFB7A3,0
+cd_gfx06.rom,200004,80000,E7599AC4,0
+cd_gfx08.rom,200006,80000,211B4B15,0
+
+[Z80]
+cd_q.rom,0,20000,605FDB0B,0
+
+[Samples]
+cd_q1.rom,0,80000,60927775,0
+cd_q2.rom,80000,80000,770F4C47,0
+cd_q3.rom,100000,80000,2F273FFC,0
+cd_q4.rom,180000,80000,2C67821D,0
+
+[System]
+LayerControl: 66,2,4,8
+BGHiControl: 68,6A,6C,6E
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: F
+
+[Kabuki]
+Swap1: 76543210
+Swap2: 24601357
+XorKey1: 4343
+XorKey2: 43
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: dinoj
+Game: Cadillacs Kyouryuu-Shinseiki (Japan)
+Parent: dino
+
+[Program]
+cdj-23a.8f,0,80000,5F3ECE96,0
+cdj-22a.7f,80000,80000,A0D8DE29,0
+cde_21a.rom,100000,80000,66D23DE2,0
+
+[Graphics]
+cd_gfx01.rom,0,80000,8DA4F917,0
+cd_gfx03.rom,2,80000,6C40F603,0
+cd_gfx02.rom,4,80000,9C8FC2D,0
+cd_gfx04.rom,6,80000,637FF38F,0
+cd_gfx05.rom,200000,80000,470BEFEE,0
+cd_gfx07.rom,200002,80000,22BFB7A3,0
+cd_gfx06.rom,200004,80000,E7599AC4,0
+cd_gfx08.rom,200006,80000,211B4B15,0
+
+[Z80]
+cd_q.rom,0,20000,605FDB0B,0
+
+[Samples]
+cd_q1.rom,0,80000,60927775,0
+cd_q2.rom,80000,80000,770F4C47,0
+cd_q3.rom,100000,80000,2F273FFC,0
+cd_q4.rom,180000,80000,2C67821D,0
+
+[System]
+LayerControl: 4A,16,16,16
+BGHiControl: 4C,4E,40,42
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 76543210
+Swap2: 24601357
+XorKey1: 4343
+XorKey2: 43
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: mbomberj
+Game: Muscle Bomber - The Body Explosion (Japan)
+Parent: slammast
+
+[Program]
+mbe_24b.rom,80000,20000,95D5E729,2
+mbe_28b.rom,80001,20000,B1C7CBCB,0
+mbe_25b.rom,C0000,20000,A50D3FD4,0
+mbe_29b.rom,C0001,20000,8E32E56,0
+mbj23e,0,80000,D06036A,1
+mbe_21a.rom,100000,80000,D5007B05,1
+mbe_20a.rom,180000,80000,AEB557B0,1
+
+[Graphics]
+mbj_01.bin,0,80000,A53B1C81,0
+mbj_03.bin,2,80000,23FE10F6,0
+mbj_02.bin,4,80000,CB866C2F,0
+mbj_04.bin,6,80000,C9143E75,0
+mb_05.bin,200000,80000,506B9DC9,0
+mb_07.bin,200002,80000,AFF8C2FB,0
+mb_06.bin,200004,80000,B76C70E9,0
+mb_08.bin,200006,80000,E60C9556,0
+mb_10.bin,400000,80000,97976FF5,0
+mb_12.bin,400002,80000,B350A840,0
+mb_11.bin,400004,80000,8FB94743,0
+mb_13.bin,400006,80000,DA810D5F,0
+
+[Z80]
+mb_qa.rom,0,20000,E21A03C4,0
+
+[Samples]
+mb_q1.bin,0,80000,630C3CE,0
+mb_q2.bin,80000,80000,354F9C21,0
+mb_q3.bin,100000,80000,7838487C,0
+mb_q4.bin,180000,80000,AB66E087,0
+mb_q5.bin,200000,80000,C789FEF2,0
+mb_q6.bin,280000,80000,ECB81B61,0
+mb_q7.bin,300000,80000,41E49BA,0
+mb_q8.bin,380000,80000,59FE702A,0
+
+[System]
+LayerControl: 56,4,8,10
+BGHiControl: 40,42,68,6A
+Banks: 0,0,0
+BoardID: 6E,C01
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 54321076
+Swap2: 65432107
+XorKey1: 3131
+XorKey2: 19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: mbombrdj
+Game: Muscle Bomber Duo - Heat Up Warriors (Japan)
+Parent: slammast
+
+[Program]
+mbd_26.bin,0,20000,72B7451C,2
+mbdj_30.bin,1,20000,BEFF31CF,0
+mbd_27.bin,40000,20000,4086F534,0
+mbd_31.bin,40001,20000,85F47F0,0
+mbd_24.bin,80000,20000,C20895A5,0
+mbd_28.bin,80001,20000,2618D5E1,0
+mbd_25.bin,C0000,20000,9BDB6B11,0
+mbd_29.bin,C0001,20000,3F52D5E5,0
+mbd_21.bin,100000,80000,690C026A,1
+mbd_20.bin,180000,80000,B8B2139B,1
+
+[Graphics]
+mbj_01.bin,0,80000,A53B1C81,0
+mbj_03.bin,2,80000,23FE10F6,0
+mbj_02.bin,4,80000,CB866C2F,0
+mbj_04.bin,6,80000,C9143E75,0
+mb_05.bin,200000,80000,506B9DC9,0
+mb_07.bin,200002,80000,AFF8C2FB,0
+mb_06.bin,200004,80000,B76C70E9,0
+mb_08.bin,200006,80000,E60C9556,0
+mb_10.bin,400000,80000,97976FF5,0
+mb_12.bin,400002,80000,B350A840,0
+mb_11.bin,400004,80000,8FB94743,0
+mb_13.bin,400006,80000,DA810D5F,0
+
+[Z80]
+mb_q.bin,0,20000,D6FA76D1,0
+
+[Samples]
+mb_q1.bin,0,80000,630C3CE,0
+mb_q2.bin,80000,80000,354F9C21,0
+mb_q3.bin,100000,80000,7838487C,0
+mb_q4.bin,180000,80000,AB66E087,0
+mb_q5.bin,200000,80000,C789FEF2,0
+mb_q6.bin,280000,80000,ECB81B61,0
+mb_q7.bin,300000,80000,41E49BA,0
+mb_q8.bin,380000,80000,59FE702A,0
+
+[System]
+LayerControl: 6a,4,8,10
+BGHiControl: 6c,6e,70,72
+Banks: 0,0,0
+BoardID: 5E,C02
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 54321076
+Swap2: 65432107
+XorKey1: 3131
+XorKey2: 19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: mbombrd
+Game: Muscle Bomber Duo - Ultimate Team Battle (World)
+Parent: slammast
+
+[Program]
+mbd_26.bin,0,20000,72B7451C,2
+mbde_30.rom,1,20000,A036DC16,0
+mbd_27.bin,40000,20000,4086F534,0
+mbd_31.bin,40001,20000,85F47F0,0
+mbd_24.bin,80000,20000,C20895A5,0
+mbd_28.bin,80001,20000,2618D5E1,0
+mbd_25.bin,C0000,20000,9BDB6B11,0
+mbd_29.bin,C0001,20000,3F52D5E5,0
+mbd_21.bin,100000,80000,690C026A,1
+mbd_20.bin,180000,80000,B8B2139B,1
+
+[Graphics]
+mb_gfx01.rom,0,80000,41468E06,0
+mb_gfx03.rom,2,80000,F453AA9E,0
+mb_gfx02.rom,4,80000,2FFBFEA8,0
+mb_gfx04.rom,6,80000,1EB9841D,0
+mb_05.bin,200000,80000,506B9DC9,0
+mb_07.bin,200002,80000,AFF8C2FB,0
+mb_06.bin,200004,80000,B76C70E9,0
+mb_08.bin,200006,80000,E60C9556,0
+mb_10.bin,400000,80000,97976FF5,0
+mb_12.bin,400002,80000,B350A840,0
+mb_11.bin,400004,80000,8FB94743,0
+mb_13.bin,400006,80000,DA810D5F,0
+
+[Z80]
+mb_q.bin,0,20000,D6FA76D1,0
+
+[Samples]
+mb_q1.bin,0,80000,630C3CE,0
+mb_q2.bin,80000,80000,354F9C21,0
+mb_q3.bin,100000,80000,7838487C,0
+mb_q4.bin,180000,80000,AB66E087,0
+mb_q5.bin,200000,80000,C789FEF2,0
+mb_q6.bin,280000,80000,ECB81B61,0
+mb_q7.bin,300000,80000,41E49BA,0
+mb_q8.bin,380000,80000,59FE702A,0
+
+[System]
+LayerControl: 6a,4,8,10
+BGHiControl: 6c,6e,70,72
+Banks: 0,0,0
+BoardID: 5E,C02
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 54321076
+Swap2: 65432107
+XorKey1: 3131
+XorKey2: 19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: wofa
+Game: Sangokushi II (Asia)
+Parent: wof
+
+[Program]
+tk2a_23b.rom,0,80000,2E024628,0
+tk2a_22b.rom,80000,80000,900AD4CD,0
+
+[Graphics]
+tk2_gfx1.rom,0,80000,D9CB9BF,0
+tk2_gfx3.rom,2,80000,45227027,0
+tk2_gfx2.rom,4,80000,C5CA2460,0
+tk2_gfx4.rom,6,80000,E349551C,0
+tk2_gfx5.rom,200000,80000,291F0F0B,0
+tk2_gfx7.rom,200002,80000,3EDEB949,0
+tk2_gfx6.rom,200004,80000,1ABD14D6,0
+tk2_gfx8.rom,200006,80000,B27948E3,0
+
+[Z80]
+tk2_qa.rom,0,20000,C9183A0D,0
+
+[Samples]
+tk2_q1.rom,0,80000,611268CF,0
+tk2_q2.rom,80000,80000,20F55CA9,0
+tk2_q3.rom,100000,80000,BFCF6F52,0
+tk2_q4.rom,180000,80000,36642E88,0
+
+[System]
+LayerControl: 66,2,4,8
+BGHiControl: 68,6A,6C,6E
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 1234567
+Swap2: 54163072
+XorKey1: 5151
+XorKey2: 51
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: slammast
+Game: Saturday Night Slam Masters (ETC)
+
+[Program]
+mbe_24b.rom,80000,20000,95D5E729,2
+mbe_28b.rom,80001,20000,B1C7CBCB,0
+mbe_25b.rom,C0000,20000,A50D3FD4,0
+mbe_29b.rom,C0001,20000,8E32E56,0
+mbe_23e.rom,0,80000,5394057A,1
+mbe_21a.rom,100000,80000,D5007B05,1
+mbe_20a.rom,180000,80000,AEB557B0,1
+
+[Graphics]
+mb_gfx01.rom,0,80000,41468E06,0
+mb_gfx03.rom,2,80000,F453AA9E,0
+mb_gfx02.rom,4,80000,2FFBFEA8,0
+mb_gfx04.rom,6,80000,1EB9841D,0
+mb_05.bin,200000,80000,506B9DC9,0
+mb_07.bin,200002,80000,AFF8C2FB,0
+mb_06.bin,200004,80000,B76C70E9,0
+mb_08.bin,200006,80000,E60C9556,0
+mb_10.bin,400000,80000,97976FF5,0
+mb_12.bin,400002,80000,B350A840,0
+mb_11.bin,400004,80000,8FB94743,0
+mb_13.bin,400006,80000,DA810D5F,0
+
+[Z80]
+mb_qa.rom,0,20000,E21A03C4,0
+
+[Samples]
+mb_q1.bin,0,80000,630C3CE,0
+mb_q2.bin,80000,80000,354F9C21,0
+mb_q3.bin,100000,80000,7838487C,0
+mb_q4.bin,180000,80000,AB66E087,0
+mb_q5.bin,200000,80000,C789FEF2,0
+mb_q6.bin,280000,80000,ECB81B61,0
+mb_q7.bin,300000,80000,41E49BA,0
+mb_q8.bin,380000,80000,59FE702A,0
+
+[System]
+LayerControl: 56,4,8,10
+BGHiControl: 40,42,68,6A
+Banks: 0,0,0
+BoardID: 6E,C01
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 54321076
+Swap2: 65432107
+XorKey1: 3131
+XorKey2: 19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: slammasu
+Game: Saturday Night Slam Masters (US)
+Parent: slammast
+
+[Program]
+mbe_24b.rom,80000,20000,95D5E729,2
+mbe_28b.rom,80001,20000,B1C7CBCB,0
+mbe_25b.rom,C0000,20000,A50D3FD4,0
+mbe_29b.rom,C0001,20000,8E32E56,0
+mbu-23e.rom,0,80000,224F0062,1
+mbe_21a.rom,100000,80000,D5007B05,1
+mbu-20a.rom,180000,80000,FC848AF5,1
+
+[Graphics]
+mb_gfx01.rom,0,80000,41468E06,0
+mb_gfx03.rom,2,80000,F453AA9E,0
+mb_gfx02.rom,4,80000,2FFBFEA8,0
+mb_gfx04.rom,6,80000,1EB9841D,0
+mb_05.bin,200000,80000,506B9DC9,0
+mb_07.bin,200002,80000,AFF8C2FB,0
+mb_06.bin,200004,80000,B76C70E9,0
+mb_08.bin,200006,80000,E60C9556,0
+mb_10.bin,400000,80000,97976FF5,0
+mb_12.bin,400002,80000,B350A840,0
+mb_11.bin,400004,80000,8FB94743,0
+mb_13.bin,400006,80000,DA810D5F,0
+
+[Z80]
+mb_qa.rom,0,20000,E21A03C4,0
+
+[Samples]
+mb_q1.bin,0,80000,630C3CE,0
+mb_q2.bin,80000,80000,354F9C21,0
+mb_q3.bin,100000,80000,7838487C,0
+mb_q4.bin,180000,80000,AB66E087,0
+mb_q5.bin,200000,80000,C789FEF2,0
+mb_q6.bin,280000,80000,ECB81B61,0
+mb_q7.bin,300000,80000,41E49BA,0
+mb_q8.bin,380000,80000,59FE702A,0
+
+[System]
+LayerControl: 56,4,8,10
+BGHiControl: 40,42,68,6A
+Banks: 0,0,0
+BoardID: 6E,C01
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 54321076
+Swap2: 65432107
+XorKey1: 3131
+XorKey2: 19
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: wofj
+Game: Tenchi wo Kurau II - Sekiheki no Tatakai (Japan)
+Parent: wof
+
+[Program]
+tk2j23c.bin,0,80000,9B215A68,0
+tk2j22c.bin,80000,80000,B74B09AC,0
+
+[Graphics]
+tk2_gfx1.rom,0,80000,D9CB9BF,0
+tk2_gfx3.rom,2,80000,45227027,0
+tk2_gfx2.rom,4,80000,C5CA2460,0
+tk2_gfx4.rom,6,80000,E349551C,0
+tk205.bin,200000,80000,E4A44D53,0
+tk206.bin,200002,80000,58066BA8,0
+tk207.bin,200004,80000,D706568E,0
+tk208.bin,200006,80000,D4A19A02,0
+
+[Z80]
+tk2_qa.rom,0,20000,C9183A0D,0
+
+[Samples]
+tk2_q1.rom,0,80000,611268CF,0
+tk2_q2.rom,80000,80000,20F55CA9,0
+tk2_q3.rom,100000,80000,BFCF6F52,0
+tk2_q4.rom,180000,80000,36642E88,0
+
+[System]
+LayerControl: 62,10,8,4
+BGHiControl: 64,66,68,6a
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 1234567
+Swap2: 54163072
+XorKey1: 5151
+XorKey2: 51
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: punisher
+Game: The Punisher (ETC 930422)
+
+[Program]
+pse_26.rom,0,20000,389A99D2,2
+pse_30.rom,1,20000,68FB06AC,0
+pse_27.rom,40000,20000,3EB181C3,0
+pse_31.rom,40001,20000,37108E7B,0
+pse_24.rom,80000,20000,F434414,0
+pse_28.rom,80001,20000,B732345D,0
+pse_25.rom,C0000,20000,B77102E2,0
+pse_29.rom,C0001,20000,EC037BCE,0
+ps_21.rom,100000,80000,8AFFA5A9,1
+
+[Graphics]
+ps_gfx1.rom,0,80000,77B7CCAB,0
+ps_gfx3.rom,2,80000,122720B,0
+ps_gfx2.rom,4,80000,64FA58D4,0
+ps_gfx4.rom,6,80000,60DA42C8,0
+ps_gfx5.rom,200000,80000,C54EA839,0
+ps_gfx7.rom,200002,80000,4C5ACBD,0
+ps_gfx6.rom,200004,80000,A544F4CC,0
+ps_gfx8.rom,200006,80000,8F02F436,0
+
+[Z80]
+ps_q.rom,0,20000,49FF4446,0
+
+[Samples]
+ps_q1.rom,0,80000,31FD8726,0
+ps_q2.rom,80000,80000,980A9EEF,0
+ps_q3.rom,100000,80000,DD44491,0
+ps_q4.rom,180000,80000,BED42F03,0
+
+[System]
+LayerControl: 52,4,2,20
+BGHiControl: 54,56,48,4A
+Banks: 0,0,0
+BoardID: 4E,C00
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 67452103
+Swap2: 75316024
+XorKey1: 2222
+XorKey2: 22
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: punishrj
+Game: The Punisher (Japan)
+Parent: punisher
+
+[Program]
+psj23.bin,0,80000,6B2FDA52,0
+psj22.bin,80000,80000,E01036BC,0
+ps_21.rom,100000,80000,8AFFA5A9,0
+
+[Graphics]
+ps_gfx1.rom,0,80000,77B7CCAB,0
+ps_gfx3.rom,2,80000,122720B,0
+ps_gfx2.rom,4,80000,64FA58D4,0
+ps_gfx4.rom,6,80000,60DA42C8,0
+ps_gfx5.rom,200000,80000,C54EA839,0
+ps_gfx7.rom,200002,80000,4C5ACBD,0
+ps_gfx6.rom,200004,80000,A544F4CC,0
+ps_gfx8.rom,200006,80000,8F02F436,0
+
+[Z80]
+ps_q.rom,0,20000,49FF4446,0
+
+[Samples]
+ps_q1.rom,0,80000,31FD8726,0
+ps_q2.rom,80000,80000,980A9EEF,0
+ps_q3.rom,100000,80000,DD44491,0
+ps_q4.rom,180000,80000,BED42F03,0
+
+[System]
+LayerControl: 52,4,2,20
+BGHiControl: 54,56,48,4A
+Banks: 0,0,0
+BoardID: 4E,C00
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 67452103
+Swap2: 75316024
+XorKey1: 2222
+XorKey2: 22
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: punishru
+Game: The Punisher (US)
+Parent: punisher
+
+[Program]
+psu26.rom,0,20000,9236D121,2
+psu30.rom,1,20000,8320E501,0
+psu27.rom,40000,20000,61C960A1,0
+psu31.rom,40001,20000,78D4C298,0
+psu24.rom,80000,20000,1CFECAD7,0
+psu28.rom,80001,20000,BDF921C1,0
+psu25.rom,C0000,20000,C51ACC94,0
+psu29.rom,C0001,20000,52DCE1CA,0
+ps_21.rom,100000,80000,8AFFA5A9,1
+
+[Graphics]
+ps_gfx1.rom,0,80000,77B7CCAB,0
+ps_gfx3.rom,2,80000,122720B,0
+ps_gfx2.rom,4,80000,64FA58D4,0
+ps_gfx4.rom,6,80000,60DA42C8,0
+ps_gfx5.rom,200000,80000,C54EA839,0
+ps_gfx7.rom,200002,80000,4C5ACBD,0
+ps_gfx6.rom,200004,80000,A544F4CC,0
+ps_gfx8.rom,200006,80000,8F02F436,0
+
+[Z80]
+ps_q.rom,0,20000,49FF4446,0
+
+[Samples]
+ps_q1.rom,0,80000,31FD8726,0
+ps_q2.rom,80000,80000,980A9EEF,0
+ps_q3.rom,100000,80000,DD44491,0
+ps_q4.rom,180000,80000,BED42F03,0
+
+[System]
+LayerControl: 52,4,2,20
+BGHiControl: 54,56,48,4A
+Banks: 0,0,0
+BoardID: 4E,C00
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 67452103
+Swap2: 75316024
+XorKey1: 2222
+XorKey2: 22
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: wof
+Game: Warriors of Fate (ETC 921002)
+
+[Program]
+tk2e_23b.rom,0,80000,11FB2ED1,0
+tk2e_22b.rom,80000,80000,479B3F24,0
+
+[Graphics]
+tk2_gfx1.rom,0,80000,D9CB9BF,0
+tk2_gfx3.rom,2,80000,45227027,0
+tk2_gfx2.rom,4,80000,C5CA2460,0
+tk2_gfx4.rom,6,80000,E349551C,0
+tk2_gfx5.rom,200000,80000,291F0F0B,0
+tk2_gfx7.rom,200002,80000,3EDEB949,0
+tk2_gfx6.rom,200004,80000,1ABD14D6,0
+tk2_gfx8.rom,200006,80000,B27948E3,0
+
+[Z80]
+tk2_qa.rom,0,20000,C9183A0D,0
+
+[Samples]
+tk2_q1.rom,0,80000,611268CF,0
+tk2_q2.rom,80000,80000,20F55CA9,0
+tk2_q3.rom,100000,80000,BFCF6F52,0
+tk2_q4.rom,180000,80000,36642E88,0
+
+[System]
+LayerControl: 66,2,4,8
+BGHiControl: 68,6A,6C,6E
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 1234567
+Swap2: 54163072
+XorKey1: 5151
+XorKey2: 51
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: wofh
+Game: Warriors of Fate (Hack)
+Parent: wof
+
+[Program]
+tk2_23h.rom,0,100000,3703A650,0
+
+[Graphics]
+sgyx-1.160,0,200000,A60BE9F6,5
+sgyx-2.160,200000,200000,6AD9D048,5
+
+[Z80]
+tk2_qa.rom,0,20000,C9183A0D,0
+
+[Samples]
+tk2_q1.rom,0,80000,611268CF,0
+tk2_q2.rom,80000,80000,20F55CA9,0
+tk2_q3.rom,100000,80000,BFCF6F52,0
+tk2_q4.rom,180000,80000,36642E88,0
+
+[System]
+LayerControl: 60,2,4,8
+BGHiControl: 68,6A,6C,6E
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: E
+
+[Kabuki]
+Swap1: 1234567
+Swap2: 54163072
+XorKey1: 5151
+XorKey2: 51
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: CPSQ
+RomName: wofu
+Game: Warriors of Fate (US)
+Parent: wof
+
+[Program]
+tk2u.23c,0,80000,29B89C12,0
+tk2u.22c,80000,80000,F5AF4774,0
+
+[Graphics]
+tk2_gfx1.rom,0,80000,D9CB9BF,0
+tk2_gfx3.rom,2,80000,45227027,0
+tk2_gfx2.rom,4,80000,C5CA2460,0
+tk2_gfx4.rom,6,80000,E349551C,0
+tk2_gfx5.rom,200000,80000,291F0F0B,0
+tk2_gfx7.rom,200002,80000,3EDEB949,0
+tk2_gfx6.rom,200004,80000,1ABD14D6,0
+tk2_gfx8.rom,200006,80000,B27948E3,0
+
+[Z80]
+tk2_qa.rom,0,20000,C9183A0D,0
+
+[Samples]
+tk2_q1.rom,0,80000,611268CF,0
+tk2_q2.rom,80000,80000,20F55CA9,0
+tk2_q3.rom,100000,80000,BFCF6F52,0
+tk2_q4.rom,180000,80000,36642E88,0
+
+[System]
+LayerControl: 62,10,8,4
+BGHiControl: 64,66,68,6a
+Banks: 0,0,0
+BoardID: 0,0
+Multiply: FFF,FFF,FFF,FFF
+ButLayout: A
+Fix: 0
+
+[Kabuki]
+Swap1: 1234567
+Swap2: 54163072
+XorKey1: 5151
+XorKey2: 51
+

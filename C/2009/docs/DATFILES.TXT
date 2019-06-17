@@ -1,0 +1,44 @@
+ADDING ROMS
+
+You can add new romsets by creating files in the directory ROMDATA.
+The file structure is as follows: (ex: quiz nanairo dreams)
+
+The filename must be the romset name ending in .dat: qndream.dat
+And it's as follows:
+
+Quiz Nanairo Dreams             		Description
+                               			Parent romset (Empty if there is no parent)
+tqzj.03,80000,7acf3e30          		Program roms: name,size in hex,crc in hex
+tqzj.04,80000,f1044a87
+tqzj.05,80000,4105ba0e
+tqzj.06,80000,c371e8a5
+Blank line
+tqzjx.03,80000,5804a8f8         	Decryption tables
+Blank line
+tqz.14,200000,98af88a2,800000   	Graphics roms: 
+tqz.16,200000,df82d491          	name,size,crc,load address (optional)
+tqz.18,200000,42f132ff
+tqz.20,200000,b2e128a3
+Blank Line
+tqz.01,20000,e9ce9d0a           	Z80 Roms
+Blank Line
+tqz.11,200000,78e7884f          	Sound roms
+tqz.12,200000,2e049b13
+Blank Line
+3                               			Controller type (see below)
+-1                              		Always a -1 in the last line
+
+These are the controller types:
+0       -       2 Players standard. sfa,ssf2,msh, etc
+1       -       3 Players. avp
+2       -       4 Players. ddtod
+3       -       2 Players Quiz Nanairo
+
+There is no need to add all the roms in games with a parent romset, only the different
+roms are needed (but the blank line separator must be present)
+If CRC is 0, it's not checked.
+The parser is very simple, so the file structure must be exactly as described, with no 
+spaces or extra characteres.
+Graphics loading addresses must only appear (if needed) in the first ROM in each group of
+four.
+

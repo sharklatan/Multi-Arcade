@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%Create by RomData Maker%%%%%%%%%%%%%%
+% Author:                     %
+% EMail:                      %
+% URL:                        %
+% Create Date:25/12/2008      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: Neo
+RomName: kof2007
+Game: kof 2007
+
+[Program]
+2k2_p1.rom,0,100000,2921BC51,0
+kof2k2_p2.rom,100000,400000,378CF5BE,0
+
+[Text]
+kof2k2_s1.rom,0,20000,71C22288,0
+
+[Z80]
+kof2k2_m1.rom,0,20000,F6FAB859,0
+
+[Samples]
+kof2K2_v1.rom,0,400000,13D98607,0
+kof2K2_v2.rom,400000,400000,9CF74677,0
+kof2K2_v3.rom,800000,400000,8E9448B5,0
+kof2K2_v4.rom,C00000,400000,67271B5,0
+
+[Graphics]
+kof2k2_c1.rom,0,800000,745B343E,0
+kof2k2_c2.rom,1,800000,2AAB7F98,0
+kof2k2_c3.rom,1000000,800000,959FAD0B,0
+kof2k2_c4.rom,1000001,800000,2558972F,0
+kof2k2_c5.rom,2000000,800000,74BBA7C6,0
+kof2k2_c6.rom,2000001,800000,E20D2216,0
+kof2k2_c7.rom,3000000,800000,D5C5712B,0
+kof2k2_c8.rom,3000001,800000,7DFBEA39,0
+
+[System]
+CartridgeID: 265
+GfxCrypt: 0
+GfxKey: 0
+ButLayout: 9
+Fix: 0

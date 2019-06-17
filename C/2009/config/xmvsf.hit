@@ -1,0 +1,44 @@
+0       Player Devices - Player 1
+1       Player 2
+2       Player 3
+3       Player 4
+;Code Player Type
+84 1 1  player select
+85 2 1  player select
+;Player 1 hit codes
+400 1 1 
+401 1 1 
+402 1 1 
+403 1 1 
+404 1 1 
+405 1 1 
+406 1 1 
+407 1 1 
+408 1 1 
+409 1 1 
+40a 1 1 
+40b 1 1 
+40c 1 1 
+40d 1 1 
+;Player 2 hit codes
+100 2 1
+101 2 1 
+102 2 1 
+103 2 1 
+104 2 1 
+105 2 1 
+106 2 1 
+107 2 1 
+108 2 1 
+109 2 1 
+10a 2 1 
+10b 2 1 
+10c 2 1
+10d 2 1
+;Player 1 Guard codes
+10e 1 2 
+;Player 2 Guard codes
+40e 2 2 
+
+
+

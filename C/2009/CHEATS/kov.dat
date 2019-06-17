@@ -1,0 +1,8 @@
+[Region]
+0=World,V0,5
+1=China,V0,0
+2=Korea,V0,3
+3=Japan,V0,2
+4=Taiwan,V0,1
+5=Hong Kong,V0,4
+Default=0

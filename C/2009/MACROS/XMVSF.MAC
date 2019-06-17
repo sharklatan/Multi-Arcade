@@ -1,0 +1,164 @@
+[Player1]
+Character=ff4052,0,2,12,14,8,6,22,20,a,4,16,1a,e,c,18,1c,1e,10,24
+Direction=ff404a,1,0
+
+[Player2]
+Character=ff4452,0,2,12,14,8,6,22,20,a,4,16,1a,e,c,18,1c,1e,10,24
+Direction=ff444a,1,0
+
+
+[0]
+Name=Wolverine
+
+
+[2]
+Name=Cyclops
+Macro1Name=Optic Blast low
+Macro1Move=D,D+R,R+1
+Macro2Name=Optic Blast medium
+Macro2Move=D,D+R,R+2
+Macro3Name=Optic Blast high
+Macro3Move=D,D+R,R+3
+Macro4Name=Gene Splice
+Macro4Move=R,D,D+R+3
+Macro5Name=Run & Catch
+Macro5Move=F,N,F+3+6
+Macro6Name=Spinning Kick
+Macro6Move=D,D+L,L+6
+Macro7Name=Run (test)
+Macro7Move=F,N,F
+Macro10Name=Mega Optic Blast
+Macro10Move=D,D+R,R+1+2+3
+Macro11Name=Super Optic Blast
+Macro11Move=R,D+R,D,D+L,L+1+2+3
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+[12]
+Name=Ryu
+Macro1Name=Hadoken
+Macro1Move=D,D+R,R+3
+Macro2Name=Shoryuken
+Macro2Move=F,D,D+R,R+3
+Macro3Name=Hurricane Kick
+Macro3Move=D,DB,B+6
+
+Macro10Name=Shinkuu Hadoken
+Macro10Move=D,DF,F+123
+Macro11Name=Super Hurricane Kick
+Macro11Move=D,DB,B+456
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+[14]
+Name=Ken
+Macro1Name=Hadoken
+Macro1Move=D,D+R,R+3
+Macro2Name=Shoryuken
+Macro2Move=F,D,D+R,R+3
+Macro3Name=Hurricane Kick
+Macro3Move=D,DB,B+6
+
+Macro10Name=Shoryureppa
+Macro10Move=D,DF,F+123
+Macro11Name=Shinryuken
+Macro11Move=D,DF,F+456
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+
+[8]
+Name=Gambit
+Macro1Name=Kinetic Card
+Macro1Move=D,DF,F+3
+Macro2Name=Trip Card
+Macro2Move=D,DB,B+3
+Macro4Name=Cajun Slash (short)
+Macro4Move=F,D,DF,F+1
+Macro5Name=Cajun Slash (medium)
+Macro5Move=F,D,DF,F+2
+Macro6Name=Cajun Slash (long)
+Macro6Move=F,D,DF,F+3
+
+Macro10Name=Royal Flush
+Macro10Move=D,DF,F+123
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+
+[6]
+Name=Rogue
+Macro1Name=Multiple Punches
+Macro1Move=D,DF,F+3
+Macro2Name=Upward Punches
+Macro2Move=F,D,DF,F+3
+Macro3Name=Kamikaze Drop
+Macro3Move=F,D,DF,F+6
+Macro4Name=Power Stealing Kiss
+Macro4Move=D,DB,B+6
+Macro5Name=Stolen Power
+Macro5Move=D,DF,F+6
+
+Macro10Name=Super Punches & Kiss
+Macro10Move=D,DF,F+123
+Macro11Name=Akuma's Demon Rage
+Macro11Move=1,N,1,N,F+4,N,3
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+
+
+[22]
+Name=Cammy
+
+[20]
+Name=Charlie
+Macro1Name=Sonic Boom
+Macro1Move=CB,F,3
+Macro2Name=Somersault
+Macro2Move=CD,U+6
+Macro3Name=Rev Somersault (air)
+Macro3Move=U,UF,F+6
+
+
+[a]
+Name=SabreTooth
+
+
+[4]
+Name=Storm
+
+
+[16]
+Name=Chun-Li
+
+[1a]
+Name=Zangief
+
+
+[e]
+Name=Magneto
+
+
+[c]
+Name=Juggernaut
+
+[18]
+Name=Dhalsim
+
+
+[1c]
+Name=M. Bison
+
+
+[1e]
+Name=Akuma
+
+[10]
+Name=Apocalypse
+
+[24]
+Name=Chun-Li (SFA)
+
+
+

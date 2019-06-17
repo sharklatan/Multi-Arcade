@@ -1,0 +1,19 @@
+;Hotkeys definition file
+;Use values 1,2,3,4,5,6 for buttons and S for Start button
+
+[Neogeo]
+Hotkey1=1+2
+Hotkey2=2+3
+Hotkey3=3+4
+Hotkey4=1+2+3
+Hotkey5=2+3+4
+Hotkey6=1+2+3+4
+
+
+[CPS]
+Hotkey1=1+2+3
+Hotkey2=4+5+6
+Hotkey3=3+6
+Hotkey4=2+5
+Hotkey5=1+4
+Hotkey6=2+6

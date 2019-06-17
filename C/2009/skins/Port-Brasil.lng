@@ -1,0 +1,186 @@
+[Language]
+
+; Portugês do Brasil por Forenaite - SAMEB - Obrigado pelo emulador ElSemi
+;1.94 and before
+
+;GUI Strings
+0=Sim
+1=Não
+2=Vídeo
+3=Áudio
+4=Controles
+5=Outros
+
+;Video config
+6=Configuração de Vídeo
+7=Resolução de Tela
+8=Processamento de Imagem
+9=Tela Cheia
+10=Alocação
+11=Buffer Triplo
+12=VSync
+;Stretch modes
+13=Expandir Tela
+14=Mantém Aspecto
+;Surface modes
+15=Video (VRAM)
+16=Sistema (RAM)
+
+;Audio config
+17=Configuração de Áudio
+18=Ativar Som
+19=Freqüência
+20=Interpolação
+21=Processamento
+;Interpolation modes
+22=Sem interpolação
+23=2 pontos
+24=4 pontos
+
+;Controls config
+25=Pressione tecla ou botão 
+26=Player %d
+;Desculpe, não cabe a palavra 'Jogador'
+27=Restaura padrões
+28=Salvar padrão
+29=Teclas
+30=Cima
+31=Baixo
+32=Esquerda
+33=Direita
+34=Botão %d
+35=Macro %d
+36=Hotkey %d
+37=Três Socos
+38=Três Chutes
+39=Ação
+40=Voltar
+41=Mostrar Menu
+42=Iniciar
+43=Créditos
+
+;Other Menu
+44=Diretório Alternativo
+45=Procurar Roms
+46=Procura Neogeo
+47=Seleção de Skin
+48=Jogos
+49=Lê/Salva Automático
+50=Macros/Hints
+51=Animações da GUI
+;Game list filters
+52=Todos
+53=Disponíveis
+54=Disponível+NoXOR
+55=Todos os Sistemas
+56=Apenas CPS-2
+57=Apenas CPS-1
+58=Apenas NeoGeo
+;Macros/Hints
+59=Macros & Hints
+60=Apenas Macros
+61=Apenas Hints
+62=Nenhum
+;Hint text
+63=Jogador %d Personagem: %s
+
+;Misc messages
+64=Volume: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Rom Loading messages
+67=Alocando Memória...
+68=Lendo Arquivo %s.%s -> %s...
+69=%s, Arquivo não encontrado
+70=OK
+71=CRC Ruim. Esperado %X , Encontrado %X
+72=Tamanho Errado. Esperado %d , Encontrado %d
+73=Lendo Roms de Programa...
+74=Lendo Tabelas de Desencriptação...
+75=Lendo Roms de Programa do processador Z80...
+76=Lendo samples de som...
+77=Lendo Roms de Gráfico...
+78=AVISO!!! Algumas roms estão faltando ou são diferentes
+79=Pressione ENTER para continuar ou ESC para voltar ao menu
+80=Decodificando dados dos gráficos e inicializando emulação...
+81=Verificando %s...
+82=Procurando por roms de Neogeo em %s...
+83=Por Favor Aguarde, Analizando Romsets
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Salva partida
+85=Carrega partida
+86=Macetes
+87=Captura Avancada de Screenshots
+88=Sai do Jogo
+89=Macete
+90=Ligado
+91=Desligado
+;Neogeo Specific
+92=Configuracao da Maquina
+93=Configuracao do Memory Card
+94=Configuracao do CD
+95=Regiao da Maquina          %
+96=Japao
+97=USA
+98=Europa
+99=Desconhecida
+100=Sistema
+101=Arcade
+102=Console
+103=Desconhecido
+104=Free Play
+105=Overclock de CPU (MHz)
+106=Debugar Dips
+107=Debugar Dips em
+108=Modo 'Developer'
+109=Memory Card Ativo
+110=Inserir Memory Card
+111=Retirar Memory Card
+112=Requisitar 'Memory Card Manager'
+113=Estatus
+114=Inserido
+115=Nao Inserido
+116=Modo do CD                %
+117=Drive de CD
+118=Volume:
+119=Faixas:
+120=Jogo:
+121=Selecionar ISO
+122=CDROM Real
+123=Imagem ISO
+124=Nao Inserido
+125=Nenhum
+126=Cuesheet ou Imagem ISO
+127=Este Jogo nao
+128=suporta Gravacao
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Gravar Screenshot
+134=Cor de Fundo
+135=Original
+136=Rosa
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146='Tile Layer' Frontal
+147=Numero do 'Strip Sprite'
+148=Modo
+
+//1.95
+149=Linguagem/Idioma

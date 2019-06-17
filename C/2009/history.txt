@@ -1,0 +1,1342 @@
+version 2.25
+
+2.25	NEOGEO
+	Updated drivers. Thanks to Wesker, MR-J and the rest of people 
+	in speksnk.net boards
+	Unlocked games up to New Power Instinct Matrimelee
+	Fixed garou raster effect missing in pre-battle talk
+	Added proper neopcm2 decryption
+
+	NEOGEO-CD
+	Some code has been rewritten to improve compatibility. Now
+	more games should work (although there are still some problems).
+	Added an option in the Emulation menu for direct load of neocd ISO 
+	or CD.
+	
+	PGM
+	Added Knights of Valour 2 and Knights of Valour 2: Nine Dragons. Thanks
+	to HappyASR for the help getting the dump of the internal cartridge
+	cpu program. Due to the extra processor required to emulate, the game
+	will require a more powerful PC to run. Also savestates won't work.
+	(Internet ranking mode for kof2nd has been intentionally disabled).
+	Music speed in kov2/kov2nd is a bit off.
+	Fixed wrong sprite zoom and shrinking (required for kov2nd)
+	Fixed sprite priorities handling (required for kov2 & kof2nd)
+	Added protection for PhotoY2k.	
+
+	CPS2
+	Updated drivers. Thanks to Wesker, MR-J and the rest of people 
+	in speksnk.net boards
+
+2.24
+	NEOGEO
+	Fixed all the neogeo roms to match MAME romsets (Thanks to 
+	Wesker from Speksnk for the work).
+	Fixed kof98 protection (delete old kof98.srm files from
+	your config folder)
+
+	GENERAL
+	Added HQ2x plugin (includes src in plugins\hq2xsrc.zip)
+
+2.23d
+	NEOGEO CD
+	Fixed broken neogeo CD in the previous version
+	Fixed some protection issues in Soccer Brawl, I hope
+	it also fixes the Disc I/O errors.
+
+	PGM
+	Fixed broken pgm support in previous version
+
+	GENERAL
+	Hopefully fixed the .dat files
+
+2.23c
+	CPS2
+	Added new cps2shock xor tables
+	Added 'Crouching Tiger Hidden Dragon 2003' game.
+
+	NEOGEO
+	Fixed some problems with multislot emulation when there were
+	empty slots between 2 used slots.
+	Synced game drivers and bios names with latest MAME.
+
+2.23b
+	CPS2
+	Added Mighty! Pang (Japan 001011)
+	Added Super Street Fighter 2 (ETC 930911)
+
+	NEOGEO
+	Added Jockey Grand Prix. The sound program rom is
+	encrypted, so I've used vliner as parent and took
+	its m1 rom while we get a decrypted dump.
+
+	GENERAL
+	Added a new frameskip code, it should perform better on slower
+	machines
+
+2.23a
+	GENERAL
+	Fixed the NOREPEAT flag not working in winamp jukebox lists.
+
+2.23
+	CPS2
+	Added 1944: The loop master (US 000620)
+	
+	GENERAL
+	Improved the winamp jukebox feature, check the sample.trk file
+	in TRACKLST for an explanation.
+
+2.22a
+	Seems that the 2.22 version was leaked before release 
+	with some bugs in the main core and the d3d plugin so
+	I've named this version as "a" to avoid confusion.
+
+	GENERAL
+	Added a Winamp jukebox option. Be careful as it's a
+	bit different than how Kawaks works. You'll need to create
+	a music mapping table (check the sample kof98.TRK file in 
+	TRACKLST directory) and nebula will replace the
+	sound codes you indicate by the mp3/cd track/ogg/wav/...
+	you specify in that file. You must have winamp running
+	before loading a game that you created track lists for.
+	The option to enable/disable it is in the Sound menu.
+	It only works with Winamp 2.x.
+
+	Improved the video plugin interface to support rendering
+	plugins.
+	Added a preliminary graphics renderer based in Direct3D. I highly
+	recommend using it if you want to run in 32 bit desktop
+	or play rotated games (19xx,dimahoo) as it is a lot
+	faster than the Hardware Blit one in these cases.
+	Also it has some projection features and any bright
+	scanlines. Scanlines doesn't work well with rotated
+	games.
+	You'll need a video card with the following features:
+		- non square textures
+		- non power of 2 textures
+		- textures bigger than 256x256 pixels (sorry, no voodoo)
+	
+
+	NEOGEO
+	- Fixed "Step Frame" button in the shots factory
+	- Added King of Fighers 2001 driver
+
+	CPS1
+	- Fixed "Step Frame" button in the shots factory
+	- Fixed Mega Twins music speed.
+	- Fixed missing sprites in Forgotten Worlds
+	- Fixed games crashing on 32 bit desktop
+
+	CPS2
+	- Added Marx Matrix drivers.
+	- Fixed wrong flash frames in MvsC.
+	- Fixed some Dimahoo cheats not working (from
+	the latest Mike_Haggar cheat collection file)
+	- Fixed games crashing on 32 bit desktop
+
+2.21b
+	GENERAL
+    Fixed a severe bug in the startup code that caused nebula
+    to allocate huge amounts of RAM for absolutely no use on
+    startup. This was causing crashes in WinXP/2k and wrong
+    graphics decryption in big neogeo games.
+
+2.21a
+	CPS2
+	Added new XOR tables for
+		- Dimahoo (US 000121)
+		- Great Mahou Daisakusen (Japan 000121)
+		- Battle Circuit (Euro 970319)
+	Changed Battle circuit parent set to Euro version.
+
+	NEOGEO
+	Fixed Neogeo CD support broken in last version.
+
+2.21
+	CPS1
+	Fixed crashing in Punisher in the 2nd stage boss.	
+
+	CPS2
+	Improved VBlank timing. Fixes some problems with SFA3.
+	
+	NEOGEO
+	Added support for the Universe BIOS. Go to Game->Neogeo Options
+	and enable "Use Universe BIOS" to load it. The bios must be in
+	a zip named uni-bios.zip (in the ROMS folder) and the rom 
+	MUST be named uni-bios.rom. When using universe bios, all neogeo
+	options and cheats in nebula will be disabled, use the bios built-in
+	region, machine type and cheats options. When using universe
+	bios you'll see garbage during initial tests, don't worry, that's
+	normal and doesn't cause any other problem.
+	Fixed slowdowns in s1945p.
+
+	GENERAL
+	Fixed crashings if you have more than 4 joysticks connected.
+
+2.20
+	CPS2
+	Fixed some sprite/BG desyncs in Gigawing.
+	Fixed SFA3 crashing with latest Mike Haggar's cheats.
+
+	CPS1
+	Added a bunch of SF2 hacks (not all fully working though).
+
+	GENERAL
+	Added highscore saving for CPS2 games. Not all games are added yet.
+	Almost all CPS2 games are supported, and some CPS1 too.
+	It will use an external database to store the highscore data.
+	You can convert a MAME Hiscore.dat file to nebula's internal DB
+	with the command "nebula -hiconv" having the hiscore.dat file in the
+	nebula dir, it will build HISCORES.DB in the HISCORES dir. You should
+	delete all the .HI files to avoid problems when you change the HISCORE DB.
+	To turn off hiscore saving, just delete HISCORES.DB from the HISCORES dir.
+
+1.19c
+	CPS1
+	Fixed all CPS1+QSound games crashing after load.
+
+	CPS2
+	Added new decryption tables
+		- Giga Wing (US 990222)
+		- Giga Wing (Japan 990223)
+		
+1.19b
+	NEOGEO
+	Fixed Fatal Fury 2 protection not working
+	Fixed VLiner not working
+	Fixed Alpha Mission 2 missing sounds
+	Added 6 slot support for Multi slot MVS emulation.
+	Added Bangbead encrypted romset.
+
+	CPS2
+	New xors
+		- Megaman 2: Power Fighters (US 960708)
+		- Street Fighter Zero 2 Alpha (Asia 960826)
+		- X-Men: Children of the Atom (Asia 941217)
+
+	CPS1
+	Fixed wrong tiles on 1st floor of Magic Sword
+
+2.19a
+	PGM
+	Fixed gfx glitches in Dragon World 2
+	Fixed zooming (very noticeable in dragwld2 intro)
+	Fixed missing parts of some sprites (KOV flashes)
+
+	CPS1
+	Fixed some remaining music speeds...
+
+	NEOGEO
+	Fixed Garou missing animations (esp. some Grant moves).
+	Select button should be working in all games now (not only garou).
+	Added the game slot switch button to switch games
+	forwards (key 9=switch backwards, key 0=switch forwards)
+
+	GENERAL
+	Fixed (hopefully) Romcenter Dat generation.
+
+
+2.19
+	PGM 
+	Added Dragon World 2 (it has some gfx glitches due to some missing parts in
+	the protection emulation)
+	Text layer should now be correctly aligned (it was 1 line too high)
+
+	CPS2
+	Fixed ssf2xj timing that was still wrong.
+	
+	NEOGEO
+	Fixed small autoanimation problems
+	Added neogeo multislot MVS emulation. 
+	Usage: 
+		in the rom loading screen, you'll see a dropbox to 
+		select in which neogeo slot you want to load the game.
+		Just select the slot and hit load, then after loading a
+		game, you can go and load another in a different (or the
+		same, overriding it) slot.
+		Note that you'll need a lot of RAM to hold all games in 
+		memory at the same time.
+		To switch from game to game, use the button mapped as
+		Button 5 in the input options (default key 0)
+		The current bios supports 4 game slots.
+		The default bios config only allows to switch games after
+		inserting a coin. To change it, press F2, go to "set the soft
+		dips", then "setting the cabinet", and change "Game selection"
+		to "Free".
+		Using savestates with multislot games may have unpredictable
+		results.
+		ALWAYS LOAD IN THE 1ST SLOT FIRST.
+
+2.18b
+	NEOGEO
+	Fixed some sound timming issues with long samples (Dandy J stage in wakuwak 7)
+	Switched the memory card format to MAME one (old memcards still work).
+
+	CPS1
+	Fixed slow music in pang3 and megaman.
+
+
+2.18a
+	NEOGEO
+	Fixed mslug3nd driver crashing nebula.
+	Fixed kof99d driver. now it loads the decrypted C roms instead of
+	the prototype roms.
+
+
+2.18
+	PGM
+	Improved sound volume (checked with Z80 volume tables).
+	Improved music speed (checked with real sound samples. Thanks to BillyJr).
+	Fixed some wrong objects in KOV.
+
+	CPS1
+	Fixed incorrect music speed in some games (still some remaining)
+	Dipswitches in all CPS1 games were wrong. They are (should) be
+	correct now. (remember that CPS1 dips are changed in the Cheats menu)
+	Fixed some sprite clipping problems.
+
+	CPS2
+	Added Vampire Hunter 2 and the rest of the latest CPS2Shock releases
+
+	NEOGEO
+	Fixed garou select button
+	Fixed garou 3rd Terry stage background animation (requires rasters enabled)
+	Fixed garou random character selection.
+	Fixed sound problems in ssidekicks4 and neobomberman
+	Improved raster emulation with the info from the real HW.
+	Now nebula should not complaing about wrong ng-lo.rom files.
+	Fixed sound problems ninja combat, ninja commando and others. Big thanks
+	to Acho A. Tang.
+	Fixed KOF94 Japan stage intro.
+	Recent neogeo games have been locked. You should go to an arcade
+	if you want to play them.
+	Fixed kof2knd C7 rom (seems that only I had that rom)
+	Added an additional sengoku3 romset for the new P1 (it's not 
+	clear what's the correct one).
+	ND romsets no longer use the encrypted P roms, they are
+	fully decrypted.
+
+	GENERAL
+	Added an option to auto switch to Fullscreen after loading a ROM (Misc menu)
+	Corrected Nebulaconfig looping in the options screen.
+
+2.17
+	PGM
+	Improved sound emulation:
+		Volume should be correct (or almost) now.
+		Note pitch improved.
+	Fixed missing background in a KOV stage.
+	Added an option to capture the current music to a file
+	to load it in jukebox (PZM files).
+	Calendar is disabled when netplay or recording movies. This 
+	will (should :)) avoid desyncs.
+
+	CPS2
+	Fixed some finish specials being wrong in the bottom of
+	Manhattan stage in mshvsf.
+
+	CPS1
+	Fixed missing helicopters and buildings in cawing.
+	
+	NEOGEO
+	Fixed (again) sengoku3 decrypted driver.
+	Fixed Irritating Maze controls. You can use the mouse to 
+	move the rod (this game cabinet has a trackball).
+	Fixed missing 2 lines at the bottom of the screen of games
+	using rasters (most noticeable in mslug2, galaxyf, mosyougi)
+	
+	GENERAL
+	Added some language translations (Italian, Korean, Chinese, Dutch)
+	Fixed 50% scanlines at 640x480
+	Added a "Step Frame" button to the shot factories (window mode)
+	Added some Force Feedback tables by Iron Man.
+	Added a small skin option to the windowed GUI. Any PNG file in
+	the SKINS folder will be randomly chosen and displayed in the 
+	nebula window on startup when no game is loaded.
+
+	IMPORTANT!! I've received a lot of mails asking about neo-geo.rom,
+	ng-lo.rom and ng-sfix.rom. Those are the neogeo bios and MUST be
+	ZIPPED in a file named NEOGEO.ZIP in the ROMS folder (or any roms
+	folder you have configured).
+
+	
+
+2.16
+	PGM
+	Z80 is fully emulated, that means, correct sounds and music
+	in games. The sound chip emulation is not 100% accurate so
+	some notes in music are wrong. I've added an option to disable
+	the music in the Options menu.
+	Fixed savestates in KOV games. (old savestates will still not
+	work, only new ones will be correct).
+	Fixed text layer position being wrong by 1 line.
+	Added shot factory (F8)
+
+	CPS2
+	Fixed a palette sync problem that caused part of the charlie
+	stage in sfa2 flash out of sync.
+	Scanlines in 640x480 are now correct (again). Use No stretch go
+	get them correctly.
+
+	NEOGEO
+	Fixed sengoku3 decrypted driver.
+
+	GENERAL
+	Added language switch for the menus (check the english.lng
+	file in the skins dir for a template for translation)
+	
+
+2.15a
+	PGM
+	Fixed Knights of valour missing platform and bridges in some
+	stages.
+	Some rom renamings. To match mame names
+		sango1   -> kov
+		sango1_5 -> kov115
+		sango1_9 -> kovplus
+		orlegend -> orlegend (the same)
+		orleg112 -> orlegnde
+		orleg12e -> orlegndc
+	Fixed china and taiwan regions swapped in KOV
+	
+	NEOGEO
+	Fixed savage reign V2 rom CRC
+	Added Sengoku3 and Zupapa neogeo drivers.
+
+	GENERAL
+	PGM resolution is very wide, so if it's cut in the
+	screen, play a bit with stretch options till you can
+	get it fitting.
+
+2.15
+	PGM
+	Added Knights of Valour and Knights of Valour Plus 
+	(see KOVROMS.TXT for the correct roms CRC and sizes).
+	Special thanks to BillyJr for his help to get this
+	game running.
+	Added Sound emulation. Well, it's not complete emulation, but
+	it's enough go get sounds working. Only SFX works and some
+	sounds may be wrong. 
+	Added region switch to orlegend and kov
+	Fixed orlegend crashes.
+	NOTE: PGM games have a very wide resolution so
+	double size modes (scanlines and most image enhancement
+	modes) require resolutions higher than 800x600 to work
+	properly with no stretch.
+
+	GENERAL
+	Fixed netplay crashing with Konami and PGM games.
+
+2.14b
+	CPS1
+	Fixed wrong layer offsets in sf2yyc and kouryu (=blackbelt? ) that
+	appeared due to the new timing.
+	Fixed Quiz and Dragons USA gfx problems
+	Fixed sound problems in ADPCM audio (oops, my fault, I
+	left some test code inside).
+
+	GENERAL
+	Fixed Nebula hanging in a window when exiting a game
+	in the classic GUI.
+	Fixed the Video menu crash if there are no transparency tables in
+	the CONFIG folder.
+
+2.14a	
+	CPS1
+	Fixed loops in some drivers (cworld2j, qad and qtono2)
+	that were causing the rom scanning crash
+
+2.14
+
+    	CPS1
+	Fixed high music speed in sf2 and captcomm
+	Added the missing CPS1 drivers (thanks to 
+	mike_haggar haggar.emuunlim.com)
+
+	PGM
+	Fixed the memory corruption bug in orlegend (aka
+	infinite lives bug)
+	Fixed zooming (it was reversed, making zoom effect
+	backwards :) )
+	Fixed screen cut with some blitters.
+
+	CPS2
+	Re-adjusted timing again, now some games are smoother
+	(especially ssf2t)
+
+	GENERAL
+	Added Force feedback support, using tables. I've
+	included 2 sampe tables (xmvsf.ht2 and mvsc.ht2). Read
+	the comments in them to know how to make your own tables.
+	To make .FFe files you'll need MS force editor that comes
+	with directx sdk. It hasn't been too much tested so there
+	might be bugs, let me know if you found any and/or if you
+	make a force table. Remember to enable and map your
+	devices to the correct player in the options window.
+	Added a control layout load/save feature to save your
+	favourite layouts (as the save/load default layout never
+	worked corectly). I've included some layouts for keyboard,
+	6 button pads and hotrod (thanks Crashtest).
+	Fixed errors when changing DSP plugins while the game was
+	running.
+	Fixed a small bug in the winamp wrapper plugin. Now more
+	winamp DSP plugins work (like DFX 6.0, RTEQ, Pacemaker)
+	Added an HyperBass DSP plugin (just in case you want to break
+	your subwoffer).
+	Fixed Keep aspect video option. To get a clean scanlines
+	Image (no stretch distortion), I recommend using 800x600 with
+	no stretch.
+	Added 3 new gfx blitters. Bilinear interpolators, that override
+	the older Full and light interpolation ones. The effect is the
+	same (bilinear light=light interp. Bilinear=full interp) but
+	they are twice faster.
+
+2.13a
+    NEOGEO
+    Fixed Spinmasters gfx errors on the bottom lines (raster bug)
+
+    CPS1
+    Added SF2 KouRyu driver
+
+    CPS2
+    Improved CPU timing. That makes SSF2T/SSF2X smoother.
+    Fixed SSF2X driver (no more gfx or sound problems)
+
+    PGM
+    Fixed crashing after a few minutes playing.
+
+    GENERAL
+    Added SuperScale blitter (similar to a *Scale blitter
+    of other CPS2 emu :) ). It looks great and it's very
+    fast (if not the fastest) image enhancement mode. Full source included.
+    The best blitter in nebula without any doubt. It only works
+    in 16-bit desktop modes.
+    Added auto-transparencies. It will make flickering objects
+    and meshes become transparent without blur. The 50% frame blend
+    blitter is no longer needed. Unlike sprite transparencies,
+    this will cause a performance hit, so better don't enable it
+    if you have a slow computer.
+    Fixed full interpolation mode.
+
+2.13
+    NEOGEO
+    Improved raster effects emulation.
+    Most games are correct now, and others
+    have been greatly improved:
+	mosyougi title
+	ssidekicks pitch (still not 100% correct but
+			  heh, at least you can see it)
+	samsho3 "3D" floor effects
+	wheroes floors
+	karnovr floors
+	mslug3 last boss red sky distortion
+	galaxyfight better alignment
+
+    CPS2
+    Added latest CPS2Shock releases
+    Fixed wrong layer prios on nwarr character
+    selection screen.
+
+    KONAMI & CPS1
+    Fixed music speed that was wrong in some games.
+
+    PGM
+    Optimized sprite drawing (more than twice
+    faster now in some critical parts)
+    Fixed sprite shrinking
+    Added sprite zooming
+    Added linescroll (orlegend stage 4 and 6)
+    Fixed some missing sprites (clipping problems)
+    Main CPU is running at the correct speed now
+
+    
+    GENERAL
+    Added DSP plugins support (including a DSP
+    wrapper for winamp plugins. It's still beta
+    so be careful, and don't change the plugin
+    while a game is running)
+    The plugin.h file has been update with the 
+    DSP plugin interface.
+    Force feedback support is disabled as I'm 
+    improving it (and it's still not finished :( )
+    
+
+
+2.12
+    CPS1
+    Fixed dynasty wars romset names
+    Fixed sprites disappearing.
+
+    NEOGEO
+    Fixed mslug3nd romset.
+
+    GENERAL
+    Fixed Scanlines when using 640x480.
+
+2.11
+    KONAMI
+    Added Bucky O'Hare
+    Fixed Zooming.
+    Fixed some sprite gfx problems (2nd level boss
+    in moo)
+
+    CPS2
+    If you are only seeing 2 buttons in CPS2 games
+    delete the .dat file for that game in the
+    CONFIG folder.
+
+    CPS1
+    Added SF2 YYC hack
+
+    NEOGEO
+    In the ROMDATA folder you'll find a
+    file called Neogeo.new. Delete the
+    Neogeo.dat and rename the .new to .dat
+    to use the new MAME rom names.
+    It's a good moment to remember that if
+    you have nebula reporting missing neo-geo.rom
+    ng-sfix.rom or ng-lo.rom, you'll need to put
+    the neogeo.zip file (BIOS) in a roms
+    directory (folder).
+
+    GENERAL
+    Fixed Vertical games not displaying anything.
+
+
+2.1	
+    KONAMI
+     Mooooo!!
+	Added Wild West COW Boys of Moo Mesa.
+	
+	CPS1
+	Added Dynasty Wars (World), it's now the
+	parent set.
+
+	CPS2
+    Fixed SFA3 crashing with Mike Haggar's cheats.
+	
+	NEOGEO
+	Added NeoPong
+	Fixed Neogeo CD Metal Slug crashes
+
+	GENERAL
+	Added an option to  auto-Switch to 16 bit desktop
+	color depth (Misc Menu)
+     Fixed Menu bar flickering in fullscreen.
+     Changed the ROMdata files format, to a
+     more compact format. Also now all romsets
+     are external (Except Konami), so you can
+     rename/edit the romsets to match yours.
+     I strongly recommend that you delete the old
+     .DAT files from the ROMDATA folder.
+	
+	
+
+2.0a
+
+	BUG FIXES
+	Fixed old GUI crashing on start
+	Fixed title bar corruption
+	Fixed Aspect ratio with Keep aspect option
+	Fixed vertical games on 32 bits desktop.
+	Fixed ingame menu letters when using 32 bit
+	color depth
+	Fixed xmvsf crash on start bug.
+
+	Added shot display on Rom List when moving
+	with arrow  keys
+	Added a Switch to Fullscreen option in the
+	Video Menu, as some people didn't know how
+	to switch to fullscreen (ALT-Enter)
+
+	Added many transparency tables. Thanks to
+	Darksoul, Bad_crc, Razoola, kyo_99 and 
+Ken_Masters. 
+
+Some things I forgot to mention in the readme:
+- To use the old gui, you can also launch:
+    Nebula.exe -classic (-window  if you want  to
+    run it  in a window))
+- You can click on the column names in the rom list
+    to sort the list using that column.
+
+	
+2.0
+	GENERAL
+	Lots of changes in this version, but the most
+	noticeable one is the new Window mode
+	GUI (You can still use the old GUI). Note that 
+the window mode will workin systems with 32 bpp 
+desktop color depth	but only Hardware blit will work.
+If Nebula runs very very slow, try disabling stretch and
+Switching to system memory allocation.
+
+	Due to the big amount of changes I'd recommend
+	that you read all the docs.
+
+	Some keys behave differently in window mode GUI
+	check the GENERAL doc.
+
+	Major rewrite of the main core. All systems
+	emulation have experienced a speedup and
+	the memory requirements have been lowered
+	a lot.
+
+	New shots factories, that allows changing almost
+	every parameter/sprite. Please, read the doc about
+	this.
+
+	New macro code, that allows macros to work without
+	knowing the character addresses and also adds
+	"global" macros that can be used with any character
+(read macros documentation).
+	
+	NEOGEO
+	Added 4-point interpolation for Delta-T samples.
+	Added a decryption progress indication for
+	latest  (encrypted GFX) games.
+	Sengoku3 and Zupapa are disabled. The Find
+	Roms trick will no longer work.
+	Small fix to rasters that were wrong by 1 line (still
+	few raster games work ok)
+
+	CPS1
+	Added knightsh, dinoh and wofh hacks. Take note
+	that there are some glitches in those games
+	due to some roms that aren't dumped yet.
+
+	CPS2
+	Rewritten GFX code. It's the fastest and most
+	accurate code in all nebula versions. It fixes all
+	known glitches (esp. Rowscroll ones: avsp, ryu
+	stage of sf2/ssf2).
+
+	Very accurate raster emulation. A lot faster than the
+	old one, and now accurate at line-level. This
+	new raster code emulates the missing background
+	distortion in Shuma Gorath's Chaos Dimension
+	on msh and mshvsf.
+
+	Fixed mvsc sprite misalignment in ending sequence.
+
+	Added a pre amplification option to QSound 
+	renderer. 	I don't recommend using it because
+	can cause distortion with higher volume samples.
+	Use it only if the sound output is too low in your 
+	system.
+	
+
+1.97
+	
+	NEOGEO
+	- Fixed SS3 protection. You must delete the
+	Samsho3.dat file in the CONFIG folder.
+
+	CPS1
+	- Fixed some sprite wraparound bugs that still
+	remained.
+
+	GENERAL
+	- Added sprite transparency support, using
+	external tables. Read the Transparency.txt file
+	to know more about them, and how to make your
+	own tables. There are some tables included, but more
+	will come, also if you want to share your tables,
+	send them to me and I'll include them in the release.
+	- Added 50% Frame Blend (and +scanlines) gfx renderer
+	that removes flickering sprites making them transparent.
+	- Fixed movie recording.
+	- Rewritten graphics core to use DirectDraw 3, that
+	is faster in older video cards and will probably
+	fix some hang bugs.
+	- Added a configuration screen for nebula.ini
+	options. Launch Nebulaconfig.exe or Nebula.exe -config.
+	- Added autofire option for all buttons in all games.
+	- Separated hotkey configuration for Neogeo and CPS.
+
+1.96
+
+	NEOGEO
+
+	- AT LAST!!! Fixed the nasty bug that
+	caused nebula hang with a plain color
+	screen (red/blue/black), hanging the
+	computer. As result of this fix, the
+	drawing operations are slightly faster.
+
+	CPS1 (heh, here we go...)
+
+	- Added starfield planes emulation in
+	strider and forgotten worlds backgrounds
+	- Fixed forgotten worlds shop bug.
+	- Fixed sprite flickering/disappearing
+	in many games (dino, strider, kod,...)
+	- Fixed bad tiles scattered in some
+	games (3wonders, unsquad, area88)
+	- Fixed sprite palette desyncs
+	(3wonders golem tree)
+	- Fixed Daimakaimura black screen.
+	- Fixed dinoj and punishj crash.
+	- Fixed sound hanging in most games.
+	- Improved ADPCM decoding, now there is
+	no sound distortion.
+	- New GFX drawing engine, slightly faster
+	than before.
+	- With all those fixes, CPS1 emulation is
+	almost 100% complete. Please, report the
+	bugs you find.
+
+	CPS2
+	
+	- New GFX drawing engine, slightly faster
+	than before.
+	- Added Rockman region and cheats (sorry,
+	I forgot to include it in the previous
+	release).
+	
+	GENERAL
+
+	- Added movie recording for all systems.
+	Use the in-game menus or the keys:
+	   SHIFT-F10 Record Movie
+	   SHIFT-F11 Play Movie
+	   Press any of the above keys while 
+	   recording or playing to Stop.
+	- Fixed sound configuration lost when
+	going to the game GUI.
+
+1.95d
+
+	NEOGEO
+	- Fixed garou romsets:
+		garou.zip (set 1) (Main set, needs the 
+				   new 253-sma.bin)
+		garouo.zip (set 2) (Old set, uses the 
+				   old 253-smao.bin,
+				   parent: garou.zip)
+		garoud.zip (Decrypted C set, 
+			    parent: garou.zip)
+
+	- Added MSlug3 (Encrypted set) (needs 256-sma.bin)
+	- Fixed kof99p P1 rom CRC.
+	- Fixed sound samples loading for games with 
+	  gaps in the sound roms (kof95 missing tracks)
+	
+	GENERAL
+	- Changed some rom names in sync with kawaks and
+	  MAME. There are still some small differences,
+	  mainly in CPS1 romsets.
+	- Fixed romcenter dat generation. Now it includes
+	  merge info.
+	- Fixed cheat engine parser to allow longer lines
+	  to fix problems with the great cheat collection 
+	  released by Mike Haggar (haggar.emuunlim.com).
+	- Added more language packs
+
+
+1.95c
+
+	NEOGEO
+	- Added Garou (set 1), note that romset names
+	have changed to match current  mame names:
+	    Garou (Set 1)  -> garou.zip
+	    Garou (Set 2)  (old garou.zip) -> garouo.zip
+	That renaming should not cause problems with
+older naming because nebula will scan both files
+for the required roms.
+
+- Fixed sound problems with very short samples.
+  Mostly noticeable in kof2k K' team ending.
+  Thanks to all the people that sent me their
+  save states.
+
+GENERAL
+- More languages added.
+- External font added, with some special chars
+  now available (á,é,ñ,ç, etc...) a font editor is
+  in the work.
+
+1.95b
+
+	NEOGEO
+	- Fixed kof2000 (Not encrypted) that was being
+	  decrypted, sorry for the problems.
+	- Fixed alpha mission 2 romset to match the 
+	  latest redump
+
+	GENERAL
+	- Added Chinsese (Simplified, GUI only) ,Italian 
+	  Russian (gui only) and French languages. Please, 
+  if you make a language file, send it to me to add 
+  it to the official release. (You can put your name
+	  in the file, as comments starting with ';').
+
+1.95
+
+	NEOGEO
+	- Fixed at last (I hope) kof99.
+	- Added MSlug3 (Not encrypted).
+	- Added Garou: Mark of the wolves (Encrypted)
+	- Added Kof2000 (Original set) version, 
+  thanks to Nicola Salmoria for the new tables.
+- Fixed GFX decrypting tables
+- Added the new S rom banking needed for Garou
+and Mslug 3
+	- Fixed rasters in some games 
+	  (Parallax scroll in Zedblade)
+	- Fixed sound state restoring when loading an state.
+
+	NEOGEO CD
+	- NOTES: 
+- If you are having frameskip problems in the 
+BIOS intro, just insert a CD in your currently 
+selected CD drive.
+- If the in-game GUI hangs when going to the 
+cd options menu, configure the cd manually in
+the GENERAL.DAT file in the CONFIG folder
+(NeoCDMode=  0-CD  1-ISO)
+
+	CPS1 
+	- Fixed sound state restoring when loading an state.
+
+	GENERAL
+	- Fixed crashing when changing the sound options
+	while playing.
+	- Added 48000 Hz sampling rate.
+	- Added Language support. You will be able to
+	  translate almost all Nebula text strings
+	  using .lng files in the SKINS directory.
+	  Use the original (English.lng) file as a 
+	  template. Remember that the graphics font
+	  for in-game menus has only standard 7-bit 
+	  ASCII chars, so chinese, japanese or special
+	  language letters will not be possible in
+	  that menus.
+
+1.94b
+
+	NEOGEO
+	- Changed kof2000 romset names to kof2000.zip  and kof2000n.zip.
+	- Fixed console mode for nitd and kof2000
+	- Added support for romsets with decrypted C roms
+	- Fixed kof99 and kof99d graphics
+
+	CPS2
+	- Fixed a Directsound 3D bug that was causing strange problems (I forgot
+	  to add an EMMS opcode at the end of the MMX code)
+
+	GENERAL
+	- Slowdowns while connected to internet or using other audio programs in
+	  background *should* be mostly fixed now.
+	- Added an option in Nebula.ini to show the sound codes stack, useful to find
+	  codes for Force Feedback.
+
+
+1.94
+NEOGEO CD:
+- Fixed NeoGeo CD game always reported as missing (Red)
+- Fixed some loading screens that caused emulation crash (mslug,windjammers, 
+  and many more.)
+- Fixed ISO+MP3 crashes
+- Fixed kof99 crashing (Nebula was messing with the NeoGeo romset and was trying 
+  to decrypt the code :) )
+- Modified the NeoGeo CD docs, I hope they are clearer now.
+
+NEOGEO:
+- Added King of Fighters 2000 (decrypted set). You'll need the Neo-0 dump (kof2k) and
+  the decrypted dump (kof2kn.zip).
+- Removed Metal Slug 3 from the gamelist since it was causing some confusion.
+- Added 512 Kb S rom support (Huge thanks to Mr K for his help :) )
+- I forgot to thank Nicola in the previous version. Many thanks to him for making possible
+  playing new NeoGeo Games.
+- Sengoku 3 is NOT SUPPORTED. This game is only 4-5 months old and it's still in the
+  arcades.
+- Changed the gfx decryption method, it should be faster and will require less memory as 
+   now it's performed before loading any other roms (program or sound).
+- If there is not enough memory to perform the decryption, games will run with encrypted
+  graphics. This behaviour was also in the previous release, but I forgot to write it here.
+
+CPS2:
+- Fixed 4 point interpolation equation that was causing some sound artifacts in high pitched
+  sounds.
+- Added the new QSound code to the Directsound 3D renderer (I forgot to add it in the
+  previous version).
+- Slightly faster Z80+QSound emulation by removing some unneeded FP operations.
+- Fixed Directsound 2d Narrow mode always being Mono, now it's Stereo.
+
+CPS1:
+- Fixed Nemo (Japan) always appearing in the gamelist.
+
+GENERAL
+- Added Hotkeys documentation that was missing in latest releases.
+
+
+1.93	
+	NEOGEO CD:
+	- Added support for NeoGeo CD games. You'll need a game CD or a ISO+MP3 image. 
+	- You'll need the NEOCD.BIN file in a file called NEOCD.ZIP, (512Kb, CRC: df9de490) and 
+	  the NG-LO.ROM in the NEOGEO.ZIP file.
+	- To play a NeoGeo CD game, launch the "Neogeo CD" game that appears in the gamelist.
+	  this will start the neogeo cd, press A button to go to the player or start to start the game.
+	  to configure CD emulation (CD or ISO image), press ESC and go to "CD options".
+	  No savestates or cheats are available for NeoGeo CD.
+	  NeoGeo CD emulation has still some bugs. If you get a "Disc I/O Error", exit to the GUI and
+	  run the "NeoGeo CD" game again.
+
+	NEOGEO:
+- Fixed rasters for some games (ridhero, galaxy fight, neo turf masters, top hunter, ddragon)
+- Added Vliner emulation. Check the special button configuration for this game 
+  in the controls menu.
+- Added Kof99, Prehistoric Isle 2, Ganryu, Strikers 1945 Plus and Nightmare in the Dark 
+  graphics decryption, using MAME's decryption algorithm (that means that some gfx may 
+  be wrong as the algorithm may be incomplete)
+
+	CPS2:
+	- Fixed mshvsf VS screen top lines being drawn upside down.
+	- Fixed Cheats and region for mshvsf.
+	- Added VSAV2 rom data file
+	- Rewritten Qsound emulation engine. Written in MMX optimised ASM it's now 3-4 times
+	  faster and more accurate. It also has a new interpolation mode that uses 4 points instead
+	  of 2. It requires more CPU power, but sounds better.
+
+	GENERAL:
+	- Fixed the usage of parent cheats if a clone has no specific cheat data. Now Region is
+ 	  never taken from the parent cheat, and cheat configuration is stored in the clone dat file.
+	- Removed some games from the internal database that caused problems with the new
+	  dump names.
+	- Fixed some Force Feedback problems
+	- Fixed surface memory allocation. Now nebula requires much less VRAM to work.
+	- Added separate audio configuration for each system (Qsound, Neogeo and CPS1)
+
+
+1.92	
+	NEOGEO:
+	- Preliminary Neogeo Raster effects Added. Please note that Rasters are disabled by 
+default in NEBULA.INI because they are SLOW, set the EnableNGRasters option to 1 
+to enable  them. The Super Sidekicks games and some other games have still some raster 
+problems.
+	- Adjusted (again) the Z80 sound timing.
+	- Added fatfury2 protection (many thanks to Mr K).
+
+	CPS2:
+	- Fixed BlackHeart's stage of MSH missing rowscroll in the background (there are now 
+	  too many hacks in the raster code, it needs an urgent rewrite :) )
+	- Better sprite timming and sprite buffering that solves some backgrond/sprite
+	  desync (ssf2 portraits, ecofght, sfa3,...)
+	- Fixed the CPS2 eeprom problems that caused problems with some games (csclub, 	  
+	  ssf2t,...)
+	- Fixed Super Hyper turbo :) mode for ssf2t, I accidentally left the CPS2 CPU clock
+	  running at 20 Mhz.
+
+	CPS1:
+	- Fixed Mercs graphics.
+
+	GENERAL:
+	- Improved the cheat engine with conditional cheats, indirect addressing (for neogeo), 
+	  etc. Check the CHEATS.TXT file for info.
+
+	- If there is no specific cheats for a clone, nebula will take the cheats form the parent set.
+	  That removes the need of a cheat file for every clone.
+
+- Added force feedback support. Some fighting games allow detecting the hits, so 
+	  nebula will use force feedback to make you "feel" the hits. In the CONFIG directory
+	  there are two .ffe files with the force data that can be edited with Microsoft FEdit
+	  to make your own force macros.
+	  Force info is still only available for xmvsf. I'll post info for more games soon if this
+	  feature is showed useful.
+	  Note that player 1 force is sent to joy 1 and player 2 to joy 2, so you may have to  rearrange
+	  your joysticks ports to make it correct.
+
+	
+
+
+1.91b	- Fixed kof99 (and some other games) sound "clicks".
+	- Due to a stupid bug, the new delta-t interpolator was no enabled in
+	previous versions (they were using the old one).
+	- Now Ninja Commando and Ninja Combat music sometimes work (and sometimes
+	doesn't :( )
+	- 640x480 scanline modes are now centered on the screen.
+
+1.91a
+Fixed macro support that was broken in previous version.
+Fixed a stupid bug in default control, hotkeys and macros that prevented
+it from working.
+Fixed the size and crc for the NG-LO.ROM file, it should be 64k
+(65536 bytes) and CRC: E09E253C. It's the same than the old dump
+but with only the first 64k (last 64k are a copy of the first 64k)
+Nebula will still recognize the old 128k rom.
+I forgot to mention an experimental option in nebula, it's the -blade15
+option, it will generate 15Khz output signals (for arcade monitors) if
+you have a Trident Blade3D card. You'll need the BLADEIO.VXD file from the
+Blade15khz package in http://www.beimborn.com/mame/dl/blade15_24.zip (mirror 
+because the original page is about to disappear).
+
+
+1.91	Added a "Smart" romset name recognition, you must enable it setting
+StrictRomsets=0 in NEBULA.INI and then use the "Find Neogeo" button in
+	the OTHERS menu. It will recognize the romsets with different names
+	than the MAME ones but the files (size, CRC) must be MAME compilant.
+	If nebula is unable to find a match with its internal database it will
+	try to build a new romset (similar to Neoragex import feature) with
+	the files in the zip. Nebula can recognize MVS and MGD dumps, so your
+	old romsets will work now. Note that that feature may cause gfx or
+	game problems because the neogeo dumps aren't homogeneus, so don't
+	mail me about gfx or game problems if you aren't using strict name
+matches. Remember to hit Scan Roms after looking for neogeo roms.
+	Corrected X Zoom tables with values checked in the original board.
+	Corrected Y Zoom tables (You'll need to have the ng-lo.rom file
+	inside your NEOGEO.ZIP file).
+	Balanced AY and YM volumes.
+	New interpolation mode for Frecuency control type (Delta-t) ADPCM
+	sound samples, this one is better (and faster) for high pitched 
+	samples	(for example arina or dandy j's stages in Wakuwak7).
+	Delta-t samples were always interpolated in previous versions, now 
+	interpolation for these samples is only used if it's enabled in 
+	the menu. (Having interpolation disabled is faster, but sounds 
+much worse (many audible resampling artifacts) I recommend having
+interpolation always enabled (it's not much slower))
+	Added the new Kof99 decrypted set (kof99d), you'll need files from
+	the 3 kof99 romsets, read the MINIFAQ.
+	Fixed double dragon (and probably many more) FMV intro sound 
+	problems.
+	Added Hotkeys. Configure the button mapping for each hotkey in the
+	HOTKEYS.DAT file (there are separated configs for CPS and neogeo games)
+	and then assign keys in the Control menu to the 6 Hotkeys available (scroll
+	down the control menu to see the keys).
+	Added a new stretch mode called "Keep aspect" that keeps the original
+	aspect while using the bigger possible screen area (good for vertical games).
+	Added FreePlay switch to the Machine Settings menu.
+	Added a Control configuration menu for GUI keys, you can map there
+	the keys you want to use to move the cursor in the GUI/Game menus.
+	This menu is shown when you select the CONTROL menu and there is no
+	game selected. To deselect the currently selected game, press the
+	right mouse button or the button assigned to "Back" in the GUI keys
+	menu.
+Rewritten the rom checking code. Now it's faster and has a progress
+bar. Anyways, I recommend not to have AutoAnalyze enabled in NEbula.ini
+due to the big amount of romsets supported, better use the Scan Roms
+button when you add new roms.
+
+1.9	Added a MINIFAQ file, please read it.
+	Fixed Neo Turf Masters driver that crashed nebula in the loading
+	screen.
+	Fixed puzzle bobble romset name to match the latest MAME name.
+	Fixed w2k crashes when pressing the TAB key.
+	Fixed misc crashes on startup in video cards with little VRAM
+	Fixed DDTOD and DDSOM F2 key.
+	Fixed the savestate time being always GMT.
+	Fixed crashes when using ALT-TAB to switch task.
+	Fixed Irritating Maze controls, now it works.
+	Neogeo s1 and m1 roms with wrong sizes are now accepted and loaded.
+	Added triple buffer option to video options.
+	ALT-ENTER key now also works in the GUI.
+	Removed 400x300 resolution from neogeo and added 320x240 as it's
+	closer to the real res (304x224).
+	Rewritten default controls code, now it works with all games, but
+	you'll need to re-map the keys again.
+	Added an option to disable debug dipswitches because they were
+	causing problems in some games. 
+		NOTE: Mixing debug switches with Developer mode may cause 
+		strange results. If the game has a strange behaviour 
+		(fights ending without fighting in rbffs) you must clear 
+		the SRAM (by either deleting the game .srm file in the 
+		EEPROM dir or going to Test menu, Hardware test press Start 
+		till you see the Clear backup RAM screen and then Press 
+		the buttons A,C and C simultaneously (default Z,X,C).
+	Added an overclocking option for neogeo games in the machine settings menu.
+	The overclock setting is stored for each game. Overclock only the games
+	that actually need it (mslug2,mslugx for example)
+	Fixed a major bug in savestate saving/loading code that caused nebula crash 
+	when loading states. Sound will not be restored when loading previous 
+	version savestates to avoid crashes.
+	I forgot to state in the previous version that the neogeo bios
+	MUST be in a file called neogeo.zip (neogeod.zip for the debug BIOS)
+	in any roms folder.
+
+1.8	New system emulated: Neo·Geo. Read the NEOGEO.TXT file for more information.
+	New autoframeskip code. It's much better than the older one. Now games should
+	run better than before in slower computers.
+	Please note that the working of UseMask in NEBULA.INI was changed
+	in the previous version, read the updated comments in NEBULA.INI.
+	Added options in NEBULA.INI to disable the joystick and sounds of the GUI.
+	New menu system (press ESC during gameplay) to access the different windows
+	available for each system (savestate, loadstate, cheats...)
+	All game windows have been enhaced with new fonts and colors, they are
+	more readable (and look a lot better :) )
+	Re-added (again) the scanlines modes for 640x480, please, note that not all
+	of the other modes work correctly in this resolution in CPS (1 and 2) games, 
+	so be careful. Neogeo games will work ok with any mode in this resolution.
+	Video options can be customized for each emulated system (CPS Horizontal,
+	CPS Vertical and Neogeo).
+	Added the (experimental) -window option, that lauches nebula in a window. Use
+	this option only if your desktop color depth is set to 16 bits. Also you can
+	switch between window and fullscreen while playing using ALT-ENTER.
+	Added the -romcenter option that creates a Romcenter Datafile (Nebularomcenter.dat)
+	
+
+1.7	Switched to Mike Coates' A68K core, it's faster and more accurate. Due
+	to this change, some of the old savestates may not work (I've tested
+	all my savestates and all worked).
+	Rewritten critical parts of the main emulation core, graphic tile drawers
+	and sound emulation. This should cause a major speedup.
+	Fixed the wrong pitch and tempo of the sound.
+	Added a new sound mode (Dsound2d Narrow), it's faster but has less
+	surround effect.
+	Sound is now saved in CPS1 games.
+	Fixed sound saving problems in CPS2 games.
+	Added a powerful macro and hint system. Read the file MACROS.TXT. Hints
+	are only visible if you are using 800x600 and no stretch. Macros and
+	hints can be disabled in the OTHER options panel.
+	To show the macro config keys, use the new arrows in the CONTROLS menu
+	3wonders black squares fixed.
+	Fixed game list slider, now it works better.
+
+
+1.6a	Fixes hanging after loading some games in fast computers.
+	Most CPS1 sound problems fixed
+	Vertical scanlines mode and Hardware blit no MMX are now accesible
+	Ghouls'n Ghosts black square problems fixed.
+	Most CPS1 QSound game clones are working now.
+	Added Street Fighter 2 World Warrior and clones (not all clones tested)
+	I forgot to mention in the last version that I've fixed the sound pitch
+	and playing speed. The sound is now closer to the arcade.
+
+1.6	Wow, lots of changes...
+	ADDED PRELIMINARY NETPLAY SUPPORT USING KAILLERA :). Use the -knet option
+	or the NebulaNet.exe file.
+	Fixed CPS1 background color selection.
+	Added most CPS1 games (there are still some missing)
+	Added more dipswitches
+	Sound state in CPS1 games is not saved/loaded now, I'm trying to
+	fix some problems with it.
+	Fixed some CPS1 gfx glitches (3wonders black squares are still there)
+	Faster rotated games. Now they are almost as fast as horizontal
+	ones (Thanks Mr K :) )
+	Much faster scanline modes.
+	Faster 2xZoom.
+	Added new image enhacement modes: Super2xSaI, 2xSaISuperEagle,
+	2xSai 75% scanlined (Thanks again to Mr K for this last one :) )
+	Added Vertical Scanlines mode.
+	Fixed Eagle support that was broken some versions ago.
+	Removed scanline modes in 640x480. You must use higher resolutions
+	to enable them.
+	Added 384x224 and 768x448 resolutions. You can only use them
+	if you video card supports them. (there are some patches out there
+	that can enable these resolutions in some cards).
+	Added an AutoAnalyze option in the NEBULA.INI file to avoid
+	nebula analyzing romsets on startup.
+	Added the Default option in Cheat files.
+	Sounds in the GUI.
+	SFZ3 characters and backgrounds animations fixed.
+	PrioEngine option removed from NEBULA.INI, it's no longer needed.
+	And lots changes that I can't remember...	
+	NOTE: to get ssf2tb working, hit F2 when the "Terminal check" words
+	appear and in the game option set the game to Single Mode
+
+1.5a	Fixed Alien vs Predator backgrounds.
+	Fixed ssf2xj gfx problems. Note that now ssf2xj is a child of ssf2t, so you don't
+	need the gfx roms in the ssf2xj.zip.
+	Some notes: 
+		-PLEASE, READ THE COMMENTS IN NEBULA.INI FILE as they have important
+	information on how to setup the nebula gfx engine to be more accurate.
+		-Zip file support in skins is only for skin developers. They can pack the gui 
+	image files in zip files instead of using the -packgui to produce the .dat file.
+	
+1.5	Added CPS1 support. Not all games have been added yet. Note that you CAN'T add CPS1
+	games via dat files.
+	Written a new sprite graphics code that correctly handles the sprite priorities and
+	sprite masking (this code is disabled by default as it's slower, enable it in 
+	NEBULA.INI).
+	Added some tricks to emulate the sprite masking with the old (and faster) gfx code, 
+	note that this code is disabled by default (see NEBULA.INI) due to problems in
+	some games (morrigan in vsav).
+	Added a NEBULA.INI file with special configurations (read this file to know the
+	things you can configure).
+	Added skin selector in the OTHER menu (skins must be in the SKINS\ directory). The
+	name displayed is the name of the .zip or .dat file containing the skin. You can
+	use long filenames (but not very long, 20 char max).
+	Support for up to 10 different ROM directories.
+	Support for skins in zip files.
+	Fixed the bug that truncated skins files to 512KB.
+	Added a pink background option in the Shots factory.
+	Too many internal changes that I can't remember.
+
+1.4a	Fixed Slammasters black backgrounds.
+	Fixed sound interpolation not working and added a filter (now 44100 Hz sounds better)
+	Added volume change emulation with the '-' and '=' keys (next to the Backspace). The 
+	volume level is saved per game.
+	Fixed hangups when changing pantalla.raw
+
+1.4	Some rom files has been renamed to match the latest CPS2MAME rom names.
+	Ability to filter the game list. You can select if you want to seel all games, or only the
+	available ones.
+	Roms now aren't analyzed everytime Nebula starts. They are checked when romsets are changed
+	or when you press the Rescan button in the OTHER config screen.
+	Changed main 68000 core to Bart Trzynadlowski's Genital 68k, which is a bit faster than
+	starscream, and has less bugs (perhaps none).
+	Rewritten the layer 2 drawing code. Rowscrolling problems are almost fixed (only missing
+	avsp intro). It has caused a small slowdown, but with the little speedup of the main core
+	the speed should be the same as before.
+	19xx gfx problems fixed at last. If you use old savegames, then the problems will not
+	be fixed until a stage change in the game.
+	As some people has reported that the new gfx code (v1.3 and later) is slower than the older
+	one (1.2 and before), then I've added the ability to use the old gfx code using the -oldgfx
+	command line option.
+	Sprite priority code has back to the original code that causes less gfx problems.
+	Implemented sprite bankswitching (one of the still unemulated features of the cps2 hardware)
+	Added PNG unfiltering modes (Sub,Up,Avg,Paeth). PNG files created with other tools
+	should look right now.
+	Fixed most Raster problems. Things look a lot better. Only remaining some sprite problems.
+	Changed the Savegame format. Now the sound is correctly restored when loading a savegame. The
+	old format is still recognized and loaded.
+	Data files (configuration and savegames) are not encrypted anymore. If you want info about
+	the format of these files, send me an E-mail.
+	Fixed the "controller setting forgetting" bug. It's fixed now, but it requieres that you
+	delete the old config files.
+	Added the ability to save the controller data as the default mapping for games using
+	the same button layout.
+	GUI graphics can be changed (see -packgui option and the section below).
+	
+
+1.3	Fixed some rowscrolling problems (there are still many errors yet, but I know the cause)
+	New sprite priority code. Now all seems ok.
+	Added Auto Save/Load, that saves/load the game state on exit/entry.
+	Screenshot format switched to PNG. (older shots are automatically converted)
+	Frameskip value is stored.
+	In the GUI you can draw the slider to move the list.
+	Added wheel mouse support.
+	Pause button mutes the sound.
+	Changed the graphic modes for 19xx, now it's more "pixel perfect".
+	A final comment, due to many questions I've received. The best sounding mode is
+	Interpolated 22050 Hz (not 44100 Hz), this is due to the fact that the code is
+	optimized for that mode and using higher frequencies result in a loss of sound quality.
+
+1.2a	(this version was a quick fix to play Powered Gear, but wasn't released. I prefer wait
+	and release a version with more fixes)
+	Emulated the math part of the graphics chip (used by Powered Gear)
+	Increased the number of cheats per game (100 cheats, with 100 states per cheat and 32 values per state)
+
+1.2	Rewritten the drawing routines. It should be faster now. Thanks Raz.
+	Another try to solve the s3 graphics problem.
+	Added again the Light Interpolation and Full Interpolation modes (use 640x480 res)
+	Added some enhacement modes to 640x480 (scanlines and scanlines 50%)	
+	Added the ability to use the audio jukebox in games without decryption tables.
+	Changed the naming of some romsets to be compatible with MAME ones.
+	Added vsync option.
+	Added 1280x960 resolution.
+
+1.1     Raster effects!!. Preliminary. Some games have graphic glitches.
+        Ssf2 y ssf2t work perfectly.
+        Added the 400x300 and 640x400 resolutions.
+        Fixed the crashes when using ALT-TAB to switch task.
+	Added manual frameskip (keys + and -)
+	Added command line options.
+	Fixed problems with video cards that create non-linear surfaces (S3 Savage) (not fully fixed)
+	Fixed the 3 punch in player 2 bug.
+	Modified keypress detection. Now it's easy to make half circle moves.
+	Added 2xSAI y Eagle. Removed the old interpolation modes.
+
+1.0a	Fixed win95 crashes
+
+1.0	First version.
+

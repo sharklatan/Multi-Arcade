@@ -1,0 +1,13 @@
+[Region]
+0=Japan,FF8090,0
+1=USA,FF8090,2
+2=Hispanic,FF8090,4
+3=Oceania,FF8090,6
+4=Asia,FF8090,8
+5=Euro,FF8090,A
+6=Brazil,FF8090,C
+
+[0]
+Name=Title Screen
+0=Vampire Savior,FF8088,0
+1=Darkstalkers,FF8088,1

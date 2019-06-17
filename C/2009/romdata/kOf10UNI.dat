@@ -1,0 +1,40 @@
+%%%%%%%%%%%%%Create by RomData Maker%%%%%%%%%%%%%%
+% Author:                     %
+% EMail:                      %
+% URL:                        %
+% Create Date:27/10/2007      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: Neo
+RomName: kOf10UNI
+Game: kof 10 uni
+
+[Program]
+5008_P1.ROM,0,800000,ACBE077A,0
+
+[Text]
+5008_S1.ROM,0,20000,614DB6B7,0
+
+[Z80]
+5008_m1.rom,0,20000,5A47D9AD,0
+
+[Samples]
+5008_V1.ROM,0,800000,FC9A58D,0
+5008_V2.ROM,800000,800000,B8C475A4,0
+
+[Graphics]
+5008_c1.rom,0,800000,2491AF91,0
+5008_c2.rom,1,800000,9ACEBE91,0
+5008_c3.rom,1000000,800000,959FAD0B,0
+5008_c4.rom,1000001,800000,EFE6A468,0
+5008_c5.rom,2000000,800000,74BBA7C6,0
+5008_c6.rom,2000001,800000,E20D2216,0
+5008_c7.rom,3000000,800000,86E02DAE,0
+5008_c8.rom,3000001,800000,891BB509,0
+
+[System]
+CartridgeID: 275
+GfxCrypt: 0
+GfxKey: 0
+ButLayout: 9
+Fix: 0

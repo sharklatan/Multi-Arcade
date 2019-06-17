@@ -1,0 +1,107 @@
+[Region]
+0=USA,FF5478,2
+1=Japan,FF5478,0
+2=Hispanic,FF5478,4
+3=Asia,FF5478,6
+4=Euro,FF5478,8
+5=Brazil,FF5478,A
+
+[0]
+Name=Player 1 Char 1
+0=None,0,0
+1=Wolverine,ff4052,0
+2=Cyclops,ff4052,2
+3=Ryu,ff4052,12
+4=Ken,ff4052,14
+5=Gambit,ff4052,8
+6=Rouge,ff4052,6
+7=Cammy,ff4052,22
+8=Charlie,ff4052,20
+9=SabreTooth,ff4052,a
+10=Storm,ff4052,4
+11=Chun-Li,ff4052,16
+12=Zangief,ff4052,1a
+13=Magneto,ff4052,e
+14=Juggernaut,ff4052,c
+15=Dhalsim,ff4052,18
+16=Bison,ff4052,1c
+17=Akuma,ff4052,1e
+18=Apocalypse,ff4052,10
+19=Chun-Li (SFA),ff4052,24
+
+[1]
+Name=Player 1 Char 2
+0=None,0,0
+1=Wolverine,ff4852,0
+2=Cyclops,ff4852,2
+3=Ryu,ff4852,12
+4=Ken,ff4852,14
+5=Gambit,ff4852,8
+6=Rouge,ff4852,6
+7=Cammy,ff4852,22
+8=Charlie,ff4852,20
+9=SabreTooth,ff4852,a
+10=Storm,ff4852,4
+11=Chun-Li,ff4852,16
+12=Zangief,ff4852,1a
+13=Magneto,ff4852,e
+14=Juggernaut,ff4852,c
+15=Dhalsim,ff4852,18
+16=Bison,ff4852,1c
+17=Akuma,ff4852,1e
+18=Apocalypse,ff4852,10
+19=Chun-Li (SFA),ff4852,24
+
+
+[2]
+Name=Player 2 Char 1
+0=None,0,0
+1=Wolverine,ff4452,0
+2=Cyclops,ff4452,2
+3=Ryu,ff4452,12
+4=Ken,ff4452,14
+5=Gambit,ff4452,8
+6=Rouge,ff4452,6
+7=Cammy,ff4452,22
+8=Charlie,ff4452,20
+9=SabreTooth,ff4452,a
+10=Storm,ff4452,4
+11=Chun-Li,ff4452,16
+12=Zangief,ff4452,1a
+13=Magneto,ff4452,e
+14=Juggernaut,ff4452,c
+15=Dhalsim,ff4452,18
+16=Bison,ff4452,1c
+17=Akuma,ff4452,1e
+18=Apocalypse,ff4452,10
+19=Chun-Li (SFA),ff4452,24
+
+[3]
+Name=Player 2 Char 2
+0=None,0,0
+1=Wolverine,ff4c52,0
+2=Cyclops,ff4c52,2
+3=Ryu,ff4c52,12
+4=Ken,ff4c52,14
+5=Gambit,ff4c52,8
+6=Rouge,ff4c52,6
+7=Cammy,ff4c52,22
+8=Charlie,ff4c52,20
+9=SabreTooth,ff4c52,a
+10=Storm,ff4c52,4
+11=Chun-Li,ff4c52,16
+12=Zangief,ff4c52,1a
+13=Magneto,ff4c52,e
+14=Juggernaut,ff4c52,c
+15=Dhalsim,ff4c52,18
+16=Bison,ff4c52,1c
+17=Akuma,ff4c52,1e
+18=Apocalypse,ff4c52,10
+19=Chun-Li (SFA),ff4c52,24
+
+[4]
+Name=Infinite time
+0=Off,0,0
+1=On,ff5009,99
+
+

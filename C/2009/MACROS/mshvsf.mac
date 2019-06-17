@@ -1,0 +1,137 @@
+[Player1]
+Character=ff3852,12,14,20,1e,16,18,1c,1a,24,e,4,6,8,a,10,c,2,0,22,26,28,2a,2c,2e,30,32
+;Direction=ff384a,1,0
+Direction=@ff0a3c+4a,1,0
+
+[Player2]
+Character=ff3c52,12,14,20,1e,16,18,1c,1a,24,e,4,6,8,a,10,c,2,0,22,26,28,2a,2c,2e,30,32
+Direction=ff3c4a,1,0
+
+
+
+[2]
+Name=Cyclops
+Macro1Name=Optic Blast low
+Macro1Move=D,D+R,R+1
+Macro2Name=Optic Blast medium
+Macro2Move=D,D+R,R+2
+Macro3Name=Optic Blast high
+Macro3Move=D,D+R,R+3
+Macro4Name=Gene Splice
+Macro4Move=R,D,D+R+3
+Macro5Name=Run & Catch
+Macro5Move=F,N,F+3+6
+Macro6Name=Spinning Kick
+Macro6Move=D,D+L,L+6
+Macro7Name=Run (test)
+Macro7Move=F,N,F
+Macro10Name=Mega Optic Blast
+Macro10Move=D,D+R,R+1+2+3
+Macro11Name=Super Optic Blast
+Macro11Move=R,D+R,D,D+L,L+1+2+3
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+[12]
+Name=Ryu
+Macro1Name=Hadoken
+Macro1Move=D,D+R,R+3
+Macro2Name=Shoryuken
+Macro2Move=F,D,D+R,R+3
+Macro3Name=Hurricane Kick
+Macro3Move=D,DB,B+6
+
+Macro10Name=Shinkuu Hadoken
+Macro10Move=D,DF,F+123
+Macro11Name=Super Hurricane Kick
+Macro11Move=D,DB,B+456
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+[14]
+Name=Ken
+Macro1Name=Hadoken
+Macro1Move=D,D+R,R+3
+Macro2Name=Shoryuken
+Macro2Move=F,D,D+R,R+3
+Macro3Name=Hurricane Kick
+Macro3Move=D,DB,B+6
+
+Macro10Name=Shoryureppa
+Macro10Move=D,DF,F+123
+Macro11Name=Shinryuken
+Macro11Move=D,DF,F+456
+Macro12Name=Character Switch
+Macro12Move=3+6
+
+
+
+[20]
+Name=Sakura
+
+[1e]
+Name=Akuma
+
+[16]
+Name=Chun-Li
+
+[18]
+Name=Dhalsim
+
+[1c]
+Name=Bison
+
+[1a]
+Name=Zangief
+
+[24]
+Name=Dan
+
+[e]
+Name=Spider-Man
+
+[4]
+Name=Captain America
+
+[6]
+Name=Hulk
+
+[8]
+Name=Wolverine
+
+[a]
+Name=Shuma-Gorath
+
+[10]
+Name=BlackHeart
+
+[c]
+Name=Omega Red
+
+[0]
+Name=Apocalypse
+
+[22]
+Name=Norimaro
+
+[26]
+Name=Cyber-Akuma
+
+[28]
+Name=Armored Zangief
+
+[2a]
+Name=Dark Sakura
+
+[2c]
+Name=Shadow
+
+[2e]
+Name=U.S. Agent
+
+
+[30]
+Name=Mephisto
+
+[32]
+Name=Armored Spiderman

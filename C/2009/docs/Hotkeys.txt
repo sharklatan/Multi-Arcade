@@ -1,0 +1,35 @@
+HOTKEYS
+
+Hotkeys allow you to configure multiple button presses to a single button.
+
+For Window GUI, Hotkeys are configured in the Player control configuration screen.
+
+The button presses are configured in a file called HOTKEYS.DAT in the main
+Nebula directory.
+
+This is the default HOTKEYS.DAT file.
+
+;Hotkeys definition file
+;Use values 1,2,3,4,5,6 for buttons and S for Start button
+
+[Neogeo]
+Hotkey1=1+2
+Hotkey2=2+3
+Hotkey3=3+4
+Hotkey4=1+2+3
+Hotkey5=2+3+4
+Hotkey6=1+2+3+4
+
+[CPS]
+Hotkey1=1+2+3
+Hotkey2=4+5+6
+Hotkey3=3+6
+Hotkey4=2+5
+Hotkey5=1+4
+Hotkey6=2+6
+
+As you can notice you can configure up to 6 Hotkeys for each system (Neogeo and CPS).
+The syntax is the same than for macros.
+
+To assign a key to a Hotkey, use the CONTROLS panel in the main nebula window (scroll
+down the control list)

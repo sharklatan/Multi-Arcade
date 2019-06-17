@@ -1,0 +1,165 @@
+[Region]
+0=Japan,C2,0
+1=USA,C2,2
+2=Euro,C2,4
+3=Brazil,C2,6
+4=Hispanic,C2,8
+5=Asia,C2,a
+Default=2
+
+[0]
+Name=Player 1 Char 1
+0=Normal,0,0
+1=Ryu (Normal),ff3052,12
+2=Ryu (Ryu Mode),ff3052,12,ff3384,0
+3=Ryu (Ken Mode),ff3052,12,ff3384,2
+4=Ryu (Akuma Mode),ff3052,12,ff3384,4
+5=Chun-Li,ff3052,16
+6=Zangief,ff3052,1a
+7=Megaman,ff3052,20
+8=Captain Commando,ff3052,14
+9=Morrigan,ff3052,1e
+10=Jin,ff3052,18
+11=Spiderman,ff3052,e
+12=Strider,ff3052,1c
+13=Captain America,ff3052,4
+14=Venom,ff3052,C
+15=Hulk,ff3052,6
+16=Wolverine,ff3052,8
+17=War Machine,ff3052,2
+18=Gambit,ff3052,a
+19=Roll,ff3052,10
+20=Mega War Machine,ff3052,28
+21=Orange Hulk,ff3052,26
+22=Carnage,ff3052,24
+23=Shadow Lady,ff3052,2a
+24=Lilith,ff3052,2C
+25=Onslaught (bad gfx),ff3052,22
+Default=0
+
+[1]
+Name=Player 1 Char 2
+0=Normal,0,0
+1=Ryu (Normal),ff3852,12
+2=Ryu (Ryu Mode),ff3852,12,ff3384,0
+3=Ryu (Ken Mode),ff3852,12,ff3384,2
+4=Ryu (Akuma Mode),ff3852,12,ff3384,4
+5=Chun-Li,ff3852,16
+6=Zangief,ff3852,1a
+7=Megaman,ff3852,20
+8=Captain Commando,ff3852,14
+9=Morrigan,ff3852,1e
+10=Jin,ff3852,18
+11=Spiderman,ff3852,e
+12=Strider,ff3852,1c
+13=Captain America,ff3852,4
+14=Venom,ff3852,C
+15=Hulk,ff3852,6
+16=Wolverine,ff3852,8
+17=War Machine,ff3852,2
+18=Gambit,ff3852,a
+19=Roll,ff3852,10
+20=Mega War Machine,ff3852,28
+21=Orange Hulk,ff3852,26
+22=Carnage,ff3852,24
+23=Shadow Lady,ff3852,2a
+24=Lilith,ff3852,2C
+Default=0
+
+[2]
+Name=Helper Player 1
+0=Normal,0,0
+1=Unknown Soldier,ff40d8,18
+2=Lou,ff40d8,0
+3=Arthur,ff40d8,20
+4=Saki,ff40d8,24
+5=Ton Pooh,ff40d8,1c
+6=Devilot,ff40d8,48
+7=Anita,ff40d8,44
+8=Pure & Fur,ff40d8,3c
+9=Miechele Heart,ff40d8,28
+10=Thor,ff40d8,2c
+11=Cyclops,ff40d8,10
+12=Magneto,ff40d8,8
+13=Storm,ff40d8,30
+14=Jubilee,ff40d8,4c
+15=Rogue,ff40d8,34
+16=Psylocke,ff40d8,c
+17=Juggernaut,ff40d8,4
+18=Iceman,ff40d8,38
+19=Colossus,ff40d8,14
+20=US Agent,ff40d8,40
+21=Shadow,ff40d8,50
+22=Sentinel,ff40d8,54
+Default=0
+
+[3]
+Name=Helper Player 2
+0=Normal,0,0
+1=Unknown Soldier,ff40da,18
+2=Lou,ff40da,0
+3=Arthur,ff40da,20
+4=Saki,ff40da,24
+5=Ton Pooh,ff40da,1c
+6=Devilot,ff40da,48
+7=Anita,ff40da,44
+8=Pure & Fur,ff40da,3c
+9=Miechele Heart,ff40da,28
+10=Thor,ff40da,2c
+11=Cyclops,ff40da,10
+12=Magneto,ff40da,8
+13=Storm,ff40da,30
+14=Jubilee,ff40da,4c
+15=Rogue,ff40da,34
+16=Psylocke,ff40da,c
+17=Juggernaut,ff40da,4
+18=Iceman,ff40da,38
+19=Colossus,ff40da,14
+20=US Agent,ff40da,40
+21=Shadow,ff40da,50
+22=Sentinel,ff40da,54
+Default=0
+
+
+[4]
+Name=Inf Helper P1
+0=Off,0,0
+1=On,ff32c7,9
+Default=0
+
+[5]
+Name=Inf Helper P2
+0=Off,0,0
+1=On,ff36c7,9
+Default=0
+
+
+[6]
+Name=Inf Super Level P1
+0=Off,0,0
+1=On,ff3275,3
+Default=0
+
+[7]
+Name=Inf Super Level P2
+0=Off,0,0
+1=On,ff3675,3
+Default=0
+
+[8]
+Name=Character unlock P1
+0=Off,0,0
+1=On,ff4198==80,ff4198,1,ff44198==40,ff4198,80,ff44198==20,ff4198,40,ff44198==10,ff4198,20,ff44198==8,ff4198,10,ff44198==4,ff4198,8,ff44198==2,ff4198,4,ff44198==1,ff4198,2,ff44198==0,ff4198,1
+Default=1
+
+[9]
+Name=Character unlock P2
+0=Off,0,0
+1=On,ff41c8==80,ff41c8,1,ff441c8==40,ff41c8,80,ff441c8==20,ff41c8,40,ff441c8==10,ff41c8,20,ff441c8==8,ff41c8,10,ff441c8==4,ff41c8,8,ff441c8==2,ff41c8,4,ff441c8==1,ff41c8,2,ff441c8==0,ff41c8,1
+Default=1
+
+[10]
+Name=Infinite time
+0=Off,0,0
+1=On,ff4009,99
+Default=0

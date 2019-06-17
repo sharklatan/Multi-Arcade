@@ -1,0 +1,117 @@
+MACROS
+
+Read this file, as there are important changes for 2.0
+
+The macro system in nebula allows you to assign complex moves to one key or button.
+
+I would like to have added more macro file samples to this release, but
+I had no time to make them. I only added some Xmvsf moves and sample 
+templates for the cps2 fighting games
+
+Macro definition files are stored in the MACROS directory. They are plain
+text files with .MAC extension.
+
+They are standard INI files. The file structure is as follows (sample is xmvsf.mac):
+
+
+[Player1]
+Character=ff4052,0,2,12,14,8,6,22,20,a,4,16,1a,e,c,18,1c,1e,10,24
+Direction=ff404a,1,0
+
+[Player2]
+..up to 4 players
+
+these keys shows nebula where to look for the current character and position.
+the meaning is:
+Character=address,value1,value2....
+	address is the RAM address where the character value is stored (easy to
+	find with cheater or looking in some cheats files).
+	value1,value2,... are the values for the different characters
+Address  can be an indirect addressing using the same syntax than for cheats
+(@address+offset), this is useful for neogeo dynamic allocation games.
+Nebula 2.0 NEW:
+If give a 0 as address, Nebula will not try to autodetect the character. You can switch
+the macro layout from the Game menus.
+Character values must be named starting in 0
+
+Direction=address,left,right
+	address is the RAM address where the character position is stored (find with
+	cheater)
+	left is the value used when the character is in the left part of the screen
+	right is the value used when the character is in the right part of the screen
+Address  can be an indirect addressing using the same syntax than for cheats
+(@address+offset), this is useful for neogeo dynamic allocation games.
+
+
+after those values follow the macro moves:
+
+[2]			<- value in the RAM for that character
+Name=Cyclops		<- name of the character
+Macro1Name=Optic Blast low	<-Move name
+Macro1Move=D,D+R,R+1		<-Move description
+Macro2Name=Optic Blast medium
+Macro2Move=D,D+R,R+2
+..
+up to 12 macro moves
+
+Move descriptions:
+they are the joystick and button pressed that make the move.
+each different move must be separated by a comma.
+these are the available commands:
+N:	Joystick centered and buttons released
+U:	Joystick Up
+D:	Joystick Down
+B:	Joystick Back
+F:	Joystick Forward
+R:	Joystick Right=Joystick Forward
+L:	Joystick Left=Joystick Back
++:	Simultaneous press. It's optional, it's only used for clarity.
+-:	Allow merge player input with macro move (ex. Wolverine's drill claw).
+C:	Charge move
+1..6:	Buttons
+S:	Start button
+
+All "legal" combinations of moves are allowed (UD,UB,DB,DF, but not UD or BF)
+
+New for Nebula 2.0 and only in Window GUI
+Section
+[Global]
+Macro1Name=Character Switch
+Macro1Move=3+6
+
+The Global section means a macro move that is available for all characters. Use them
+If the game doesn't have different characters or if there are shared moves.
+ 
+
+NOTES: 
+To make button combos that require pressing the same button some consecutive times,
+ensure to include a N command between presses: (1,1,3,2 wrong, correct should be
+1,N,1,3,2)
+
+Charge moves aren't performed, for example to make a sonic boom, (CB,F,3) only
+the F,3 moves will be executed so you must be charging back while pressing
+the macro button
+
+The '+' character is optional, use it for clarity. (D,D+B,B+4 is the same than D,DB,B4)
+
+HINTS
+
+Hints are move helps that shows in the top and bottom parts of the 
+screen when using 800x600 and no stretch.
+
+Moves are shown using the data in the macro files.
+
+Hints are shown as if the player were in the left part of the screen,
+looking to the right side.
+
+The number at the beginning of the move name is the macro key that
+triggers that move.
+
+Hint moves description:
+
+Arrows: 	Joystick position
+Arrow inside
+a circle:	Charge direction
+P1,P2,P3:	Punches
+K1,K2,K3:	Kicks
+

@@ -1,0 +1,165 @@
+[Region]
+0=USA,ff4c8e,2
+1=Japan,ff4c8e,0
+2=Hispanic,ff4c8e,4
+3=Asia,ff4c8e,6
+4=Euro,ff4c8e,8
+5=Brazil,ff4c8e,A
+Default=0
+
+[0]
+Name=Player 1 Character 1
+0=Normal,0,0
+1=Apocalypse,ff3852,0
+2=Cyclops,ff3852,2
+3=Captain America,ff3852,4
+4=Hulk,ff3852,6
+5=Wolverine,ff3852,8
+6=Shuma-Gorath,ff3852,a
+7=Omega Red,ff3852,c
+8=Spider-Man,ff3852,e
+9=Blackheart,ff3852,10
+10=Ryu,ff3852,12
+11=Ken,ff3852,14
+12=Chun-Li,ff3852,16
+13=Dhalsim,ff3852,18
+14=Zangief,ff3852,1a
+15=Bison,ff3852,1c
+16=Akuma,ff3852,1e
+17=Sakura,ff3852,20
+18=Norimaro,ff3852,22
+19=Dan,ff3852,24
+20=Cyber-Akuma,ff3852,26
+21=Armored Zangief,ff3852,28
+22=Dark Sakura,ff3852,2a
+23=Shadow,ff3852,2c
+24=U.S.Agent,ff3852,2e
+25=Mephisto,ff3852,30
+26=Armored Spidey,ff3852,32
+Default=0
+
+[1]
+Name=Player 1 Character 2
+0=Normal,0,0
+1=Apocalypse,ff4052,0
+2=Cyclops,ff4052,2
+3=Captain America,ff4052,4
+4=Hulk,ff4052,6
+5=Wolverine,ff4052,8
+6=Shuma-Gorath,ff4052,a
+7=Omega Red,ff4052,c
+8=Spider-Man,ff4052,e
+9=Blackheart,ff4052,10
+10=Ryu,ff4052,12
+11=Ken,ff4052,14
+12=Chun-Li,ff4052,16
+13=Dhalsim,ff4052,18
+14=Zangief,ff4052,1a
+15=Bison,ff4052,1c
+16=Akuma,ff4052,1e
+17=Sakura,ff4052,20
+18=Norimaro,ff4052,22
+19=Dan,ff4052,24
+20=Cyber-Akuma,ff4052,26
+21=Armored Zangief,ff4052,28
+22=Dark Sakura,ff4052,2a
+23=Shadow,ff4052,2c
+24=U.S.Agent,ff4052,2e
+25=Mephisto,ff4052,30
+26=Armored Spidey,ff4052,32
+Default=0
+
+[2]
+Name=Player 2 Character 1
+0=Normal,0,0
+1=Apocalypse,ff3c52,0
+2=Cyclops,ff3c52,2
+3=Captain America,ff3c52,4
+4=Hulk,ff3c52,6
+5=Wolverine,ff3c52,8
+6=Shuma-Gorath,ff3c52,a
+7=Omega Red,ff3c52,c
+8=Spider-Man,ff3c52,e
+9=Blackheart,ff3c52,10
+10=Ryu,ff3c52,12
+11=Ken,ff3c52,14
+12=Chun-Li,ff3c52,16
+13=Dhalsim,ff3c52,18
+14=Zangief,ff3c52,1a
+15=Bison,ff3c52,1c
+16=Akuma,ff3c52,1e
+17=Sakura,ff3c52,20
+18=Norimaro,ff3c52,22
+19=Dan,ff3c52,24
+20=Cyber-Akuma,ff3c52,26
+21=Armored Zangief,ff3c52,28
+22=Dark Sakura,ff3c52,2a
+23=Shadow,ff3c52,2c
+24=U.S.Agent,ff3c52,2e
+25=Mephisto,ff3c52,30
+26=Armored Spidey,ff3c52,32
+
+Default=0
+
+[3]
+Name=Player 2 Character 2
+0=Normal,0,0
+1=Apocalypse,ff4452,0
+2=Cyclops,ff4452,2
+3=Captain America,ff4452,4
+4=Hulk,ff4452,6
+5=Wolverine,ff4452,8
+6=Shuma-Gorath,ff4452,a
+7=Omega Red,ff4452,c
+8=Spider-Man,ff4452,e
+9=Blackheart,ff4452,10
+10=Ryu,ff4452,12
+11=Ken,ff4452,14
+12=Chun-Li,ff4452,16
+13=Dhalsim,ff4452,18
+14=Zangief,ff4452,1a
+15=Bison,ff4452,1c
+16=Akuma,ff4452,1e
+17=Sakura,ff4452,20
+18=Norimaro,ff4452,22
+19=Dan,ff4452,24
+20=Cyber-Akuma,ff4452,26
+21=Armored Zangief,ff4452,28
+22=Dark Sakura,ff4452,2a
+23=Shadow,ff4452,2c
+24=U.S.Agent,ff4452,2e
+25=Mephisto,ff4452,30
+26=Armored Spidey,ff4452,32
+Default=0
+[4]
+Name=Infinite time
+0=Off,0,0
+1=On,ff4809,99
+Default=0
+[5]
+Name=P1 Infinite Health
+0=Off,0,0
+1=On,FF3a50,90
+Default=0
+[6]
+Name=P2 Infinite Health
+0=Off,0,0
+1=On,FF3e50,90
+Default=0
+
+[7]
+Name=P1 Infinite Pow level
+0=Off,0,0
+1=On,FF3a55,3
+Default=0
+[8]
+Name=P2 Infinite Pow level
+0=Off,0,0
+1=On,FF3e55,3
+Default=0
+
+[9]
+Name=Bison Shadow
+0=Off,0,0
+1=On,ff3c52==1c,ff3c52,2c
+Default=0

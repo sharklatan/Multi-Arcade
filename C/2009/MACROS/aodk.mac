@@ -1,0 +1,23 @@
+[Player1]
+Character=0
+Direction=10019f,1,0
+
+
+[Player2]
+Character=0
+Direction=10019f,0,1
+
+;This is a template file
+;Fill in there the character names
+;and moves.
+;Select the character macro set
+;in nebula Game->Macros menu.
+
+
+;[0]
+;name the macro sets starting with 0
+
+
+
+;[Global]
+;add this section to use global macro (not per-char)

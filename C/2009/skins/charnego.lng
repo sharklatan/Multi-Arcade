@@ -1,0 +1,284 @@
+[Language]
+;JERGA CHARNEGA
+;Tradusío por KrusheR, el mostro de estas cosas.
+;Pajina de CHARNEGO TRANSLATIONS: http://www.charnego.da.ru
+
+
+;1.94 and before
+
+;GUI Strings
+0=Pozi
+1=Pono
+2=VIDRIO
+3=RUIOS
+4=CONTROLEH
+5=NU SE
+
+;Video config
+6=Configurasion de vidrio:
+7=Resolusion
+8=Lijamiento de laos
+9=Estrujapantalla
+10=Surface allocation
+11=Buffer triple
+12=VSync (Po fale)
+;Stretch modes
+13=To la pantalla
+14=Bien cuadrao
+;Surface modes
+15=Memorria d vidrio
+16=Memorria d zistema
+
+;Audio config
+17=Configurasion de ruios:
+18=Con rugios
+19=Frecuensia de muejtreo
+20=Interpolasión
+21=Prosesamientoh
+;Interpolation modes
+22=Sin leches desas
+23=Flojito
+24=Jarcor version
+
+;Controls config
+25=Pegale a un boton
+26=Jincho %d
+27=Restaura osines
+28=Sarvar osines por defesto
+29=Menusa
+30=Parriba
+31=Pabajo
+32=Ijkierda
+33=Deresha
+34=Boton %d
+35=Macro %d
+36=Jotkei %d
+37=Tres hoxtias
+38=Tres patonas
+39=Acsion
+40=Patrás
+41=Ver menusa
+42=Estarterl
+43=Dineros
+
+;Other Menu
+44=Direstorio alternativo
+45=Mirar ROOOOMs
+46=Encontra de Neogeo
+47=Selecsion de pelleja
+48=Ver visiojuegos
+49=Auto Cargá/Sarvá
+50=Macros/Ayuas
+51=Animasione de menusa
+;Game list filters
+52=UEHHH
+53=Se pue visiar uno
+54=Visio+No XOR
+55=UEHHH
+56=Namás CPS2
+57=Namás CPS1
+58=NeoGeo Namás
+;Macros/Hints
+59=Macros & Ayuas
+60=Macros namás
+61=Ayuas namás
+62=Ni de coña
+;Hint text
+63=Jincho: %d perico: %s
+
+;Misc messages
+64=Velamen: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Rom Loading messages
+67=Allocating Memory...
+68=Loading File %s.%s -> %s...
+69=%s, Fishero no encontrao!!
+70=Enga
+71=Bad_CRC! En verdás e %X , sa enconrtao %X
+72=Berrio incorrecto. En verdás e %d , pero sa encontrao %d
+73=Cargandu las ROOOOMs del pograma...
+74=Cargando las XORradas...
+75=Cargando las roms del Z80 ese...
+76=Cargando rugíos...
+77=Cargando muñecos...
+78=KIETORL!!! Argunas ROOOOOMs no son las mismas o nostan!!
+79=Picarl ENTER pa seguir (Machote) o EJCAPE pa pirarte (Mariconaaa!)
+80=Dejcodificando el fregao... (Si no no se pue visiar uno)
+81=A ver si esta %s...
+82=A ver si las roooms de neojeo esta en %s...
+83=Ejpera coño, toy viendo lo ke hay
+
+;In-Game menus (Use % at the end to adjust menu size)
+;Generic
+84=Sarvar visio
+85=Cargar un visio
+86=Trukiyos (Iruaaa)
+87=Ejcrinchots factori
+88=Pirarse
+89=Truquetes
+90=Po si
+91=Po no
+;Neogeo Specific
+92=AjUUstes de la maquinita
+93=Cosas de la MEMORY TARUJ
+94=Cosas del SEDERRON
+95=Dande es?                    %
+96=Ande los chinos
+97=Iu Es Ei
+98=Europa de guais
+99=Pos nu se
+100=CIZSTEMA
+101=Arcade (mangao?)
+102=Consola (dor?)
+103=Pos nu se
+104=Jugar de gorra
+105=Darle a la sepeu (MHz)
+106=Mirar los dip suitches 
+107=dip sanwichs en:
+108=Modo l33t
+109=Astivar MEMORI TARUG
+110=Mete MEMORI TARUG
+111=Eyacular MEMORI TARUG
+112=LLamar al mono de las MEMORI TARUG
+113=Status quo
+114=metia
+115=notta!
+116=MODO SEDE                %
+117=LESTOR DE SEDE
+118=Tiqueta:
+119=Pistas:
+120=Visio:
+121=Selecsiona afoto ISO
+122=CDrom guay
+123=afoto ISO
+124=No ta metio
+125=Na de na
+126=Elije un CUE o argo ISO
+127=Ette juego no
+128=zoporta partias salvas
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Ira el parajito!
+134=Color del esenario       %
+135=Originas!
+136=Maricona!!
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146=Front tile Layer
+147=Sprite strip number
+148=Po zi
+
+//1.95
+149=Jerga
+
+//1.96
+150=Grabal Pilícula
+151=Visionáh Pilícula
+152=Tos quietos!
+153=Agrabando...
+154=Palante
+155=A tomar por culo la grabasión
+156=Sacabó
+
+//1.97
+157=Transparensias
+
+//2.0
+158=QSound a to trapo
+
+//2.25	Menus
+//Use @ to read the value from another key
+200=&Visio
+201=&Vidrio
+202=&Ruios
+203=&Juego
+204=&Nu se
+205=&Lo otro
+
+//Emulación
+210=&Poner visio...
+211=&Direstorio con ROOOOMs...
+212=&Ta los wevos ya
+213=A &toa mesha
+214=&Volvé ampezá
+215=&Quietoparao
+216=&Fostograma palante
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=&Osione
+223=&Pirarse
+224=Poné SEDERRON de NeoGeo Sedé...
+225=Cargá AFOTO ISO de NeoGeo Sedé
+
+//Video
+230=To la pantaia
+231=Güindou moud
+232=To la pantaia pa visiar
+233=@10
+234=Transparensia de muñecos
+235=Maderos de transparensias
+236=Transparente por si solo
+237=Resolusion
+238=Lijamiento de laos
+239=Sin estirar
+240=Mantener aspecto
+241=To la pantalla
+242=VSync (Po fale)
+243=Buffer triple
+
+244=Ver las perspestivas de NeoGeo
+245=Poner Masking (ein?)
+246=Ejcrinchots factori
+
+//Sound
+250=Grabar ruios
+251=Que sescuche
+252=Frecuensia de muejtreo
+253=Interpolasión
+254=Prosesamientoh
+255=Con rugios
+259=Grabá ruios del PGM
+260=Usar una mariconá der WinAmp
+
+256=Sin leches desas
+257=Flojito
+258=Jarcor version
+
+//Game
+270=Controleh
+271=Macros
+272=Ayuas
+273=Macros apuñaos
+274=Dande es? 
+275=Truquetes
+276=Petar el trasto
+277=Osioneh de NeoGeo
+
+
+//Misc
+290=Hasme un DAT de RomSenter
+291=16 bits por wevos
+292=Jerga
+293=To la pantalla pal visio
+
+//?
+300=Pásjina wes der Nebula
+301=¿Quien hace esto?...
+
+

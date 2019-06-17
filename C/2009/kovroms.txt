@@ -1,0 +1,33 @@
+These are the correct rom CRCs and sizes for Knights of Valour
+games, ensure that your roms match them otherwise you can get 
+wrong gfx or crashes.
+
+Romset: pgmbios
+Alternate: pgm
+Alternate: pgm_bios
+
+***Name***      *Size*  **CRC**
+pgm_bios.rom 	131072	e42b166e
+pgm_t01s.rom 	2097152	1a7123a0
+pgm_m01s.rom	2097152	45ae7159
+
+Romset: kov
+p0600.rom	4194304	c4d19fe6
+t0600.rom	8388608	4acc1ad6
+b0600.rom	8388608	7d3cd059
+b0601.rom	4194304	a0bb1c2f
+a0600.rom	8388608	d8167834
+a0601.rom	8388608	ff7a4373
+a0602.rom	8388608	e7a32959
+a0613.rom	4194304	ec31abda
+m0600.rom	4194304	3ada4fd6
+
+Romset: kov115	(ony different roms are listed)
+Parent: kov
+
+p0600.115	4194304	527a2924
+
+Romset: kovplus	(ony different roms are listed)
+Parent: kov
+
+p0600.119	4194304	e4b0875d

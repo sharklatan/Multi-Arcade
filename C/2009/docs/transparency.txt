@@ -1,0 +1,61 @@
+TRANSPARENCY
+
+Nebula can change the sprite drawing method, to make them partially transparent, this is a
+visual improvement, not a hardware feature.
+
+In the current version, only video cards using 565 16 bit mode are supported (most cards use this mode). I’ll add
+support for 555 cards (old video cards) in next releases. If you get strange colours when transparency is enabled,
+then your video card is a 555 one.
+
+To do so, it needs some external data tables that tell it which sprites have to be drawn
+transparent and which level of transparency it should use.
+
+The tables are .bld files stored in the CONFIG folder. You can have more than one table for each game
+and select which one you want to use from the in-game menus (ESC key), you can also disable transparency
+selecting the None table in the list.
+
+
+
+To make such tables you have 2 options:
+	- Manually edit the table (see below for info about the file format), that is quite hard.
+	- Use the tileviewer. To access the tileviewer, pause the game and press the keys A and L
+	at the same time, you’ll see all the sprite tiles for the game. The numbers to the right are
+	the current tile code, the current palette and the 5 palette slots (CPS only)
+           The keys to browse the table are:
+		Up,Down,Left,Right: move the selection 1 tile to the specified direction
+		PgUp,PgDown: move the selection a page of tiles.
+		Numpad +,-: move the selection +-0x8000 tiles
+		Left Shift: extend selection
+		Numpad /,*: cycle the palette value
+		1: make the tile 25% transparent
+		2: make the tile 50% transparent
+		0: make the tile opaque
+		3,4,5,6,7: assign the current palette to the slot (3=1st slot, 4=2nd...) The tile will
+		be drawn in the selected way (transparency) only if the palette matches any of
+		the values on the slots, if not, the opposite value will be used (opaque<->25% trans)
+		W: save the table to disk (the name is the rom name .bld)
+
+	The current selected tile has a white square. 25% transparent tiles have a blue one, and 50% have
+	a green border.
+
+
+The file format is:
+
+; anything after a ; is a comment
+Name <Game Name>
+Game <Game romset>
+
+<codes> <transparency value>
+
+<codes> can specify a single code or a range
+<transparency value>: 	1: 25% Transparent, 2: 50% Transparent, 3: Opaque
+
+Ex:
+
+; Sprite transparency data for Street Fighter Alpha/Zero
+Game sfa
+Name SFA Table by Razoola
+
+; These clear all character shadows
+1B7A4 2
+1B7AD-1B7AF 2

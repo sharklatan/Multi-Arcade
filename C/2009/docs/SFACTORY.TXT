@@ -1,0 +1,30 @@
+SHOTS FACTORY (Only Window GUI)
+
+Nebula 2.0 includes a new shot factory for all systems.
+The shots factories are accessed from the Video Menu.
+
+CPS1 & CPS2 shots factory
+
+You'll be able to change the 3 layers position (X and Y register) and the
+Drawing order (priority) 
+Layer 2 Rowscroll can be disabled, but it can distort the background.
+
+You can disable individual sprites. Select them from the list, and the
+Sprite will blink in the main screen (You can select a range using Shift/
+Control).
+
+
+Neogeo
+Neogeo is very different from CPS.
+You'll notice the sprite map to the left. Each box represent a vertical stripe
+in the screen:
+ A gray square means that the strip is empty (not drawn)
+A red square means that the strip is the beginning of a chain (or the
+only strip in the chain).
+A green square means a linked strip (linked to the last red square)
+
+Double click on a square to disable it. Double click with the right mouse button
+On a red square to disable all the chained (green) squares attached to it.
+
+Some parameters affect the entire chain (X,Y, zoom Y) and some affect each
+Individual strip (X zoom)

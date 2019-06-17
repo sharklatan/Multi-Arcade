@@ -1,0 +1,43 @@
+%%%%%%%%%%%%%Create by RomData Maker%%%%%%%%%%%%%%
+% Author:                     %
+% EMail:                      %
+% URL:                        %
+% Create Date:27/10/2007      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+System: Neo
+RomName: mslug6
+Game: mslug 6
+
+[Program]
+256-ph1.rom,0,100000,1F1079A2,0
+256-ph2.rom,100000,400000,193FA835,0
+
+[Text]
+ms3n_s1.rom,0,20000,39F1A271,0
+
+[Z80]
+256-m1.bin,0,80000,EAEEC116,0
+
+[Samples]
+256-v1.bin,0,400000,F2690241,0
+256-v2.bin,400000,400000,7E2A10BD,0
+256-v3.bin,800000,400000,EAEC17C,0
+256-v4.bin,C00000,400000,9B4B22D4,0
+
+[Graphics]
+ms3n_c1.rom,0,800000,3540398C,0
+ms3n_c2.rom,1,800000,BDD220F0,0
+ms3n_c3.rom,1000000,800000,BFAADE82,0
+ms3n_c4.rom,1000001,800000,1463ADD6,0
+ms3n_c5.rom,2000000,800000,48CA7F28,0
+ms3n_c6.rom,2000001,800000,806EB36F,0
+ms3n_c7.rom,3000000,800000,9395B809,0
+ms3n_c8.rom,3000001,800000,A369F9D4,0
+
+[System]
+CartridgeID: 299
+GfxCrypt: 0
+GfxKey: 0
+ButLayout: 9
+Fix: 0

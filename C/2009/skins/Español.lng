@@ -1,0 +1,281 @@
+[Language]
+
+;1.94 and before
+
+;GUI Strings
+0=Si
+1=No
+2=VIDEO
+3=SONIDO
+4=CONTROLES
+5=OTROS
+
+;Video config
+6=Configuración para:
+7=Resolución de pantalla
+8=Mejoras de vídeo
+9=Estirar
+10=Usar Memoria
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Toda la pantalla
+14=Mantener aspecto
+;Surface modes
+15=Vídeo
+16=Sistema
+
+;Audio config
+17=Configuración para:
+18=Activar sonido
+19=Frecuencia de audio
+20=Interpolación
+21=Modo de sonido
+;Interpolation modes
+22=Sin interpolación
+23=2 puntos (lineal)
+24=4 puntos
+
+;Controls config
+25=Pulse una tecla o botón
+26=Player %d
+27=Valor por defecto
+28=Guardar por defecto
+29=Menús
+30=Arriba
+31=Abajo
+32=Izquierda
+33=Derecha
+34=Botón %d
+35=Macro %d
+36=Hotkey %d
+37=Tres Puños
+38=Tres Patadas
+39=Acción
+40=Atrás
+41=Mostrar Menú
+42=Start
+43=Moneda
+
+;Other Menu
+44=Directorios alternativos
+45=Comprobar Roms
+46=Buscar Neogeo
+47=Selección de Skin
+48=Mostrar Juegos
+49=Auto Carga/Guarda
+50=Macros/Pistas
+51=Animaciones interfaz
+;Game list filters
+52=Todos
+53=Disponibles
+54=Disp. + NoXOR
+55=Todos los Sistemas
+56=Sólo CPS-2
+57=Sólo CPS-1
+58=Sólo NeoGeo
+;Macros/Hints
+59=Macros y Pistas
+60=Sólo Macros
+61=Sólo Pistas
+62=Nada
+;Hint text
+63=Personaje del jugador %d: %s
+
+;Misc messages
+64=Volumen: %d
+65=Frameskip %d
+66=Frameskip Automatico
+
+;Rom Loading messages
+67=Asignando Memoria...
+68=Cargando Archivo %s.%s -> %s...
+69=%s, Archivo no encontrado
+70=Correcto
+71=Mal CRC. Esperado %X , Encontrado %X
+72=Tamaño incorrecto. Esperado %d , Encontrado %d
+73=Cargando Roms de programa...
+74=Cargando tablas de desencriptacion...
+75=Cargando Roms de codigo del Z80...
+76=Cargando muestras de sonido...
+77=Cargando Roms de gráficos...
+78=ATENCIÓN!! Algunas roms faltan o son incorrectas
+79=Pulse INTRO para continuar o ESCAPE para volver al menú
+80=Decodificando gráficos e iniciando la emulación...
+81=Comprobando %s...
+82=Buscando roms de neogeo en %s...
+83=Espere, por favor. Analizando Romsets...
+
+;In-Game menus (Use % at the end to adjust menu size)
+;Generic
+84=Grabar estado
+85=Cargar estado
+86=Menú de trucos
+87=Shots factory
+88=Salir del juego
+89=Trucos
+90=On
+91=Off
+;Neogeo Specific
+92=Opciones de la máquina
+93=Opciones de tarjeta de memoria
+94=Opciones del CD
+95=Región del sistema          %
+96=Japón
+97=EEUU
+98=Europa
+99=Desconocida
+100=Sistema
+101=Recreativa
+102=Consola
+103=Desconocido
+104=Juego gratis
+105=Overclocking de la CPU
+106=Debug Dip Switches
+107=Debug Dips en
+108=Modo programador
+109=Tarjeta Activa
+110=Insertar Tarjeta
+111=Extraer Tarjeta
+112=Invocar gestor de tarjetas
+113=Estado
+114=Insertada
+115=No Insertada
+116=Modo de CD                %
+117=Unidad de CD
+118=Etiqueta:
+119=Pistas:
+120=Juego:
+121=Elegir Imagen ISO
+122=CDROM Real
+123=Imagen ISO
+124=No hay CD
+125=Ninguno
+126=Elegir CueSheet o imagen ISO
+127=Este juego no 
+128=Soporta SaveStates
+
+;Shot factory texts
+129=Tiles Capa 1 (8x8)
+130=Tiles Capa 2 (16x16)
+131=Tiles Capa 3 (32x32)
+132=Capa de tiles BGHi
+133=Sacar un Screenshot
+134=Color del fondo          %
+135=Original
+136=Rosa
+137=Capa de sprites
+138=Sprites capa 0
+139=Sprites capa 1
+140=Sprites capa 2
+141=Sprites capa 3
+142=Sprites capa 4
+143=Sprites capa 5
+144=Sprites capa 6
+145=Sprites capa 7
+146=Capa de tiles
+147=Línea de sprites
+148=Visible
+
+//1.95
+149=Idioma
+
+//1.96
+150=Grabar Película
+151=Reproducir Película
+152=Parar grabación/reproducción
+153=Grabacion Iniciada
+154=Reproduccion Iniciada
+155=Grabacion/reproduccion cancelada
+156=Reproduccion Terminada
+
+//1.97
+157=Transparencias
+
+//2.0
+158=Amplif. QSound
+
+//2.25	Menus
+//Use @ to read the value from another key
+200=&Emulación
+201=&Video
+202=&Sonido
+203=&Juego
+204=&Varios
+205=&?
+
+//Emulación
+210=&Cargar Rom...
+211=&Directorios con Roms...
+212=D&escargar Rom
+213=Modo &Turbo
+214=&Reset
+215=&Pausa
+216=&Avanzar Frame
+217=@84
+218=@85
+219=@150
+220=@151
+221=@152
+222=&Opciones
+223=&Salir
+224=Cargar NeoGeo CD desde...
+225=Cargar ISO de NeoGeo CD
+
+//Video
+230=Pantalla completa
+231=Ventana
+232=Cambiar a pantalla completa
+233=@10
+234=Transparencia de Sprites
+235=Tabla de transparencias
+236=AutoTransparencias
+237=Resolución
+238=Mejora de Imagen
+239=Sin estirar
+240=Mantener aspecto
+241=Toda la pantalla
+242=VSync
+243=Triple buffer
+
+244=Activar Rasters
+245=Activar Masking
+246=Shots Factory
+
+//Sound
+250=Grabar Sonido a WAV
+251=Activar Sonido
+252=Frecuencia de muestreo
+253=Interpolación
+254=Modo de procesado
+255=Preamplificar volumen
+259=Grabar musica actual PGM
+260=Usar remapeador de WinAmp
+
+256=No
+257=2 Puntos
+258=4 Puntos
+
+259=Grabar musica PGM actual
+
+//Game
+270=Configurar controles
+271=Macros
+272=Pistas
+273=Conjunto de macros
+274=Región
+275=Trucos
+276=Overclock de CPU
+277=Opciones de NeoGeo
+
+
+//Misc
+290=Generar DAT de Romcenter
+291=Cambiar a 16 bits
+292=Idioma
+293=Cambiar a pantalla completa al iniciar
+
+//?
+300=Página de Nebula
+301=Acerca de...
+

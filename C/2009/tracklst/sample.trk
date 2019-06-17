@@ -1,0 +1,20 @@
+;This is a sample TrackList
+;Lines starting in ; are comments and are ignored
+[Tracks]
+
+;Old method for
+;Min and Max music codes:
+;MusicLow=0721
+;MusicHigh=074f
+
+;New method
+Musics=0721-074f,0821-084f
+
+
+;this is a sample mp3 track
+0721=d:\mp3\KOF98 - OST - Track 1.mp3
+;this is a sample CD audio track
+0722=f:\track01.cda
+;this is a sample mp3 that doesn't loop
+0723=d:\mp3\KOF98 - OST - Track 3.mp3||NOREPEAT
+

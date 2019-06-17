@@ -1,0 +1,9 @@
+GAME LIST: 
+
+Shows the available games. The color code is the following:
+	White			Good romset.
+	Yellow	 		Bad crc.
+	Red		 	Missing files or different sizes.
+	Blue		 	Missing decryption tables. You can load these 
+games, but only the Audio Jukebox will work.
+

@@ -1,0 +1,184 @@
+[Language]
+;made by DrDon(Jino_gr)
+;1.94 and before
+
+;GUI Strings
+0=Ναί
+1=Όχι
+2=ΓΡΑΦΙΚΑ
+3=ΗΧΟΣ
+4=ΧΕΙΡΙΣΜΟΣ
+5=ΑΛΛΑ
+
+;Video config
+6=Ρύθμιση γραφικών για:
+7=Ανάλυση εικόνας
+8=Ενίσχυση εικόνας
+9=Επέκταση
+10=Κατανομή μνήμης
+11=Triple Buffer
+12=VSync
+;Stretch modes
+13=Πλήρης οθόνη
+14=Σωστή αναλογία
+;Surface modes
+15=Μνήμη κάρτας
+16=Μνήμη συστήματος
+
+;Audio config
+17=Ρύθμιση ήχου για:
+18=Ενεργοποίηση ήχου
+19=Sampling rate
+20=Παρεμβολή
+21=Είδος επεξεργασίας
+;Interpolation modes
+22=Όχι παρεμβολή
+23=2 σημείων
+24=4 σημείων
+
+;Controls config
+25=Πάτησε ένα πλήκτρο
+26=Παίκτης %d
+27=Επαναφορά default 
+28=Σώσιμο ως default
+29=Πλήκτρα μενού 
+30=Πάνω
+31=Κάτω
+32=Αριστερά
+33=Δεξιά
+34=Πλήκτρο %d
+35=Macro %d
+36=Hotkey %d
+37=Τρείς γροθιές
+38=Τρείς κλωτσιές
+39=Ενέργεια
+40=Πίσω
+41=Εμφάνιση μενού
+42=Εναρξη
+43=Κέρμα
+
+;Other Menu
+44=Εναλλακτικοί κατάλογοι
+45=ΕΛΕΓΧΟΣ ROMS
+46=ΕΥΡΕΣΗ NEOGEO
+47=Επιλογή skin
+48=Εμφάνιση games
+49=Auto φόρτωμα/σώσιμο
+50=Macros/Hints
+51=Κίνηση GUI
+;Game list filters
+52=Ολα
+53=Διαθέσιμα
+54=Διαθέσιμα+NoXOR
+55=Ολα τα συστήματα
+56=Μόνο CPS-2
+57=Mόνο CPS-1
+58=Mόνο Neogeo
+;Macros/Hints
+59=Macros & Hints
+60=Macros Only
+61=Hints Only
+62=None
+;Hint text
+63=Player %d Character: %s
+
+;Misc messages
+64=Ενταση: %d
+65=Frameskip %d
+66=Frameskip Auto
+
+;Rom Loading messages
+67=Κατανομή μνήμης...
+68=Φόρτωμα αρχείου %s.%s -> %s...
+69=%s, Δεν βρέθηκε το αρχείο
+70=OK
+71=Bad CRC. Expected %X , Found %X
+72=Wrong Size. Expected %d , Found %d
+73=Φόρτωμα roms προγράμματος...
+74=Φόρτωμα Decryption Tables...
+75=Φόρτωμα roms z80 προγράμματος...
+76=Φόρτωμα δειγμάτων Ήχου...
+77=Φόρτωμα roms γραφικών...
+78=ΠΡΟΣΟΧΗ!!Κάποιες roms λείπουν ή είναι διαφορετικές
+79=Πατήστε ENTER για συνέχεια ή ESCAPE για επιστροφή στο μενού
+80=Αποκωδικοποίηση δεδομένων γραφικών και έναρξη εξομοίωσης...
+81=Έλεγχος %s...
+82=Looking for Neogeo roms in %s...
+83=Παρακαλώ περιμένετε,Ανάλυση Romsets
+
+;In-Game menus 
+;Use only alphanumeric characters (A-Z,a-z,0-9) because the graphic
+;font doesn't support them
+;Use % at the end to adjust menu size
+;Generic
+84=Save State
+85=Load State
+86=Cheats
+87=Shots factory
+88=Quit Game
+89=Cheats
+90=On
+91=Off
+;Neogeo Specific
+92=Machine Settings
+93=Memory Card Settings
+94=CD Settings
+95=Machine Region          %
+96=Japan
+97=USA
+98=Europe
+99=Unknown
+100=System
+101=Arcade
+102=Console
+103=Unknown
+104=Free Play
+105=CPU Overclocking (MHz)
+106=Debug Dip Switches
+107=Debug Dips at
+108=Developer Mode
+109=Active Memory Card
+110=Insert Memory Card
+111=Eject Memory Card
+112=Call Memory Card Manager
+113=Status
+114=Inserted
+115=Not Inserted
+116=CD Mode                %
+117=CD Drive
+118=Label:
+119=Tracks:
+120=Game:
+121=Select ISO Image
+122=Real CDROM
+123=ISO Image
+124=Not Inserted
+125=None
+126=Select Cuesheet or ISO Image
+127=This game doesn't
+128=support Savestates
+
+;Shot factory texts
+129=Tile Layer 1 (8x8)
+130=Tile Layer 2 (16x16)
+131=Tile Layer 3 (32x32)
+132=BGHi Tile Layer
+133=Take a Screenshot
+134=Background Color       %
+135=Original
+136=Pink
+137=Sprite Layer
+138=Sprites Layer 0
+139=Sprites Layer 1
+140=Sprites Layer 2
+141=Sprites Layer 3
+142=Sprites Layer 4
+143=Sprites Layer 5
+144=Sprites Layer 6
+145=Sprites Layer 7
+146=Front tile Layer
+147=Sprite strip number
+148=Enabled
+
+//1.95
+149=Γλώσσα

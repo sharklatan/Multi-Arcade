@@ -1,0 +1,111 @@
+CHEATS
+
+Cheat files are stored in the CHEATS directory and have the same name as the romset they
+patch, ending in .dat.
+
+The structure is as follows: (ex: vsav.dat)
+
+[Region]			Following are region codes
+0=Japan,FF8090,0		Number=Description,address (hex),value(hex) [,address,value...]
+1=USA,FF8090,2
+2=Hispanic,FF8090,4
+3=Oceania,FF8090,6
+4=Asia,FF8090,8
+5=Euro,FF8090,A
+6=Brazil,FF8090,C
+
+[0]				Cheat number (starting in 0)
+Name=Title Screen		Cheat description
+0=Vampire Savior,FF8088,0	Number=Description,address (hex),value(hex) [,address,value...]
+1=Darkstalkers,FF8088,1 
+Default=0			Default state.
+
+The numbers in the left must be consecutive (starting in 0). Same with the cheat numbers.
+Addresses are the address in the 68000 memory map. You can only access ROM (0-0x3fffff) and
+RAM (0xFF0000-0xFFFFFF for CPS, 0x100000-0x10FFFF for Neogeo). For neogeo, the game rom
+can't be accessed.
+You can specify up to 32 pairs of address-value per cheat.
+
+*NEW*
+Starting with version 1.92, there are some improvements to the cheat files. These improvements are:
+
+	Conditional cheats: You can specify conditions that Nebula will evaluate to know if it has to
+			apply the chat or not. Conditions are used as follows:
+				0=On,ff5009<10,ff5009,99, 
+			That means that the cheat to the right of the condition (till a new condition
+			appears) will be applied if the value in ff5009 is less than 10.
+			The available condition operators are the usual C ones: == (equal),
+			!= (not equal), >,<,>=,<=.
+			The check value of the condition must be in Hexadecimal.
+			If a condition is not true, then nebula will skip the cheats written till a new
+			condition appears.
+			If there are 2 consecutive conditions, they are logically ANDed.
+			The cheats to the left of the first condition are always applied.
+
+	Indirect addressing:	Some games use dynamic RAM memory allocation (Neogeo) so
+			the memory addresses aren't always the same, but they store the
+			current address in a fixed memory variable. To apply a cheat in that 
+			kind of memory addresses you need to use the Indirect addressing, instead
+			of specifying an absolute address for a cheat (say 104050) you must use
+			@address+offset, the effective cheat address is computed by readint  the 
+value At address  and then adding offset to that value. (@103ee0+50,)
+Indirect addresses can't be used for contitions.
+These kind of cheats are very very difficult to find using the nebula cheater.
+
+Tips on creating cheats and regions:
+
+Some games (new ones) have the region stored in the bytes C0-C4 in ROM area (the exact
+byte depends on the game).
+
+For cheat programs programmers:
+
+Nebula has a generic cheat connection that can be used to make your own cheating
+programs (cheat apply and cheat finding). This is the interface explanation:
+
+There is a shared memory region called NEBULAIPC where nebula will allocate the
+game RAM (64Kb) and other info. This area has the following structure:
+
+struct _NebulaIPC
+{
+        unsigned int signature; 	// system signature
+        char NebulaRun;		// Is nebula running?
+        char Version[10];		// Nebula version string
+        unsigned char RAM[0x10000];	// RAM
+};
+
+You must create a shared mapping with that name (NEBULAIPC).
+
+	HANDLE FileMap;
+	struct _NebulaIPC *IPC;
+
+	// Create a shared file in memory
+FileMap=CreateFileMapping((HANDLE)0xffffffff,NULL,SEC_COMMIT|PAGE_READWRITE,
+                          0,sizeof(_NebulaIPC)+8,"NEBULAIPC");
+
+	// Get a pointer to the shared memory
+	IPC=(_NebulaIPC *) MapViewOfFile(FileMap,FILE_MAP_ALL_ACCESS,
+                                 0,0,sizeof(_NebulaIPC));
+	
+// Clear the RAM and other infos.
+memset(IPC,0,sizeof(_NebulaIPC));
+
+
+After that is created, wait for nebula to create the End of Frame notify Event (called NEBULAVBLANK).
+
+	// Dirty way to wait for the event creation
+	HANDLE SyncEvent;
+	do
+	{
+		SyncEvent=OpenEvent(EVENT_ALL_ACCESS,0,"NEBULAVBLANK");
+		Sleep(10);	// Sleep a bit to avoid 100% cpu usage
+	} while(SyncEvent==NULL);
+	
+That event will be signaled when nebula finishes emulating 1 frame,
+just before applying cheats, so you just need to wait in your main loop
+till the event gets signaled:
+
+	WaitForSingleObject(SyncEvent,INFINITE);
+	
+And then you can use the IPC->RAM array to find/apply values.
+Remember to check if nebula is running (IPC->NebulaRun).
+

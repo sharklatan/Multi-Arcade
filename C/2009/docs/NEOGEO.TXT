@@ -1,0 +1,61 @@
+NEOGEO
+
+Starting with version 1.8, Nebula supports Neo·Geo Romsets.
+Please note that Neogeo emulation is new in Nebula and there are some
+glitches (mainly graphic glitches) in the emulation.
+
+Nebula will need the Neogeo BIOS to run (and also the NG-LO.rom file that is
+not part of the current bios package (but surely will be soon)).
+
+The CPU power required for running Neogeo games is much less than the
+required for CPS games.
+
+All nebula features work with neogeo games: Macros, cheats, netplay...
+
+Neogeo Romsets use MAME's naming convention, sizes and CRCs so your
+Romsets should be checked with the latest Romcenter to ensure the
+compatibility.
+Neogeo romsets are internal and can't be added using external datafiles.
+
+When the game is running in Console mode, the coin button is used as
+Select button.
+
+
+Special Neogeo Menus:
+In the In-Game menus there are 2 options specific to Neogeo: 
+Machine Options and Memory Card OPtions.
+
+	Machine Options:
+		Country/Region: You can change the region of the game. There
+			are 3 regions available: Europe,USA and Japan.
+		System: You can select the system to emulate
+			- Console: Emulates the console system, there is
+				no coin button and no test mode.
+			- Arcade: Emulates the arcade (MVS) system. Coin
+				and Test buttons work in this system.
+		You must reset the game after changing the Region or System
+
+		Debug Dipswitches: You can change some values in Ram that the game
+			use as debug/developer dipswitches, these exact meaning of
+			each bit depends on the current game.
+		Developer mode: This mode emulates the presence of a Debug bios, 
+			enabling some hidden features of the games (mlugx, wh1, maglord).
+			These features are usually accessed using select button (mslugx) or
+			unused buttons (C button in maglord or D button in wh1).
+
+	Memory Card Options:
+		Active memory card: You can change the active memory card (there are 10 
+		available) when there is no card inserted.
+		Insert/Eject memory card: Inserts/Extracts the active memory card.
+		Call Memcard Manager: Call the BIOS memory card manager. Note that the
+		game will reset when you exit the manager.
+
+
+
+Shots Factory:
+	The shots factory for neogeo games is different than for CPS.
+	Neogeo has only 1 tile plane, that is fixed and always in the 
+	top level.
+	All the remaining graphics are built using vertical sprite strips
+	the shots factory allows you to disable individual strips to remove
+	graphics from the image.
